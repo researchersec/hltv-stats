@@ -1,0 +1,53 @@
+name: FlareSolverr Workflow
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11'  # You can specify '3.11' or any later version you prefer
+        architecture: 'x64'      # Adjust as needed, e.g., 'x86', 'x64', 'arm64'
+
+    - name: Setup requirements.txt
+      run: pip install -r requirements.txt
+
+    - name: Pull Docker image
+      run: docker pull therealbix/flaresolverr
+      #ghcr.io/flaresolverr/flaresolverr:v3.3.17
+
+    - name: Run FlareSolverr
+      run: docker run -d --name flaresolverr-container -p 8191:8191 therealbix/flaresolverr
+      #ghcr.io/flaresolverr/flaresolverr:v3.3.16
+
+    - name: Wait for FlareSolverr to start
+      run: sleep 20
+
+    - name: Run odds gatherer
+      run: python datagatherer_odds.py
+      
+    - name: Fetch container logs 2
+      run: timeout 1m docker logs -f flaresolverr-container || true
+
+    - name: Run results gatherer
+      run: python datagatherer_results.py
+
+    - name: Fetch container logs 2
+      run: timeout 1m docker logs -f flaresolverr-container || true
+      
+    - name: Commit and push demo file
+      run: |
+        git config --local user.email "hojlund123@live.dk"
+        git config --local user.name "researchersec[bot]"
+        git add "*.json"
+        git commit -m "Added demo file"
+        git push
