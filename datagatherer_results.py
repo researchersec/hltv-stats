@@ -532,7 +532,7 @@ def get_results(url="https://www.hltv.org/results", file_name="results.json"):
             results_list.append(resultObj)
 
     # Write the updated results list back to the file
-    with open(file_name, "w") as json_file:
+    with open(file_name, "w", encoding='utf-8') as json_file:
         json.dump(results_list, json_file, indent=4)
 
     return json.dumps(results_list, indent=4)
