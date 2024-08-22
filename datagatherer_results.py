@@ -98,8 +98,17 @@ def top5teams():
     return teams
 
 
-def top30teams():
-    page = get_parsed_page("https://www.hltv.org/ranking/teams/")
+def top30teams(url="https://www.hltv.org/ranking/teams/", file_name="ranking.json"):
+    # Load existing data from the file if it exists
+    if os.path.exists(file_name):
+        with open(file_name, "r") as json_file:
+            try:
+                teamlist = json.load(json_file)
+            except json.JSONDecodeError:
+                teamlist = []
+    else:
+        teamlist = []
+    page = get_parsed_page(url)
     teams = page.find("div", {"class": "ranking"})
     teamlist = []
     for team in teams.find_all("div", {"class": "ranked-team standard-box"}):
@@ -139,7 +148,12 @@ def top30teams():
             )
             newteam["team-players"].append(player)
         teamlist.append(newteam)
-    return teamlist
+
+    # Write the updated results list back to the file
+    with open(file_name, "w") as json_file:
+        json.dump(teamlist, json_file, indent=4)
+
+    return json.dumps(teamlist, indent=4)
 
 
 def top_players():
