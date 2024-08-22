@@ -1,0 +1,1052 @@
+[
+    {
+        "name": "Vitality",
+        "rank": 1,
+        "rank-points": 968,
+        "team-id": 9565,
+        "team-url": "https://hltv.org/team/9565/Vitality",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/9565",
+        "team-players": [
+            {
+                "name": "Dan 'apEX' Madesclaire",
+                "player-id": 7322,
+                "url": "https://www.hltv.org/player/7322/apex"
+            },
+            {
+                "name": "Mathieu 'ZywOo' Herbaut",
+                "player-id": 11893,
+                "url": "https://www.hltv.org/player/11893/zywoo"
+            },
+            {
+                "name": "Shahar 'flameZ' Shushan",
+                "player-id": 16693,
+                "url": "https://www.hltv.org/player/16693/flamez"
+            },
+            {
+                "name": "Lotan 'Spinx' Giladi",
+                "player-id": 18221,
+                "url": "https://www.hltv.org/player/18221/spinx"
+            },
+            {
+                "name": "William 'mezii' Merriman",
+                "player-id": 18462,
+                "url": "https://www.hltv.org/player/18462/mezii"
+            }
+        ]
+    },
+    {
+        "name": "Natus Vincere",
+        "rank": 2,
+        "rank-points": 954,
+        "team-id": 4608,
+        "team-url": "https://hltv.org/team/4608/Natus Vincere",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/4608",
+        "team-players": [
+            {
+                "name": "Aleksi 'Aleksib' Virolainen",
+                "player-id": 9816,
+                "url": "https://www.hltv.org/player/9816/aleksib"
+            },
+            {
+                "name": "Mihai 'iM' Ivan",
+                "player-id": 14759,
+                "url": "https://www.hltv.org/player/14759/im"
+            },
+            {
+                "name": "Valeriy 'b1t' Vakhovskiy",
+                "player-id": 18987,
+                "url": "https://www.hltv.org/player/18987/b1t"
+            },
+            {
+                "name": "Justinas 'jL' Lekavicius",
+                "player-id": 19206,
+                "url": "https://www.hltv.org/player/19206/jl"
+            },
+            {
+                "name": "Ihor 'w0nderful' Zhdanov",
+                "player-id": 20127,
+                "url": "https://www.hltv.org/player/20127/w0nderful"
+            }
+        ]
+    },
+    {
+        "name": "G2",
+        "rank": 3,
+        "rank-points": 712,
+        "team-id": 5995,
+        "team-url": "https://hltv.org/team/5995/G2",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/5995",
+        "team-players": [
+            {
+                "name": "Janusz 'Snax' Pogorzelski",
+                "player-id": 2553,
+                "url": "https://www.hltv.org/player/2553/snax"
+            },
+            {
+                "name": "Nikola 'NiKo' Kova\u010d",
+                "player-id": 3741,
+                "url": "https://www.hltv.org/player/3741/niko"
+            },
+            {
+                "name": "Nemanja 'huNter-' Kova\u010d",
+                "player-id": 3972,
+                "url": "https://www.hltv.org/player/3972/hunter"
+            },
+            {
+                "name": "Mario 'malbsMd' Samayoa",
+                "player-id": 11617,
+                "url": "https://www.hltv.org/player/11617/malbsmd"
+            },
+            {
+                "name": "Ilya 'm0NESY' Osipov",
+                "player-id": 19230,
+                "url": "https://www.hltv.org/player/19230/m0nesy"
+            }
+        ]
+    },
+    {
+        "name": "MOUZ",
+        "rank": 4,
+        "rank-points": 689,
+        "team-id": 4494,
+        "team-url": "https://hltv.org/team/4494/MOUZ",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/4494",
+        "team-players": [
+            {
+                "name": "Ludvig 'Brollan' Brolin",
+                "player-id": 13666,
+                "url": "https://www.hltv.org/player/13666/brollan"
+            },
+            {
+                "name": "Kamil 'siuhy' Szkaradek",
+                "player-id": 16820,
+                "url": "https://www.hltv.org/player/16820/siuhy"
+            },
+            {
+                "name": "\u00c1d\u00e1m 'torzsi' Torzs\u00e1s",
+                "player-id": 18072,
+                "url": "https://www.hltv.org/player/18072/torzsi"
+            },
+            {
+                "name": "Jimi 'Jimpphat' Salo",
+                "player-id": 18850,
+                "url": "https://www.hltv.org/player/18850/jimpphat"
+            },
+            {
+                "name": "Dorian 'xertioN' Berman",
+                "player-id": 20312,
+                "url": "https://www.hltv.org/player/20312/xertion"
+            }
+        ]
+    },
+    {
+        "name": "Spirit",
+        "rank": 5,
+        "rank-points": 667,
+        "team-id": 7020,
+        "team-url": "https://hltv.org/team/7020/Spirit",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/7020",
+        "team-players": [
+            {
+                "name": "Leonid 'chopper' Vishnyakov",
+                "player-id": 7716,
+                "url": "https://www.hltv.org/player/7716/chopper"
+            },
+            {
+                "name": "Dmitry 'sh1ro' Sokolov",
+                "player-id": 16920,
+                "url": "https://www.hltv.org/player/16920/sh1ro"
+            },
+            {
+                "name": "Boris 'magixx' Vorobiev",
+                "player-id": 18317,
+                "url": "https://www.hltv.org/player/18317/magixx"
+            },
+            {
+                "name": "Myroslav 'zont1x' Plakhotia",
+                "player-id": 20423,
+                "url": "https://www.hltv.org/player/20423/zont1x"
+            },
+            {
+                "name": "Danil 'donk' Kryshkovets",
+                "player-id": 21167,
+                "url": "https://www.hltv.org/player/21167/donk"
+            }
+        ]
+    },
+    {
+        "name": "FaZe",
+        "rank": 6,
+        "rank-points": 476,
+        "team-id": 6667,
+        "team-url": "https://hltv.org/team/6667/FaZe",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/6667",
+        "team-players": [
+            {
+                "name": "Finn 'karrigan' Andersen",
+                "player-id": 429,
+                "url": "https://www.hltv.org/player/429/karrigan"
+            },
+            {
+                "name": "H\u00e5vard 'rain' Nygaard",
+                "player-id": 8183,
+                "url": "https://www.hltv.org/player/8183/rain"
+            },
+            {
+                "name": "David 'frozen' \u010cer\u0148ansk\u00fd",
+                "player-id": 9960,
+                "url": "https://www.hltv.org/player/9960/frozen"
+            },
+            {
+                "name": "Robin 'ropz' Kool",
+                "player-id": 11816,
+                "url": "https://www.hltv.org/player/11816/ropz"
+            },
+            {
+                "name": "Helvijs 'broky' Saukants",
+                "player-id": 18053,
+                "url": "https://www.hltv.org/player/18053/broky"
+            }
+        ]
+    },
+    {
+        "name": "Virtus.pro",
+        "rank": 7,
+        "rank-points": 324,
+        "team-id": 5378,
+        "team-url": "https://hltv.org/team/5378/Virtus.pro",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/5378",
+        "team-players": [
+            {
+                "name": "Denis 'electroNic' Sharipov",
+                "player-id": 8918,
+                "url": "https://www.hltv.org/player/8918/electronic"
+            },
+            {
+                "name": "Evgenii 'FL1T' Lebedev",
+                "player-id": 12732,
+                "url": "https://www.hltv.org/player/12732/fl1t"
+            },
+            {
+                "name": "Dzhami 'Jame' Ali",
+                "player-id": 13776,
+                "url": "https://www.hltv.org/player/13776/jame"
+            },
+            {
+                "name": "David 'n0rb3r7' Danielyan",
+                "player-id": 16612,
+                "url": "https://www.hltv.org/player/16612/n0rb3r7"
+            },
+            {
+                "name": "Petr 'fame' Bolyshev",
+                "player-id": 20101,
+                "url": "https://www.hltv.org/player/20101/fame"
+            }
+        ]
+    },
+    {
+        "name": "Liquid",
+        "rank": 8,
+        "rank-points": 317,
+        "team-id": 5973,
+        "team-url": "https://hltv.org/team/5973/Liquid",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/5973",
+        "team-players": [
+            {
+                "name": "Justin 'jks' Savage",
+                "player-id": 4679,
+                "url": "https://www.hltv.org/player/4679/jks"
+            },
+            {
+                "name": "Keith 'NAF' Markovic",
+                "player-id": 8520,
+                "url": "https://www.hltv.org/player/8520/naf"
+            },
+            {
+                "name": "Russel 'Twistzz' Van Dulken",
+                "player-id": 10394,
+                "url": "https://www.hltv.org/player/10394/twistzz"
+            },
+            {
+                "name": "Mareks 'YEKINDAR' Ga\u013cinskis",
+                "player-id": 13915,
+                "url": "https://www.hltv.org/player/13915/yekindar"
+            },
+            {
+                "name": "Roland 'ultimate' Tomkowiak",
+                "player-id": 21763,
+                "url": "https://www.hltv.org/player/21763/ultimate"
+            }
+        ]
+    },
+    {
+        "name": "Astralis",
+        "rank": 9,
+        "rank-points": 276,
+        "team-id": 6665,
+        "team-url": "https://hltv.org/team/6665/Astralis",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/6665",
+        "team-players": [
+            {
+                "name": "Nicolai 'device' Reedtz",
+                "player-id": 7592,
+                "url": "https://www.hltv.org/player/7592/device"
+            },
+            {
+                "name": "Martin 'stavn' Lund",
+                "player-id": 10994,
+                "url": "https://www.hltv.org/player/10994/stavn"
+            },
+            {
+                "name": "Alexander 'br0' Bro",
+                "player-id": 16717,
+                "url": "https://www.hltv.org/player/16717/br0"
+            },
+            {
+                "name": "Jakob 'jabbi' Nygaard",
+                "player-id": 17956,
+                "url": "https://www.hltv.org/player/17956/jabbi"
+            },
+            {
+                "name": "Victor 'Staehr' Staehr",
+                "player-id": 20304,
+                "url": "https://www.hltv.org/player/20304/staehr"
+            }
+        ]
+    },
+    {
+        "name": "SAW",
+        "rank": 10,
+        "rank-points": 262,
+        "team-id": 10567,
+        "team-url": "https://hltv.org/team/10567/SAW",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/10567",
+        "team-players": [
+            {
+                "name": "Christopher 'MUTiRiS' Fernandes",
+                "player-id": 630,
+                "url": "https://www.hltv.org/player/630/mutiris"
+            },
+            {
+                "name": "Ricardo 'roman' Oliveira",
+                "player-id": 2241,
+                "url": "https://www.hltv.org/player/2241/roman"
+            },
+            {
+                "name": "Jo\u00e3o 'story' Vieira",
+                "player-id": 20462,
+                "url": "https://www.hltv.org/player/20462/story"
+            },
+            {
+                "name": "Michel 'ewjerkz' Pinto",
+                "player-id": 20464,
+                "url": "https://www.hltv.org/player/20464/ewjerkz"
+            },
+            {
+                "name": "Rafael 'arrozdoce' Wing",
+                "player-id": 20465,
+                "url": "https://www.hltv.org/player/20465/arrozdoce"
+            }
+        ]
+    },
+    {
+        "name": "The MongolZ",
+        "rank": 11,
+        "rank-points": 240,
+        "team-id": 6248,
+        "team-url": "https://hltv.org/team/6248/The MongolZ",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/6248",
+        "team-players": [
+            {
+                "name": "Garidmagnai 'bLitz' Byambasuren",
+                "player-id": 20194,
+                "url": "https://www.hltv.org/player/20194/blitz"
+            },
+            {
+                "name": "Sodbayar 'Techno' Munkhbold",
+                "player-id": 20275,
+                "url": "https://www.hltv.org/player/20275/techno"
+            },
+            {
+                "name": "Munkhbold 'Senzu' Azbayar",
+                "player-id": 20903,
+                "url": "https://www.hltv.org/player/20903/senzu"
+            },
+            {
+                "name": "Ayush 'mzinho' Batbold",
+                "player-id": 21001,
+                "url": "https://www.hltv.org/player/21001/mzinho"
+            },
+            {
+                "name": "Usukhbayar '910' Banzragch",
+                "player-id": 21809,
+                "url": "https://www.hltv.org/player/21809/910"
+            }
+        ]
+    },
+    {
+        "name": "Complexity",
+        "rank": 12,
+        "rank-points": 232,
+        "team-id": 5005,
+        "team-url": "https://hltv.org/team/5005/Complexity",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/5005",
+        "team-players": [
+            {
+                "name": "Jonathan 'EliGE' Jablonowski",
+                "player-id": 8738,
+                "url": "https://www.hltv.org/player/8738/elige"
+            },
+            {
+                "name": "Johnny 'JT' Theodosiou",
+                "player-id": 11630,
+                "url": "https://www.hltv.org/player/11630/jt"
+            },
+            {
+                "name": "Ricky 'floppy' Kemery",
+                "player-id": 12713,
+                "url": "https://www.hltv.org/player/12713/floppy"
+            },
+            {
+                "name": "H\u00e5kon 'hallzerk' Fj\u00e6rli",
+                "player-id": 12840,
+                "url": "https://www.hltv.org/player/12840/hallzerk"
+            },
+            {
+                "name": "Michael 'Grim' Wince",
+                "player-id": 13578,
+                "url": "https://www.hltv.org/player/13578/grim"
+            }
+        ]
+    },
+    {
+        "name": "9z",
+        "rank": 13,
+        "rank-points": 203,
+        "team-id": 9996,
+        "team-url": "https://hltv.org/team/9996/9z",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/9996",
+        "team-players": [
+            {
+                "name": "Maximiliano 'max' Gonzalez",
+                "player-id": 12092,
+                "url": "https://www.hltv.org/player/12092/max"
+            },
+            {
+                "name": "Franco 'dgt' Garcia",
+                "player-id": 14736,
+                "url": "https://www.hltv.org/player/14736/dgt"
+            },
+            {
+                "name": "Nicol\u00e1s 'buda' Kramer",
+                "player-id": 20607,
+                "url": "https://www.hltv.org/player/20607/buda"
+            },
+            {
+                "name": "Antonio 'MartinezSa' Martinez",
+                "player-id": 21239,
+                "url": "https://www.hltv.org/player/21239/martinezsa"
+            },
+            {
+                "name": "Matias 'HUASOPEEK' Iba\u00f1ez Hernandez",
+                "player-id": 22613,
+                "url": "https://www.hltv.org/player/22613/huasopeek"
+            }
+        ]
+    },
+    {
+        "name": "Falcons",
+        "rank": 14,
+        "rank-points": 192,
+        "team-id": 11283,
+        "team-url": "https://hltv.org/team/11283/Falcons",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/11283",
+        "team-players": [
+            {
+                "name": "Marco 'Snappi' Pfeiffer",
+                "player-id": 922,
+                "url": "https://www.hltv.org/player/922/snappi"
+            },
+            {
+                "name": "Peter 'dupreeh' Rasmussen",
+                "player-id": 7398,
+                "url": "https://www.hltv.org/player/7398/dupreeh"
+            },
+            {
+                "name": "Emil 'Magisk' Reif",
+                "player-id": 9032,
+                "url": "https://www.hltv.org/player/9032/magisk"
+            },
+            {
+                "name": "Pavle 'Maden' Bo\u0161kovi\u0107",
+                "player-id": 11777,
+                "url": "https://www.hltv.org/player/11777/maden"
+            },
+            {
+                "name": "\u00c1lvaro 'SunPayus' Garc\u00eda",
+                "player-id": 19164,
+                "url": "https://www.hltv.org/player/19164/sunpayus"
+            }
+        ]
+    },
+    {
+        "name": "HEROIC",
+        "rank": 15,
+        "rank-points": 177,
+        "team-id": 7175,
+        "team-url": "https://hltv.org/team/7175/HEROIC",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/7175",
+        "team-players": [
+            {
+                "name": "Guy 'NertZ' Iluz",
+                "player-id": 9436,
+                "url": "https://www.hltv.org/player/9436/nertz"
+            },
+            {
+                "name": "Ren\u00e9 'TeSeS' Madsen",
+                "player-id": 12018,
+                "url": "https://www.hltv.org/player/12018/teses"
+            },
+            {
+                "name": "Rasmus 'sjuush' Beck",
+                "player-id": 14148,
+                "url": "https://www.hltv.org/player/14148/sjuush"
+            },
+            {
+                "name": "Abdul 'degster' Gasanov",
+                "player-id": 17306,
+                "url": "https://www.hltv.org/player/17306/degster"
+            },
+            {
+                "name": "Damjan 'kyxsan' Stoilkovski",
+                "player-id": 19677,
+                "url": "https://www.hltv.org/player/19677/kyxsan"
+            }
+        ]
+    },
+    {
+        "name": "paiN",
+        "rank": 16,
+        "rank-points": 167,
+        "team-id": 4773,
+        "team-url": "https://hltv.org/team/4773/paiN",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/4773",
+        "team-players": [
+            {
+                "name": "Rodrigo 'biguzera' Bittencourt",
+                "player-id": 18141,
+                "url": "https://www.hltv.org/player/18141/biguzera"
+            },
+            {
+                "name": "Lucas 'nqz' Soares",
+                "player-id": 19694,
+                "url": "https://www.hltv.org/player/19694/nqz"
+            },
+            {
+                "name": "Kaue 'kauez' Kaschuk",
+                "player-id": 20085,
+                "url": "https://www.hltv.org/player/20085/kauez"
+            },
+            {
+                "name": "Jo\u00e3o 'snow' Vinicius",
+                "player-id": 20171,
+                "url": "https://www.hltv.org/player/20171/snow"
+            },
+            {
+                "name": "Lucas 'lux' Meneghini",
+                "player-id": 20563,
+                "url": "https://www.hltv.org/player/20563/lux"
+            }
+        ]
+    },
+    {
+        "name": "FURIA",
+        "rank": 17,
+        "rank-points": 148,
+        "team-id": 8297,
+        "team-url": "https://hltv.org/team/8297/FURIA",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/8297",
+        "team-players": [
+            {
+                "name": "Gabriel 'FalleN' Toledo",
+                "player-id": 2023,
+                "url": "https://www.hltv.org/player/2023/fallen"
+            },
+            {
+                "name": "Marcelo 'chelo' Cespedes",
+                "player-id": 10566,
+                "url": "https://www.hltv.org/player/10566/chelo"
+            },
+            {
+                "name": "Yuri 'yuurih' Santos",
+                "player-id": 12553,
+                "url": "https://www.hltv.org/player/12553/yuurih"
+            },
+            {
+                "name": "Kaike 'KSCERATO' Cerato",
+                "player-id": 15631,
+                "url": "https://www.hltv.org/player/15631/kscerato"
+            },
+            {
+                "name": "Felipe 'skullz' Medeiros",
+                "player-id": 18676,
+                "url": "https://www.hltv.org/player/18676/skullz"
+            }
+        ]
+    },
+    {
+        "name": "Ninjas in Pyjamas",
+        "rank": 18,
+        "rank-points": 128,
+        "team-id": 4411,
+        "team-url": "https://hltv.org/team/4411/Ninjas in Pyjamas",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/4411",
+        "team-players": [
+            {
+                "name": "Alejandro 'alex' Masanet",
+                "player-id": 8371,
+                "url": "https://www.hltv.org/player/8371/alex"
+            },
+            {
+                "name": "Fredrik 'REZ' Sterner",
+                "player-id": 9278,
+                "url": "https://www.hltv.org/player/9278/rez"
+            },
+            {
+                "name": "Isak 'isak' Fahl\u00e9n",
+                "player-id": 17937,
+                "url": "https://www.hltv.org/player/17937/isak"
+            },
+            {
+                "name": "Artem 'r1nkle' Moroz",
+                "player-id": 20425,
+                "url": "https://www.hltv.org/player/20425/r1nkle"
+            },
+            {
+                "name": "Max 'maxster' Jansson",
+                "player-id": 20879,
+                "url": "https://www.hltv.org/player/20879/maxster"
+            }
+        ]
+    },
+    {
+        "name": "Eternal Fire",
+        "rank": 19,
+        "rank-points": 108,
+        "team-id": 11251,
+        "team-url": "https://hltv.org/team/11251/Eternal Fire",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/11251",
+        "team-players": [
+            {
+                "name": "Engin 'MAJ3R' K\u00fcpeli",
+                "player-id": 150,
+                "url": "https://www.hltv.org/player/150/maj3r"
+            },
+            {
+                "name": "Ismailcan 'XANTARES' D\u00f6rtkarde\u015f",
+                "player-id": 7938,
+                "url": "https://www.hltv.org/player/7938/xantares"
+            },
+            {
+                "name": "\u00d6zg\u00fcr 'woxic' Eker",
+                "player-id": 8574,
+                "url": "https://www.hltv.org/player/8574/woxic"
+            },
+            {
+                "name": "Bu\u011fra 'Calyx' Ark\u0131n",
+                "player-id": 8575,
+                "url": "https://www.hltv.org/player/8575/calyx"
+            },
+            {
+                "name": "Ali 'Wicadia' Haydar Yal\u00e7\u0131n",
+                "player-id": 21243,
+                "url": "https://www.hltv.org/player/21243/wicadia"
+            }
+        ]
+    },
+    {
+        "name": "BIG",
+        "rank": 20,
+        "rank-points": 90,
+        "team-id": 7532,
+        "team-url": "https://hltv.org/team/7532/BIG",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/7532",
+        "team-players": [
+            {
+                "name": "Johannes 'tabseN' Wodarz",
+                "player-id": 5794,
+                "url": "https://www.hltv.org/player/5794/tabsen"
+            },
+            {
+                "name": "Florian 'syrsoN' Rische",
+                "player-id": 7266,
+                "url": "https://www.hltv.org/player/7266/syrson"
+            },
+            {
+                "name": "Rigon 'rigoN' Gashi",
+                "player-id": 12708,
+                "url": "https://www.hltv.org/player/12708/rigon"
+            },
+            {
+                "name": "Jon 'JDC' de Castro",
+                "player-id": 14929,
+                "url": "https://www.hltv.org/player/14929/jdc"
+            },
+            {
+                "name": "Karim 'Krimbo' Moussa",
+                "player-id": 19899,
+                "url": "https://www.hltv.org/player/19899/krimbo"
+            }
+        ]
+    },
+    {
+        "name": "3DMAX",
+        "rank": 21,
+        "rank-points": 88,
+        "team-id": 4683,
+        "team-url": "https://hltv.org/team/4914/3DMAX",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/4914",
+        "team-players": [
+            {
+                "name": "Bryan 'Maka' Canda",
+                "player-id": 13138,
+                "url": "https://www.hltv.org/player/13138/maka"
+            },
+            {
+                "name": "Lucas 'Lucky' Chastang",
+                "player-id": 13497,
+                "url": "https://www.hltv.org/player/13497/lucky"
+            },
+            {
+                "name": "Thomas 'Djoko' Pavoni",
+                "player-id": 19738,
+                "url": "https://www.hltv.org/player/19738/djoko"
+            },
+            {
+                "name": "Pierre 'Ex3rcice' Bulinge",
+                "player-id": 19739,
+                "url": "https://www.hltv.org/player/19739/ex3rcice"
+            },
+            {
+                "name": "Filip 'Graviti' Brankovic",
+                "player-id": 21969,
+                "url": "https://www.hltv.org/player/21969/graviti"
+            }
+        ]
+    },
+    {
+        "name": "BetBoom",
+        "rank": 22,
+        "rank-points": 79,
+        "team-id": 12394,
+        "team-url": "https://hltv.org/team/12394/BetBoom",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/12394",
+        "team-players": [
+            {
+                "name": "Aleksandr 'zorte' Zagodyrenko",
+                "player-id": 15662,
+                "url": "https://www.hltv.org/player/15662/zorte"
+            },
+            {
+                "name": "Vladislav 'nafany' Gorshkov",
+                "player-id": 16921,
+                "url": "https://www.hltv.org/player/16921/nafany"
+            },
+            {
+                "name": "Pavel 's1ren' Ogloblin",
+                "player-id": 18506,
+                "url": "https://www.hltv.org/player/18506/s1ren"
+            },
+            {
+                "name": "Aleksandr 'KaiR0N-' Anashkin",
+                "player-id": 19920,
+                "url": "https://www.hltv.org/player/19920/kair0n"
+            },
+            {
+                "name": "Kirill 'Magnojez' Rodnov",
+                "player-id": 21667,
+                "url": "https://www.hltv.org/player/21667/magnojez"
+            }
+        ]
+    },
+    {
+        "name": "fnatic",
+        "rank": 23,
+        "rank-points": 76,
+        "team-id": 4991,
+        "team-url": "https://hltv.org/team/4991/fnatic",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/4991",
+        "team-players": [
+            {
+                "name": "Freddy 'KRIMZ' Johansson",
+                "player-id": 7528,
+                "url": "https://www.hltv.org/player/7528/krimz"
+            },
+            {
+                "name": "Alexandre 'bodyy' Pianaro",
+                "player-id": 8374,
+                "url": "https://www.hltv.org/player/8374/bodyy"
+            },
+            {
+                "name": "Benjamin 'blameF' Bremer",
+                "player-id": 15165,
+                "url": "https://www.hltv.org/player/15165/blamef"
+            },
+            {
+                "name": "Aur\u00e9lien 'afro' Drapier",
+                "player-id": 19926,
+                "url": "https://www.hltv.org/player/19926/afro"
+            },
+            {
+                "name": "Mat\u00fa\u0161 'MATYS' \u0160imko",
+                "player-id": 21062,
+                "url": "https://www.hltv.org/player/21062/matys"
+            }
+        ]
+    },
+    {
+        "name": "MIBR",
+        "rank": 24,
+        "rank-points": 68,
+        "team-id": 9215,
+        "team-url": "https://hltv.org/team/9215/MIBR",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/9215",
+        "team-players": [
+            {
+                "name": "Raphael 'exit' Lacerda",
+                "player-id": 11154,
+                "url": "https://www.hltv.org/player/11154/exit"
+            },
+            {
+                "name": "Rafael 'saffee' Costa",
+                "player-id": 18835,
+                "url": "https://www.hltv.org/player/18835/saffee"
+            },
+            {
+                "name": "Andr\u00e9 'drop' Abreu",
+                "player-id": 19750,
+                "url": "https://www.hltv.org/player/19750/drop"
+            },
+            {
+                "name": "Breno 'brnz4n' Poletto",
+                "player-id": 20987,
+                "url": "https://www.hltv.org/player/20987/brnz4n"
+            },
+            {
+                "name": "Felipe 'insani' Yuji",
+                "player-id": 21037,
+                "url": "https://www.hltv.org/player/21037/insani"
+            }
+        ]
+    },
+    {
+        "name": "Aurora",
+        "rank": 25,
+        "rank-points": 62,
+        "team-id": 11861,
+        "team-url": "https://hltv.org/team/11861/Aurora",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/11861",
+        "team-players": [
+            {
+                "name": "Timur 'clax' Sabirov",
+                "player-id": 12004,
+                "url": "https://www.hltv.org/player/12004/clax"
+            },
+            {
+                "name": "Viktor 'Lack1' Boldyrev",
+                "player-id": 13240,
+                "url": "https://www.hltv.org/player/13240/lack1"
+            },
+            {
+                "name": "Aleksandr 'KENSI' Gurkin",
+                "player-id": 19236,
+                "url": "https://www.hltv.org/player/19236/kensi"
+            },
+            {
+                "name": "Evgeny 'Norwi' Ermolin",
+                "player-id": 19882,
+                "url": "https://www.hltv.org/player/19882/norwi"
+            },
+            {
+                "name": "Denis 'deko' Zhukov",
+                "player-id": 20113,
+                "url": "https://www.hltv.org/player/20113/deko"
+            }
+        ]
+    },
+    {
+        "name": "ENCE",
+        "rank": 26,
+        "rank-points": 60,
+        "team-id": 4869,
+        "team-url": "https://hltv.org/team/4869/ENCE",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/4869",
+        "team-players": [
+            {
+                "name": "Lukas 'gla1ve' Rossander",
+                "player-id": 7412,
+                "url": "https://www.hltv.org/player/7412/gla1ve"
+            },
+            {
+                "name": "Viktor 'sdy' Orudzhev",
+                "player-id": 12731,
+                "url": "https://www.hltv.org/player/12731/sdy"
+            },
+            {
+                "name": "Krzysztof 'Goofy' G\u00f3rski",
+                "player-id": 15428,
+                "url": "https://www.hltv.org/player/15428/goofy"
+            },
+            {
+                "name": "Kacper 'Kylar' Walukiewicz",
+                "player-id": 19114,
+                "url": "https://www.hltv.org/player/19114/kylar"
+            },
+            {
+                "name": "Paavo 'podi' Heiskanen",
+                "player-id": 21815,
+                "url": "https://www.hltv.org/player/21815/podi"
+            }
+        ]
+    },
+    {
+        "name": "M80",
+        "rank": 27,
+        "rank-points": 59,
+        "team-id": 12376,
+        "team-url": "https://hltv.org/team/12376/M80",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/12376",
+        "team-players": [
+            {
+                "name": "Fritz 'slaxz-' Dietrich",
+                "player-id": 15370,
+                "url": "https://www.hltv.org/player/15370/slaxz"
+            },
+            {
+                "name": "Michael 'Swisher' Schmid",
+                "player-id": 16599,
+                "url": "https://www.hltv.org/player/16599/swisher"
+            },
+            {
+                "name": "Ethan 'reck' Serrano",
+                "player-id": 17378,
+                "url": "https://www.hltv.org/player/17378/reck"
+            },
+            {
+                "name": "Elias 's1n' Stein",
+                "player-id": 20104,
+                "url": "https://www.hltv.org/player/20104/s1n"
+            },
+            {
+                "name": "Mason 'Lake' Sanderson",
+                "player-id": 22921,
+                "url": "https://www.hltv.org/player/22921/lake"
+            }
+        ]
+    },
+    {
+        "name": "FlyQuest",
+        "rank": 28,
+        "rank-points": 55,
+        "team-id": 12774,
+        "team-url": "https://hltv.org/team/12774/FlyQuest",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/12774",
+        "team-players": [
+            {
+                "name": "Christopher 'dexter' Nong",
+                "player-id": 9115,
+                "url": "https://www.hltv.org/player/9115/dexter"
+            },
+            {
+                "name": "Jay 'Liazz' Tregillgas",
+                "player-id": 10588,
+                "url": "https://www.hltv.org/player/10588/liazz"
+            },
+            {
+                "name": "Alistair 'aliStair' Johnston",
+                "player-id": 11139,
+                "url": "https://www.hltv.org/player/11139/alistair"
+            },
+            {
+                "name": "Joshua 'INS' Potter",
+                "player-id": 11140,
+                "url": "https://www.hltv.org/player/11140/ins"
+            },
+            {
+                "name": "Declan 'Vexite' Portelli",
+                "player-id": 17384,
+                "url": "https://www.hltv.org/player/17384/vexite"
+            }
+        ]
+    },
+    {
+        "name": "Sangal",
+        "rank": 29,
+        "rank-points": 51,
+        "team-id": 10333,
+        "team-url": "https://hltv.org/team/10333/Sangal",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/10333",
+        "team-players": [
+            {
+                "name": "Yasin 'xfl0ud' Ko\u00e7",
+                "player-id": 19187,
+                "url": "https://www.hltv.org/player/19187/xfl0ud"
+            },
+            {
+                "name": "Linus 'LNZ' Holt\u00e4ng",
+                "player-id": 19310,
+                "url": "https://www.hltv.org/player/19310/lnz"
+            },
+            {
+                "name": "Dawid 'SaMey' Sta\u0144czak",
+                "player-id": 20245,
+                "url": "https://www.hltv.org/player/20245/samey"
+            },
+            {
+                "name": "Simon 'yxngstxr' Boije",
+                "player-id": 22047,
+                "url": "https://www.hltv.org/player/22047/yxngstxr"
+            },
+            {
+                "name": "Samet 'jottAAA' K\u00f6kl\u00fc",
+                "player-id": 22361,
+                "url": "https://www.hltv.org/player/22361/jottaaa"
+            }
+        ]
+    },
+    {
+        "name": "Sashi",
+        "rank": 30,
+        "rank-points": 48,
+        "team-id": 11712,
+        "team-url": "https://hltv.org/team/11712/Sashi",
+        "stats-url": "https://www.hltv.org/ranking/teams/2024/august/19/details/11712",
+        "team-players": [
+            {
+                "name": "Oliver 'kwezz' Rasmussen",
+                "player-id": 13170,
+                "url": "https://www.hltv.org/player/13170/kwezz"
+            },
+            {
+                "name": "Philip 'Lucky' Ewald",
+                "player-id": 13843,
+                "url": "https://www.hltv.org/player/13843/lucky"
+            },
+            {
+                "name": "Casper 'Cabbi' Jensen",
+                "player-id": 16723,
+                "url": "https://www.hltv.org/player/16723/cabbi"
+            },
+            {
+                "name": "Oliver 'IceBerg' Berg",
+                "player-id": 16731,
+                "url": "https://www.hltv.org/player/16731/iceberg"
+            },
+            {
+                "name": "Mikkel 'MistR' Thomsen",
+                "player-id": 21199,
+                "url": "https://www.hltv.org/player/21199/mistr"
+            }
+        ]
+    }
+]
