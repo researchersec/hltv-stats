@@ -223,7 +223,7 @@ def get_results(url="https://www.hltv.org/results", file_name="results.json", ma
             logging.info("No more results found on this page. Ending fetch loop.")
             break
         
-                logging.info(f"Found {len(pastresults)} result sections to process.")
+        logging.info(f"Found {len(pastresults)} result sections to process.")
 
         for result in pastresults:
             resultDiv = result.find_all("div", {"class": "result-con"})
