@@ -192,7 +192,7 @@ def top_players():
     return playersArray
 
 
-def get_results(url="https://www.hltv.org/results", file_name="results.json", max_results=50000):
+def get_results(url="https://www.hltv.org/results", file_name="results.json", max_results=500000):
     logging.info("Starting to fetch results.")
     
     if os.path.exists(file_name):
