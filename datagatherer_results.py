@@ -24,7 +24,6 @@ FLARE_SOLVERR_URL = "http://localhost:8191/v1"
 
 TEAM_MAP_FOR_RESULTS = []
 
-
 def _get_all_teams():
     logging.info("Fetching all teams.")
     if not TEAM_MAP_FOR_RESULTS:
