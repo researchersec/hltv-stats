@@ -26,7 +26,7 @@ jobs:
       #ghcr.io/flaresolverr/flaresolverr:v3.3.17
 
     - name: Run FlareSolverr
-      run: docker run -d --name flaresolverr-container -p 8191:8191 therealbix/flaresolverr
+      run: docker run -d --name flaresolverr-container -p 8191:8191 flaresolverr/flaresolverr
       #ghcr.io/flaresolverr/flaresolverr:v3.3.16
 
     - name: Wait for FlareSolverr to start
