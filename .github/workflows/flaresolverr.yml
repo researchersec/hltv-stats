@@ -22,7 +22,7 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Pull Docker image
-      run: docker pull therealbix/flaresolverr
+      run: docker pull flaresolverr/flaresolverr
       #ghcr.io/flaresolverr/flaresolverr:v3.3.17
 
     - name: Run FlareSolverr
