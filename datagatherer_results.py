@@ -378,7 +378,7 @@ if __name__ == "__main__":
     logging.info("Script started.")
     try:
         top30teams()
-        get_results(max_results=500000)  # Fetch results with a limit
+        get_results(max_results=3000)  # Fetch results with a limit
         logging.info("Script finished successfully.")
     except Exception as e:
         logging.error(f"An error occurred: {e}")
