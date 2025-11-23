@@ -32,11 +32,11 @@ jobs:
     - name: Wait for FlareSolverr to start
       run: sleep 20
 
-    - name: Run odds gatherer
-      run: python datagatherer_odds.py
+    #- name: Run odds gatherer
+    # run: python datagatherer_odds.py
       
-    - name: Fetch container logs 2
-      run: timeout 1m docker logs -f flaresolverr-container || true
+    #- name: Fetch container logs 2
+    #  run: timeout 1m docker logs -f flaresolverr-container || true
 
     - name: Run results gatherer
       run: python datagatherer_results.py
