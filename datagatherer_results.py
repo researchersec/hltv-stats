@@ -12,7 +12,8 @@ import tzlocal
 
 # ================== CONFIG ================== #
 
-MAX_RUNTIME_SECONDS = 60 * 110  # 110 minutes safety window
+MAX_RUNTIME_SECONDS = 60 * 110          # 110 minutes safety window
+MAX_RESULTS_OFFSET = 23000              # HARD HLTV LIMIT
 STATE_FILE = "scrape_state.json"
 RESULTS_FILE = "results.json"
 
@@ -112,8 +113,12 @@ def get_results(state):
     existing_ids = {r["match-id"] for r in results if "match-id" in r}
     offset = state["results_offset"]
 
-    while not time_exceeded():
+    while (
+        not time_exceeded()
+        and offset <= MAX_RESULTS_OFFSET
+    ):
         logging.info(f"Results offset {offset}")
+
         page = get_parsed_page(f"https://www.hltv.org/results?offset={offset}")
         if not page:
             break
@@ -176,6 +181,7 @@ def get_results(state):
                 new_found = True
 
         if not new_found:
+            logging.info("No new results found — stopping scrape")
             break
 
         offset += 100
@@ -183,6 +189,9 @@ def get_results(state):
         save_state(state)
 
         time.sleep(1)
+
+    if offset >= MAX_RESULTS_OFFSET:
+        logging.info("Reached maximum HLTV offset (23000). Results scraping complete.")
 
     return results
 
@@ -228,7 +237,7 @@ def enrich_results(results, state):
         if last_id and match["match-id"] <= last_id:
             continue
 
-        logging.info(f"Enriching {match['match-id']}")
+        logging.info(f"Enriching match {match['match-id']}")
         soup = get_parsed_page(match["url"])
         if not soup:
             continue
