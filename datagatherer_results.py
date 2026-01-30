@@ -3,17 +3,21 @@ import json
 import time
 import datetime
 import logging
+import re
 from bs4 import BeautifulSoup
 from python_utils import converters
 import requests
 import zoneinfo
 import tzlocal
 
+# ------------------ LOGGING ------------------ #
+
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s -%(levelname)s - %(message)s",
-    handlers=[logging.StreamHandler()],
+    format="%(asctime)s - %(levelname)s - %(message)s",
 )
+
+# ------------------ CONSTANTS ------------------ #
 
 HLTV_COOKIE_TIMEZONE = "Europe/Copenhagen"
 HLTV_ZONEINFO = zoneinfo.ZoneInfo(HLTV_COOKIE_TIMEZONE)
@@ -22,22 +26,16 @@ FLARE_SOLVERR_URL = "http://localhost:8191/v1"
 
 TEAM_MAP_FOR_RESULTS = []
 
-
 # ------------------ HTTP ------------------ #
 
 def get_parsed_page(url: str):
-    headers = {
-        "referer": "https://www.hltv.org",
-        "user-agent": "Mozilla/5.0",
-    }
-
     payload = {
         "cmd": "request.get",
         "url": url,
         "maxTimeout": 60000,
     }
 
-    response = requests.post(FLARE_SOLVERR_URL, json=payload, headers=headers)
+    response = requests.post(FLARE_SOLVERR_URL, json=payload)
     response.raise_for_status()
 
     data = response.json()
@@ -45,7 +43,6 @@ def get_parsed_page(url: str):
         return None
 
     return BeautifulSoup(data["solution"]["response"], "lxml")
-
 
 # ------------------ TEAM CACHE ------------------ #
 
@@ -62,14 +59,12 @@ def _get_all_teams():
             }
         )
 
-
 def _findTeamId(name: str):
     _get_all_teams()
     for team in TEAM_MAP_FOR_RESULTS:
         if team["name"] == name:
             return team["id"]
     return None
-
 
 # ------------------ DATE HELPERS ------------------ #
 
@@ -78,16 +73,9 @@ def _month_to_number(name: str):
         name = "August"
     return datetime.datetime.strptime(name, "%B").month
 
-
 # ------------------ RESULTS SCRAPER ------------------ #
 
-def get_results(
-    url="https://www.hltv.org/results",
-    file_name="results.json",
-    max_results=1000,
-):
-    logging.info("Loading existing results")
-
+def get_results(file_name="results.json", max_results=1000):
     if os.path.exists(file_name):
         with open(file_name, "r", encoding="utf-8") as f:
             try:
@@ -97,17 +85,11 @@ def get_results(
     else:
         results = []
 
-    # Dedup index
-    existing_match_ids = {
-        r["match-id"] for r in results if "match-id" in r
-    }
-
+    existing_ids = {r["match-id"] for r in results if "match-id" in r}
     offset = 0
 
     while offset < max_results:
-        logging.info(f"Fetching offset {offset}")
-        page = get_parsed_page(f"{url}?offset={offset}")
-
+        page = get_parsed_page(f"https://www.hltv.org/results?offset={offset}")
         if not page:
             break
 
@@ -115,14 +97,14 @@ def get_results(
         if not sections:
             break
 
-        new_entries_found = False
+        new_found = False
 
         for section in sections:
             for res in section.find_all("div", {"class": "result-con"}):
                 href = res.find("a", {"class": "a-reset"})["href"]
                 match_id = converters.to_int(href.split("/")[-2])
 
-                if match_id in existing_match_ids:
+                if match_id in existing_ids:
                     continue
 
                 entry = {
@@ -132,23 +114,21 @@ def get_results(
 
                 headline = section.find("span", {"class": "standard-headline"})
                 if headline:
-                    date_text = (
+                    txt = (
                         headline.text.replace("Results for ", "")
                         .replace("th", "")
                         .replace("rd", "")
                         .replace("st", "")
                         .replace("nd", "")
                     )
-                    month, day, year = date_text.split()
+                    m, d, y = txt.split()
                     dt = datetime.datetime(
-                        int(year),
-                        _month_to_number(month),
-                        int(day),
+                        int(y),
+                        _month_to_number(m),
+                        int(d),
                         tzinfo=HLTV_ZONEINFO,
                     ).astimezone(LOCAL_ZONEINFO)
                     entry["date"] = dt.strftime("%Y-%m-%d")
-                else:
-                    entry["date"] = datetime.date.today().isoformat()
 
                 event = res.find("td", {"class": "event"}) or res.find(
                     "td", {"class": "placeholder-text-cell"}
@@ -165,45 +145,77 @@ def get_results(
                     scores = res.find("td", {"class": "result-score"}).find_all("span")
                     entry["team1score"] = converters.to_int(scores[0].text)
                     entry["team2score"] = converters.to_int(scores[1].text)
-                else:
-                    entry.update(
-                        dict.fromkeys(
-                            [
-                                "team1",
-                                "team2",
-                                "team1-id",
-                                "team2-id",
-                                "team1score",
-                                "team2score",
-                            ]
-                        )
-                    )
 
                 results.append(entry)
-                existing_match_ids.add(match_id)
-                new_entries_found = True
+                existing_ids.add(match_id)
+                new_found = True
 
-        if not new_entries_found:
-            logging.info("No new matches found — stopping early")
+        if not new_found:
             break
 
         offset += 100
         time.sleep(1)
 
-    # UTF-8 SAFE WRITE
-    with open(file_name, "w", encoding="utf-8") as f:
-        json.dump(
-            results,
-            f,
-            indent=4,
-            ensure_ascii=False,
-        )
-
-    logging.info(f"Saved {len(results)} total results")
     return results
 
+# ------------------ MATCH DETAIL PARSER ------------------ #
 
-# ------------------ ENTRYPOINT ------------------ #
+def parse_match_details(soup, url):
+    match_data = {"format": "", "stage": "", "veto": [], "maps": []}
+
+    maps_section = soup.find("div", class_="col-6 col-7-small")
+    if not maps_section:
+        return match_data
+
+    veto_boxes = maps_section.find_all("div", class_="standard-box veto-box")
+    for box in veto_boxes:
+        txt = box.get_text("\n").lower()
+        if any(k in txt for k in ["removed", "picked", "was left over"]):
+            match_data["veto"] = [
+                line.strip() for line in txt.split("\n") if line.strip()
+            ]
+            break
+
+    map_holders = maps_section.find_all("div", class_="mapholder")
+    for holder in map_holders:
+        name = holder.find("div", class_="mapname")
+        match_data["maps"].append(
+            {
+                "map": name.text.strip() if name else "Unknown",
+                "raw": holder.get_text(" ", strip=True),
+            }
+        )
+
+    return match_data
+
+# ------------------ ENRICH RESULTS ------------------ #
+
+def enrich_results(results):
+    for match in results:
+        if match.get("maps"):
+            continue  # already enriched
+
+        logging.info(f"Enriching match {match['match-id']}")
+        soup = get_parsed_page(match["url"])
+        if not soup:
+            continue
+
+        details = parse_match_details(soup, match["url"])
+        match.update(details)
+        time.sleep(0.5)
+
+    return results
+
+# ------------------ MAIN ------------------ #
+
+def main():
+    results = get_results(max_results=500)
+    results = enrich_results(results)
+
+    with open("results.json", "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=4, ensure_ascii=False)
+
+    logging.info(f"Saved {len(results)} matches")
 
 if __name__ == "__main__":
-    get_results(max_results=500)
+    main()
