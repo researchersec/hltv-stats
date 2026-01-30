@@ -10,23 +10,47 @@ import requests
 import zoneinfo
 import tzlocal
 
-# ------------------ LOGGING ------------------ #
+# ================== CONFIG ================== #
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
-
-# ------------------ CONSTANTS ------------------ #
+MAX_RUNTIME_SECONDS = 60 * 110  # 110 minutes safety window
+STATE_FILE = "scrape_state.json"
+RESULTS_FILE = "results.json"
 
 HLTV_COOKIE_TIMEZONE = "Europe/Copenhagen"
 HLTV_ZONEINFO = zoneinfo.ZoneInfo(HLTV_COOKIE_TIMEZONE)
 LOCAL_ZONEINFO = zoneinfo.ZoneInfo(tzlocal.get_localzone_name())
 FLARE_SOLVERR_URL = "http://localhost:8191/v1"
 
+START_TIME = time.time()
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+
 TEAM_MAP_FOR_RESULTS = []
 
-# ------------------ HTTP ------------------ #
+# ================== TIME GUARD ================== #
+
+def time_exceeded():
+    return (time.time() - START_TIME) >= MAX_RUNTIME_SECONDS
+
+# ================== STATE ================== #
+
+def load_state():
+    if not os.path.exists(STATE_FILE):
+        return {
+            "results_offset": 0,
+            "last_enriched_match_id": None,
+        }
+    with open(STATE_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def save_state(state):
+    with open(STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2, ensure_ascii=False)
+
+# ================== HTTP ================== #
 
 def get_parsed_page(url: str):
     payload = {
@@ -44,7 +68,7 @@ def get_parsed_page(url: str):
 
     return BeautifulSoup(data["solution"]["response"], "lxml")
 
-# ------------------ TEAM CACHE ------------------ #
+# ================== TEAM CACHE ================== #
 
 def _get_all_teams():
     if TEAM_MAP_FOR_RESULTS:
@@ -66,18 +90,18 @@ def _findTeamId(name: str):
             return team["id"]
     return None
 
-# ------------------ DATE HELPERS ------------------ #
+# ================== DATE ================== #
 
 def _month_to_number(name: str):
     if name == "Augu":
         name = "August"
     return datetime.datetime.strptime(name, "%B").month
 
-# ------------------ RESULTS SCRAPER ------------------ #
+# ================== RESULTS SCRAPER ================== #
 
-def get_results(file_name="results.json", max_results=1000):
-    if os.path.exists(file_name):
-        with open(file_name, "r", encoding="utf-8") as f:
+def get_results(state):
+    if os.path.exists(RESULTS_FILE):
+        with open(RESULTS_FILE, "r", encoding="utf-8") as f:
             try:
                 results = json.load(f)
             except json.JSONDecodeError:
@@ -86,9 +110,10 @@ def get_results(file_name="results.json", max_results=1000):
         results = []
 
     existing_ids = {r["match-id"] for r in results if "match-id" in r}
-    offset = 0
+    offset = state["results_offset"]
 
-    while offset < max_results:
+    while not time_exceeded():
+        logging.info(f"Results offset {offset}")
         page = get_parsed_page(f"https://www.hltv.org/results?offset={offset}")
         if not page:
             break
@@ -154,68 +179,81 @@ def get_results(file_name="results.json", max_results=1000):
             break
 
         offset += 100
+        state["results_offset"] = offset
+        save_state(state)
+
         time.sleep(1)
 
     return results
 
-# ------------------ MATCH DETAIL PARSER ------------------ #
+# ================== MATCH DETAILS ================== #
 
-def parse_match_details(soup, url):
-    match_data = {"format": "", "stage": "", "veto": [], "maps": []}
+def parse_match_details(soup):
+    data = {"format": "", "stage": "", "veto": [], "maps": []}
 
     maps_section = soup.find("div", class_="col-6 col-7-small")
     if not maps_section:
-        return match_data
+        return data
 
     veto_boxes = maps_section.find_all("div", class_="standard-box veto-box")
     for box in veto_boxes:
-        txt = box.get_text("\n").lower()
-        if any(k in txt for k in ["removed", "picked", "was left over"]):
-            match_data["veto"] = [
-                line.strip() for line in txt.split("\n") if line.strip()
-            ]
+        text = box.get_text("\n").lower()
+        if any(k in text for k in ["removed", "picked", "was left over"]):
+            data["veto"] = [l.strip() for l in text.split("\n") if l.strip()]
             break
 
-    map_holders = maps_section.find_all("div", class_="mapholder")
-    for holder in map_holders:
+    for holder in maps_section.find_all("div", class_="mapholder"):
         name = holder.find("div", class_="mapname")
-        match_data["maps"].append(
+        data["maps"].append(
             {
                 "map": name.text.strip() if name else "Unknown",
                 "raw": holder.get_text(" ", strip=True),
             }
         )
 
-    return match_data
+    return data
 
-# ------------------ ENRICH RESULTS ------------------ #
+# ================== ENRICH ================== #
 
-def enrich_results(results):
+def enrich_results(results, state):
+    last_id = state.get("last_enriched_match_id")
+
     for match in results:
-        if match.get("maps"):
-            continue  # already enriched
+        if time_exceeded():
+            break
 
-        logging.info(f"Enriching match {match['match-id']}")
+        if match.get("maps"):
+            continue
+
+        if last_id and match["match-id"] <= last_id:
+            continue
+
+        logging.info(f"Enriching {match['match-id']}")
         soup = get_parsed_page(match["url"])
         if not soup:
             continue
 
-        details = parse_match_details(soup, match["url"])
-        match.update(details)
+        match.update(parse_match_details(soup))
+        state["last_enriched_match_id"] = match["match-id"]
+        save_state(state)
+
         time.sleep(0.5)
 
     return results
 
-# ------------------ MAIN ------------------ #
+# ================== MAIN ================== #
 
 def main():
-    results = get_results(max_results=500)
-    results = enrich_results(results)
+    state = load_state()
 
-    with open("results.json", "w", encoding="utf-8") as f:
+    results = get_results(state)
+    results = enrich_results(results, state)
+
+    with open(RESULTS_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=4, ensure_ascii=False)
 
-    logging.info(f"Saved {len(results)} matches")
+    save_state(state)
+    logging.info("Run completed safely")
 
 if __name__ == "__main__":
     main()
