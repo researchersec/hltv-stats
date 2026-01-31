@@ -12,7 +12,7 @@ import tzlocal
 
 # ================== CONFIG ================== #
 
-MAX_RUNTIME_SECONDS = 60 * 110          # 110 minutes safety window
+MAX_RUNTIME_SECONDS = 60 * 8 #60 * 110          # 110 minutes safety window
 MAX_RESULTS_OFFSET = 23000              # HLTV hard limit
 STATE_FILE = "scrape_state.json"
 RESULTS_FILE = "results.json"
