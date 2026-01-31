@@ -13,7 +13,7 @@ import tzlocal
 # ================== CONFIG ================== #
 
 MAX_RUNTIME_SECONDS = 60 * 110          # 110 minutes safety window
-MAX_RESULTS_OFFSET = 23000              # HARD HLTV LIMIT
+MAX_RESULTS_OFFSET = 23000              # HLTV hard limit
 STATE_FILE = "scrape_state.json"
 RESULTS_FILE = "results.json"
 
@@ -42,7 +42,7 @@ def load_state():
     if not os.path.exists(STATE_FILE):
         return {
             "results_offset": 0,
-            "last_enriched_match_id": None,
+            "last_enriched_index": 0,
         }
     with open(STATE_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -113,10 +113,7 @@ def get_results(state):
     existing_ids = {r["match-id"] for r in results if "match-id" in r}
     offset = state["results_offset"]
 
-    while (
-        not time_exceeded()
-        and offset <= MAX_RESULTS_OFFSET
-    ):
+    while not time_exceeded() and offset <= MAX_RESULTS_OFFSET:
         logging.info(f"Results offset {offset}")
 
         page = get_parsed_page(f"https://www.hltv.org/results?offset={offset}")
@@ -181,7 +178,6 @@ def get_results(state):
                 new_found = True
 
         if not new_found:
-            logging.info("No new results found — stopping scrape")
             break
 
         offset += 100
@@ -225,25 +221,29 @@ def parse_match_details(soup):
 # ================== ENRICH ================== #
 
 def enrich_results(results, state):
-    last_id = state.get("last_enriched_match_id")
+    start_index = state.get("last_enriched_index", 0)
 
-    for match in results:
+    for idx in range(start_index, len(results)):
         if time_exceeded():
+            logging.warning("Time limit reached during enrichment")
             break
 
+        match = results[idx]
+
         if match.get("maps"):
+            state["last_enriched_index"] = idx + 1
+            save_state(state)
             continue
 
-        if last_id and match["match-id"] <= last_id:
-            continue
+        logging.info(f"Enriching match {match['match-id']} ({idx+1}/{len(results)})")
 
-        logging.info(f"Enriching match {match['match-id']}")
         soup = get_parsed_page(match["url"])
-        if not soup:
-            continue
+        if soup:
+            match.update(parse_match_details(soup))
+        else:
+            logging.warning(f"Failed to load match page {match['match-id']}")
 
-        match.update(parse_match_details(soup))
-        state["last_enriched_match_id"] = match["match-id"]
+        state["last_enriched_index"] = idx + 1
         save_state(state)
 
         time.sleep(0.5)
