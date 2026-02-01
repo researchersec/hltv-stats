@@ -16604,7 +16604,32 @@
         "team1-id": 12394,
         "team2-id": 4773,
         "team1score": 0,
-        "team2score": 2
+        "team2score": 2,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. betboom removed inferno",
+            "2. pain removed ancient",
+            "3. betboom picked mirage",
+            "4. pain picked nuke",
+            "5. betboom removed anubis",
+            "6. pain removed overpass",
+            "7. dust2 was left over"
+        ],
+        "maps": [
+            {
+                "map": "Mirage",
+                "raw": "Mirage BetBoom 8 STATS ( 6 : 6 ; 2 : 7 ) paiN 13"
+            },
+            {
+                "map": "Nuke",
+                "raw": "Nuke BetBoom 4 STATS ( 3 : 9 ; 1 : 4 ) paiN 13"
+            },
+            {
+                "map": "Dust2",
+                "raw": "Dust2 BetBoom - paiN -"
+            }
+        ]
     },
     {
         "match-id": 2389397,
@@ -16615,7 +16640,24 @@
         "team1-id": 13233,
         "team2-id": 12901,
         "team1score": 13,
-        "team2score": 9
+        "team2score": 9,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. heroic academy removed dust2",
+            "2. semperfi removed train",
+            "3. heroic academy removed mirage",
+            "4. semperfi removed ancient",
+            "5. heroic academy removed inferno",
+            "6. semperfi removed nuke",
+            "7. overpass was left over"
+        ],
+        "maps": [
+            {
+                "map": "Overpass",
+                "raw": "Overpass HEROIC Academy 13 STATS ( 8 : 4 ; 5 : 5 ) SemperFi 9"
+            }
+        ]
     },
     {
         "match-id": 2389406,
@@ -16626,7 +16668,24 @@
         "team1-id": 13159,
         "team2-id": 6810,
         "team1score": 16,
-        "team2score": 13
+        "team2score": 13,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. prestige removed train",
+            "2. aimclub removed dust2",
+            "3. prestige removed mirage",
+            "4. aimclub removed overpass",
+            "5. prestige removed nuke",
+            "6. aimclub removed ancient",
+            "7. inferno was left over"
+        ],
+        "maps": [
+            {
+                "map": "Inferno",
+                "raw": "Inferno Prestige 16 STATS ( 6 : 6 ; 6 : 6 ) ( 4 : 1 ) aimclub 13"
+            }
+        ]
     },
     {
         "match-id": 2389296,
@@ -16637,7 +16696,32 @@
         "team1-id": 6472,
         "team2-id": 10567,
         "team1score": 2,
-        "team2score": 0
+        "team2score": 0,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. rebels removed mirage",
+            "2. saw removed overpass",
+            "3. rebels picked nuke",
+            "4. saw picked dust2",
+            "5. rebels removed train",
+            "6. saw removed inferno",
+            "7. ancient was left over"
+        ],
+        "maps": [
+            {
+                "map": "Nuke",
+                "raw": "Nuke Rebels 13 STATS ( 9 : 3 ; 4 : 3 ) SAW 6"
+            },
+            {
+                "map": "Dust2",
+                "raw": "Dust2 Rebels 13 STATS ( 6 : 6 ; 7 : 4 ) SAW 10"
+            },
+            {
+                "map": "Ancient",
+                "raw": "Ancient Rebels - SAW -"
+            }
+        ]
     },
     {
         "match-id": 2389398,
@@ -16648,7 +16732,24 @@
         "team1-id": 11018,
         "team2-id": 13632,
         "team1score": 13,
-        "team2score": 6
+        "team2score": 6,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. hemmaplan removed overpass",
+            "2. megoshort removed dust2",
+            "3. hemmaplan removed train",
+            "4. megoshort removed nuke",
+            "5. hemmaplan removed inferno",
+            "6. megoshort removed mirage",
+            "7. ancient was left over"
+        ],
+        "maps": [
+            {
+                "map": "Ancient",
+                "raw": "Ancient megoshort 13 STATS ( 8 : 4 ; 5 : 2 ) Hemmaplan 6"
+            }
+        ]
     },
     {
         "match-id": 2389021,
@@ -16659,7 +16760,32 @@
         "team1-id": 13340,
         "team2-id": 13614,
         "team1score": 0,
-        "team2score": 2
+        "team2score": 2,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. japczany removed inferno",
+            "2. csdiilit removed dust2",
+            "3. japczany picked mirage",
+            "4. csdiilit picked ancient",
+            "5. japczany removed overpass",
+            "6. csdiilit removed train",
+            "7. nuke was left over"
+        ],
+        "maps": [
+            {
+                "map": "Mirage",
+                "raw": "Mirage CSDIILIT 5 STATS ( 2 : 10 ; 3 : 3 ) japczany 13"
+            },
+            {
+                "map": "Ancient",
+                "raw": "Ancient CSDIILIT 5 STATS ( 5 : 7 ; 0 : 6 ) japczany 13"
+            },
+            {
+                "map": "Nuke",
+                "raw": "Nuke CSDIILIT - japczany -"
+            }
+        ]
     },
     {
         "match-id": 2389409,
@@ -16670,7 +16796,24 @@
         "team1-id": 10823,
         "team2-id": 13623,
         "team1score": 5,
-        "team2score": 13
+        "team2score": 13,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. infinite removed train",
+            "2. state removed dust2",
+            "3. infinite removed inferno",
+            "4. state removed mirage",
+            "5. infinite removed nuke",
+            "6. state removed ancient",
+            "7. overpass was left over"
+        ],
+        "maps": [
+            {
+                "map": "Overpass",
+                "raw": "Overpass INFINITE 5 STATS ( 4 : 8 ; 1 : 5 ) STATE 13"
+            }
+        ]
     },
     {
         "match-id": 2389084,
@@ -16681,7 +16824,32 @@
         "team1-id": 10854,
         "team2-id": 10867,
         "team1score": 2,
-        "team2score": 1
+        "team2score": 1,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. los kogutos removed inferno",
+            "2. masonic removed dust2",
+            "3. los kogutos picked ancient",
+            "4. masonic picked overpass",
+            "5. los kogutos removed nuke",
+            "6. masonic removed mirage",
+            "7. anubis was left over"
+        ],
+        "maps": [
+            {
+                "map": "Ancient",
+                "raw": "Ancient los kogutos 14 STATS ( 7 : 5 ; 5 : 7 ) ( 2 : 4 ) MASONIC 16"
+            },
+            {
+                "map": "Overpass",
+                "raw": "Overpass los kogutos 16 STATS ( 8 : 4 ; 4 : 8 ) ( 4 : 2 ) MASONIC 14"
+            },
+            {
+                "map": "Anubis",
+                "raw": "Anubis los kogutos 13 STATS ( 8 : 4 ; 5 : 1 ) MASONIC 5"
+            }
+        ]
     },
     {
         "match-id": 2389321,
@@ -16692,7 +16860,32 @@
         "team1-id": 6788,
         "team2-id": 13520,
         "team1score": 0,
-        "team2score": 2
+        "team2score": 2,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. crashers removed overpass",
+            "2. four magic removed ancient",
+            "3. crashers picked nuke",
+            "4. four magic picked dust2",
+            "5. crashers removed mirage",
+            "6. four magic removed anubis",
+            "7. inferno was left over"
+        ],
+        "maps": [
+            {
+                "map": "Nuke",
+                "raw": "Nuke Crashers 3 STATS ( 0 : 12 ; 3 : 1 ) Four Magic 13"
+            },
+            {
+                "map": "Dust2",
+                "raw": "Dust2 Crashers 6 STATS ( 3 : 9 ; 3 : 4 ) Four Magic 13"
+            },
+            {
+                "map": "Inferno",
+                "raw": "Inferno Crashers - Four Magic -"
+            }
+        ]
     },
     {
         "match-id": 2389394,
@@ -16703,7 +16896,24 @@
         "team1-id": 11018,
         "team2-id": 4602,
         "team1score": 7,
-        "team2score": 13
+        "team2score": 13,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. megoshort removed nuke",
+            "2. tricked removed dust2",
+            "3. megoshort removed overpass",
+            "4. tricked removed ancient",
+            "5. megoshort removed inferno",
+            "6. tricked removed mirage",
+            "7. train was left over"
+        ],
+        "maps": [
+            {
+                "map": "Train",
+                "raw": "Train megoshort 7 STATS ( 4 : 8 ; 3 : 5 ) Tricked 13"
+            }
+        ]
     },
     {
         "match-id": 2389393,
@@ -16714,7 +16924,24 @@
         "team1-id": 11712,
         "team2-id": 13233,
         "team1score": 13,
-        "team2score": 4
+        "team2score": 4,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. heroic academy removed overpass",
+            "2. sashi removed dust2",
+            "3. heroic academy removed nuke",
+            "4. sashi removed train",
+            "5. heroic academy removed inferno",
+            "6. sashi removed ancient",
+            "7. mirage was left over"
+        ],
+        "maps": [
+            {
+                "map": "Mirage",
+                "raw": "Mirage Sashi 13 STATS ( 8 : 4 ; 5 : 0 ) HEROIC Academy 4"
+            }
+        ]
     },
     {
         "match-id": 2389265,
@@ -16725,7 +16952,32 @@
         "team1-id": 10577,
         "team2-id": 7020,
         "team1score": 0,
-        "team2score": 2
+        "team2score": 2,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. spirit removed inferno",
+            "2. sinners removed anubis",
+            "3. spirit picked mirage",
+            "4. sinners picked nuke",
+            "5. spirit removed ancient",
+            "6. sinners removed overpass",
+            "7. dust2 was left over"
+        ],
+        "maps": [
+            {
+                "map": "Mirage",
+                "raw": "Mirage SINNERS 11 STATS ( 6 : 6 ; 5 : 7 ) Spirit 13"
+            },
+            {
+                "map": "Nuke",
+                "raw": "Nuke SINNERS 5 STATS ( 5 : 7 ; 0 : 6 ) Spirit 13"
+            },
+            {
+                "map": "Dust2",
+                "raw": "Dust2 SINNERS - Spirit -"
+            }
+        ]
     },
     {
         "match-id": 2389395,
@@ -16736,7 +16988,24 @@
         "team1-id": 13632,
         "team2-id": 12901,
         "team1score": 2,
-        "team2score": 13
+        "team2score": 13,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. hemmaplan removed nuke",
+            "2. semperfi removed dust2",
+            "3. hemmaplan removed overpass",
+            "4. semperfi removed ancient",
+            "5. hemmaplan removed train",
+            "6. semperfi removed inferno",
+            "7. mirage was left over"
+        ],
+        "maps": [
+            {
+                "map": "Mirage",
+                "raw": "Mirage Hemmaplan 2 STATS ( 2 : 10 ; 0 : 3 ) SemperFi 13"
+            }
+        ]
     },
     {
         "match-id": 2389405,
@@ -16747,7 +17016,24 @@
         "team1-id": 12604,
         "team2-id": 10823,
         "team1score": 13,
-        "team2score": 8
+        "team2score": 8,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. infinite removed train",
+            "2. johnny speeds removed ancient",
+            "3. infinite removed overpass",
+            "4. johnny speeds removed dust2",
+            "5. infinite removed inferno",
+            "6. johnny speeds removed mirage",
+            "7. nuke was left over"
+        ],
+        "maps": [
+            {
+                "map": "Nuke",
+                "raw": "Nuke Johnny Speeds 13 STATS ( 9 : 3 ; 4 : 5 ) INFINITE 8"
+            }
+        ]
     },
     {
         "match-id": 2389407,
@@ -16758,7 +17044,24 @@
         "team1-id": 9621,
         "team2-id": 13623,
         "team1score": 13,
-        "team2score": 9
+        "team2score": 9,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. state removed ancient",
+            "2. aab removed nuke",
+            "3. state removed mirage",
+            "4. aab removed train",
+            "5. state removed dust2",
+            "6. aab removed overpass",
+            "7. inferno was left over"
+        ],
+        "maps": [
+            {
+                "map": "Inferno",
+                "raw": "Inferno AaB 13 STATS ( 9 : 3 ; 4 : 6 ) STATE 9"
+            }
+        ]
     },
     {
         "match-id": 2389295,
@@ -16769,7 +17072,32 @@
         "team1-id": 6626,
         "team2-id": 10567,
         "team1score": 2,
-        "team2score": 1
+        "team2score": 1,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. saw removed overpass",
+            "2. minlate removed train",
+            "3. saw picked dust2",
+            "4. minlate picked nuke",
+            "5. saw removed inferno",
+            "6. minlate removed ancient",
+            "7. mirage was left over"
+        ],
+        "maps": [
+            {
+                "map": "Dust2",
+                "raw": "Dust2 MINLATE 11 STATS ( 6 : 6 ; 5 : 7 ) SAW 13"
+            },
+            {
+                "map": "Nuke",
+                "raw": "Nuke MINLATE 13 STATS ( 9 : 3 ; 4 : 0 ) SAW 3"
+            },
+            {
+                "map": "Mirage",
+                "raw": "Mirage MINLATE 13 STATS ( 9 : 3 ; 4 : 0 ) SAW 3"
+            }
+        ]
     },
     {
         "match-id": 2389390,
@@ -16780,7 +17108,24 @@
         "team1-id": 11712,
         "team2-id": 11018,
         "team1score": 13,
-        "team2score": 10
+        "team2score": 10,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. megoshort removed nuke",
+            "2. sashi removed dust2",
+            "3. megoshort removed overpass",
+            "4. sashi removed train",
+            "5. megoshort removed inferno",
+            "6. sashi removed ancient",
+            "7. mirage was left over"
+        ],
+        "maps": [
+            {
+                "map": "Mirage",
+                "raw": "Mirage Sashi 13 STATS ( 9 : 3 ; 4 : 7 ) megoshort 10"
+            }
+        ]
     },
     {
         "match-id": 2389392,
@@ -16791,7 +17136,24 @@
         "team1-id": 12901,
         "team2-id": 4602,
         "team1score": 13,
-        "team2score": 4
+        "team2score": 4,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. tricked removed dust2",
+            "2. semperfi removed train",
+            "3. tricked removed mirage",
+            "4. semperfi removed overpass",
+            "5. tricked removed ancient",
+            "6. semperfi removed nuke",
+            "7. inferno was left over"
+        ],
+        "maps": [
+            {
+                "map": "Inferno",
+                "raw": "Inferno SemperFi 13 STATS ( 8 : 4 ; 5 : 0 ) Tricked 4"
+            }
+        ]
     },
     {
         "match-id": 2389458,
@@ -16838,7 +17200,24 @@
         "team1-id": 13632,
         "team2-id": 13233,
         "team1score": 2,
-        "team2score": 13
+        "team2score": 13,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. hemmaplan removed inferno",
+            "2. heroic academy removed mirage",
+            "3. hemmaplan removed train",
+            "4. heroic academy removed overpass",
+            "5. hemmaplan removed nuke",
+            "6. heroic academy removed dust2",
+            "7. ancient was left over"
+        ],
+        "maps": [
+            {
+                "map": "Ancient",
+                "raw": "Ancient Hemmaplan 2 STATS ( 2 : 10 ; 0 : 3 ) HEROIC Academy 13"
+            }
+        ]
     },
     {
         "match-id": 2389402,
@@ -16849,7 +17228,24 @@
         "team1-id": 12604,
         "team2-id": 13159,
         "team1score": 22,
-        "team2score": 19
+        "team2score": 19,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. prestige removed train",
+            "2. johnny speeds removed ancient",
+            "3. prestige removed overpass",
+            "4. johnny speeds removed inferno",
+            "5. prestige removed nuke",
+            "6. johnny speeds removed dust2",
+            "7. mirage was left over"
+        ],
+        "maps": [
+            {
+                "map": "Mirage",
+                "raw": "Mirage Johnny Speeds 22 STATS ( 5 : 7 ; 7 : 5 ) ( 10 : 7 ) Prestige 19"
+            }
+        ]
     },
     {
         "match-id": 2389262,
@@ -16860,7 +17256,32 @@
         "team1-id": 4869,
         "team2-id": 12467,
         "team1score": 0,
-        "team2score": 2
+        "team2score": 2,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. parivision removed nuke",
+            "2. ence removed inferno",
+            "3. parivision picked overpass",
+            "4. ence picked anubis",
+            "5. parivision removed ancient",
+            "6. ence removed mirage",
+            "7. dust2 was left over"
+        ],
+        "maps": [
+            {
+                "map": "Overpass",
+                "raw": "Overpass ENCE 7 STATS ( 2 : 10 ; 5 : 3 ) PARIVISION 13"
+            },
+            {
+                "map": "Anubis",
+                "raw": "Anubis ENCE 20 STATS ( 6 : 6 ; 6 : 6 ) ( 8 : 10 ) PARIVISION 22"
+            },
+            {
+                "map": "Dust2",
+                "raw": "Dust2 ENCE - PARIVISION -"
+            }
+        ]
     },
     {
         "match-id": 2389294,
@@ -16871,7 +17292,32 @@
         "team1-id": 13631,
         "team2-id": 6472,
         "team1score": 0,
-        "team2score": 2
+        "team2score": 2,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. dimonix removed overpass",
+            "2. rebels removed mirage",
+            "3. dimonix picked dust2",
+            "4. rebels picked nuke",
+            "5. dimonix removed ancient",
+            "6. rebels removed train",
+            "7. inferno was left over"
+        ],
+        "maps": [
+            {
+                "map": "Dust2",
+                "raw": "Dust2 DimoniX 5 STATS ( 4 : 8 ; 1 : 5 ) Rebels 13"
+            },
+            {
+                "map": "Nuke",
+                "raw": "Nuke DimoniX 3 STATS ( 3 : 9 ; 0 : 4 ) Rebels 13"
+            },
+            {
+                "map": "Inferno",
+                "raw": "Inferno DimoniX - Rebels -"
+            }
+        ]
     },
     {
         "match-id": 2389404,
@@ -16882,7 +17328,24 @@
         "team1-id": 13623,
         "team2-id": 6810,
         "team1score": 13,
-        "team2score": 7
+        "team2score": 7,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. aimclub removed overpass",
+            "2. state removed dust2",
+            "3. aimclub removed nuke",
+            "4. state removed mirage",
+            "5. aimclub removed train",
+            "6. state removed ancient",
+            "7. inferno was left over"
+        ],
+        "maps": [
+            {
+                "map": "Inferno",
+                "raw": "Inferno STATE 13 STATS ( 10 : 2 ; 3 : 5 ) aimclub 7"
+            }
+        ]
     },
     {
         "match-id": 2389389,
@@ -16893,7 +17356,24 @@
         "team1-id": 4602,
         "team2-id": 13233,
         "team1score": 13,
-        "team2score": 1
+        "team2score": 1,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. heroic academy removed overpass",
+            "2. tricked removed ancient",
+            "3. heroic academy removed inferno",
+            "4. tricked removed dust2",
+            "5. heroic academy removed mirage",
+            "6. tricked removed train",
+            "7. nuke was left over"
+        ],
+        "maps": [
+            {
+                "map": "Nuke",
+                "raw": "Nuke Tricked 13 STATS ( 11 : 1 ; 2 : 0 ) HEROIC Academy 1"
+            }
+        ]
     },
     {
         "match-id": 2389388,
@@ -16904,7 +17384,24 @@
         "team1-id": 12901,
         "team2-id": 11018,
         "team1score": 7,
-        "team2score": 13
+        "team2score": 13,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. megoshort removed nuke",
+            "2. semperfi removed train",
+            "3. megoshort removed overpass",
+            "4. semperfi removed ancient",
+            "5. megoshort removed inferno",
+            "6. semperfi removed mirage",
+            "7. dust2 was left over"
+        ],
+        "maps": [
+            {
+                "map": "Dust2",
+                "raw": "Dust2 SemperFi 7 STATS ( 5 : 7 ; 2 : 6 ) megoshort 13"
+            }
+        ]
     },
     {
         "match-id": 2389403,
@@ -16915,7 +17412,24 @@
         "team1-id": 9621,
         "team2-id": 10823,
         "team1score": 13,
-        "team2score": 5
+        "team2score": 5,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. infinite removed inferno",
+            "2. aab removed dust2",
+            "3. infinite removed train",
+            "4. aab removed mirage",
+            "5. infinite removed ancient",
+            "6. aab removed nuke",
+            "7. overpass was left over"
+        ],
+        "maps": [
+            {
+                "map": "Overpass",
+                "raw": "Overpass AaB 13 STATS ( 8 : 4 ; 5 : 1 ) INFINITE 5"
+            }
+        ]
     },
     {
         "match-id": 2389387,
@@ -16926,7 +17440,24 @@
         "team1-id": 11712,
         "team2-id": 13632,
         "team1score": 13,
-        "team2score": 0
+        "team2score": 0,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. hemmaplan removed overpass",
+            "2. sashi removed dust2",
+            "3. hemmaplan removed train",
+            "4. sashi removed mirage",
+            "5. hemmaplan removed nuke",
+            "6. sashi removed ancient",
+            "7. inferno was left over"
+        ],
+        "maps": [
+            {
+                "map": "Inferno",
+                "raw": "Inferno Sashi 13 STATS ( 12 : 0 ; 1 : 0 ) Hemmaplan 0"
+            }
+        ]
     },
     {
         "match-id": 2389083,
@@ -16937,7 +17468,32 @@
         "team1-id": 13518,
         "team2-id": 13613,
         "team1score": 1,
-        "team2score": 2
+        "team2score": 2,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. bebop removed inferno",
+            "2. acend removed nuke",
+            "3. bebop picked mirage",
+            "4. acend picked ancient",
+            "5. bebop removed overpass",
+            "6. acend removed anubis",
+            "7. dust2 was left over"
+        ],
+        "maps": [
+            {
+                "map": "Mirage",
+                "raw": "Mirage Acend 13 STATS ( 5 : 7 ; 8 : 0 ) Bebop 7"
+            },
+            {
+                "map": "Ancient",
+                "raw": "Ancient Acend 10 STATS ( 6 : 6 ; 4 : 7 ) Bebop 13"
+            },
+            {
+                "map": "Dust2",
+                "raw": "Dust2 Acend 6 STATS ( 5 : 7 ; 1 : 6 ) Bebop 13"
+            }
+        ]
     },
     {
         "match-id": 2389293,
@@ -16948,7 +17504,24 @@
         "team1-id": 6472,
         "team2-id": 10567,
         "team1score": 10,
-        "team2score": 13
+        "team2score": 13,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. saw removed overpass",
+            "2. rebels removed mirage",
+            "3. saw removed nuke",
+            "4. rebels removed train",
+            "5. saw removed inferno",
+            "6. rebels removed dust2",
+            "7. ancient was left over"
+        ],
+        "maps": [
+            {
+                "map": "Ancient",
+                "raw": "Ancient Rebels 10 STATS ( 5 : 7 ; 5 : 6 ) SAW 13"
+            }
+        ]
     },
     {
         "match-id": 2389148,
@@ -16959,7 +17532,24 @@
         "team1-id": 13618,
         "team2-id": 10943,
         "team1score": 0,
-        "team2score": 1
+        "team2score": 1,
+        "format": "",
+        "stage": "",
+        "veto": [],
+        "maps": [
+            {
+                "map": "Default",
+                "raw": "Default Universe 0 777 1"
+            },
+            {
+                "map": "TBA",
+                "raw": "TBA"
+            },
+            {
+                "map": "TBA",
+                "raw": "TBA"
+            }
+        ]
     },
     {
         "match-id": 2389147,
@@ -16970,7 +17560,24 @@
         "team1-id": 7019,
         "team2-id": 13340,
         "team1score": 0,
-        "team2score": 1
+        "team2score": 1,
+        "format": "",
+        "stage": "",
+        "veto": [],
+        "maps": [
+            {
+                "map": "Default",
+                "raw": "Default ex-CPH Wolves 0 CSDIILIT 1"
+            },
+            {
+                "map": "TBA",
+                "raw": "TBA"
+            },
+            {
+                "map": "TBA",
+                "raw": "TBA"
+            }
+        ]
     },
     {
         "match-id": 2389455,
@@ -17017,7 +17624,24 @@
         "team1-id": 6626,
         "team2-id": 13631,
         "team1score": 13,
-        "team2score": 2
+        "team2score": 2,
+        "format": "",
+        "stage": "",
+        "veto": [
+            "1. minlate removed train",
+            "2. dimonix removed nuke",
+            "3. minlate removed inferno",
+            "4. dimonix removed overpass",
+            "5. minlate removed dust2",
+            "6. dimonix removed mirage",
+            "7. ancient was left over"
+        ],
+        "maps": [
+            {
+                "map": "Ancient",
+                "raw": "Ancient MINLATE 13 STATS ( 11 : 1 ; 2 : 1 ) DimoniX 2"
+            }
+        ]
     },
     {
         "match-id": 2389022,
