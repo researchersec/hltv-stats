@@ -12,10 +12,14 @@ import tzlocal
 
 # ================== CONFIG ================== #
 
-MAX_RUNTIME_SECONDS = 60 * 300 #60 * 110          # 110 minutes safety window
-MAX_RESULTS_OFFSET = 23000              # HLTV hard limit
+MAX_RUNTIME_SECONDS = 60 * 300
+MAX_RESULTS_OFFSET = 23000
 STATE_FILE = "scrape_state.json"
 RESULTS_FILE = "results.json"
+
+FAILED_URLS_FILE = "failed_urls.json"
+MAX_RETRIES = 3
+RETRY_SLEEP_SECONDS = 2
 
 HLTV_COOKIE_TIMEZONE = "Europe/Copenhagen"
 HLTV_ZONEINFO = zoneinfo.ZoneInfo(HLTV_COOKIE_TIMEZONE)
@@ -51,7 +55,13 @@ def save_state(state):
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
 
-# ================== HTTP ================== #
+# ================== FAILURE LOG ================== #
+
+def log_failed_url(url: str):
+    with open(FAILED_URLS_FILE, "a", encoding="utf-8") as f:
+        f.write(url + "\n")
+
+# ================== HTTP (RETRY SAFE) ================== #
 
 def get_parsed_page(url: str):
     payload = {
@@ -60,14 +70,34 @@ def get_parsed_page(url: str):
         "maxTimeout": 60000,
     }
 
-    response = requests.post(FLARE_SOLVERR_URL, json=payload)
-    response.raise_for_status()
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            response = requests.post(
+                FLARE_SOLVERR_URL,
+                json=payload,
+                timeout=70,
+            )
+            response.raise_for_status()
 
-    data = response.json()
-    if data.get("status") != "ok":
-        return None
+            data = response.json()
+            if data.get("status") != "ok":
+                raise RuntimeError(f"FlareSolverr bad status: {data}")
 
-    return BeautifulSoup(data["solution"]["response"], "lxml")
+            return BeautifulSoup(
+                data["solution"]["response"],
+                "lxml",
+            )
+
+        except Exception as e:
+            logging.warning(
+                f"Attempt {attempt}/{MAX_RETRIES} failed for {url}: {e}"
+            )
+            if attempt < MAX_RETRIES:
+                time.sleep(RETRY_SLEEP_SECONDS)
+
+    logging.error(f"Permanent failure for {url}")
+    log_failed_url(url)
+    return None
 
 # ================== TEAM CACHE ================== #
 
@@ -76,6 +106,9 @@ def _get_all_teams():
         return
 
     page = get_parsed_page("https://www.hltv.org/stats/teams?minMapCount=0")
+    if not page:
+        return
+
     for team in page.find_all("td", {"class": "teamCol-teams-overview"}):
         TEAM_MAP_FOR_RESULTS.append(
             {
@@ -183,11 +216,7 @@ def get_results(state):
         offset += 100
         state["results_offset"] = offset
         save_state(state)
-
         time.sleep(1)
-
-    if offset >= MAX_RESULTS_OFFSET:
-        logging.info("Reached maximum HLTV offset (23000). Results scraping complete.")
 
     return results
 
@@ -235,17 +264,21 @@ def enrich_results(results, state):
             save_state(state)
             continue
 
-        logging.info(f"Enriching match {match['match-id']} ({idx+1}/{len(results)})")
+        logging.info(
+            f"Enriching match {match['match-id']} ({idx+1}/{len(results)})"
+        )
 
         soup = get_parsed_page(match["url"])
         if soup:
             match.update(parse_match_details(soup))
         else:
-            logging.warning(f"Failed to load match page {match['match-id']}")
+            match["enrich_failed"] = True
+            logging.warning(
+                f"Failed to enrich match {match['match-id']}"
+            )
 
         state["last_enriched_index"] = idx + 1
         save_state(state)
-
         time.sleep(0.5)
 
     return results
