@@ -12,7 +12,7 @@ import tzlocal
 
 # ================== CONFIG ================== #
 
-MAX_RUNTIME_SECONDS = 60 * 300
+MAX_RUNTIME_SECONDS = 60 * 20
 MAX_RESULTS_OFFSET = 23000
 
 STATE_FILE = "scrape_state.json"
