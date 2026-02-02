@@ -46,9 +46,14 @@ def time_exceeded():
 
 def load_state():
     if not os.path.exists(STATE_FILE):
-        return {"results_offset": 0, "last_enriched_index": 0}
+        return {
+            "results_offset": 0,
+            "enriched_match_ids": {}
+        }
     with open(STATE_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+        state = json.load(f)
+        state.setdefault("enriched_match_ids", {})
+        return state
 
 def save_state(state):
     with open(STATE_FILE, "w", encoding="utf-8") as f:
@@ -179,7 +184,7 @@ def get_results(state):
 
     return results
 
-# ================== MATCH DETAILS (YOUR ORIGINAL CODE — UNTOUCHED) ================== #
+# ================== MATCH DETAILS ================== #
 
 def parse_match_details(soup):
     data = {"format": "", "stage": "", "veto": [], "maps": []}
@@ -240,7 +245,7 @@ def parse_match_details(soup):
 
     return data
 
-# ================== PLAYER STATS (ADDITIVE ONLY) ================== #
+# ================== PLAYER STATS ================== #
 
 def parse_player_stats(soup):
     stats_by_map = {}
@@ -256,7 +261,7 @@ def parse_player_stats(soup):
     ]
 
     tables = matchstats.find_all("table", class_="totalstats")
-    table_index = 2  # skip ALL maps tables
+    table_index = 2
 
     for map_name in map_names:
         stats_by_map[map_name] = {"team1": [], "team2": []}
@@ -290,47 +295,38 @@ def parse_player_stats(soup):
 # ================== ENRICH ================== #
 
 def enrich_results(results, state):
-    if not results:
-        logging.warning("No results to enrich")
-        return results
+    enriched_ids = state["enriched_match_ids"]
 
-    start = state.get("last_enriched_index", 0)
-
-    for i in range(start, len(results)):
+    for match in results:
         if time_exceeded():
             logging.warning("Time limit reached during enrichment")
             break
 
-        match = results[i]
-        logging.info(
-            f"Enriching match {match['match-id']} ({i + 1}/{len(results)})"
-        )
+        match_id = str(match["match-id"])
+        if enriched_ids.get(match_id):
+            continue
+
+        logging.info(f"Enriching match {match_id}")
 
         soup = get_parsed_page(match["url"])
         if not soup:
             match["enrich_failed"] = True
-            state["last_enriched_index"] = i + 1
             save_state(state)
             continue
 
-        # YOUR EXISTING LOGIC — UNCHANGED
         match.update(parse_match_details(soup))
 
-        # ADDITIVE PLAYER STATS
         player_stats = parse_player_stats(soup)
         for m in match.get("maps", []):
             m["players"] = player_stats.get(
                 m["map"], {"team1": [], "team2": []}
             )
 
-        # Progress checkpoint
-        state["last_enriched_index"] = i + 1
+        enriched_ids[match_id] = True
         save_state(state)
-
         time.sleep(0.1)
 
     return results
-
 
 # ================== MAIN ================== #
 
