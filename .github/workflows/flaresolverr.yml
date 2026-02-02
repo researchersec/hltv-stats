@@ -5,6 +5,8 @@ on:
     branches:
       - main
   workflow_dispatch:
+  schedule:
+    - cron: '4 */6 * * *'   # every 6 hours, UTC
 jobs:
   build:
     runs-on: ubuntu-latest
