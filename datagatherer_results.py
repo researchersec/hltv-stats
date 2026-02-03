@@ -3,17 +3,16 @@ import json
 import time
 import datetime
 import logging
-import re
+import requests
 from bs4 import BeautifulSoup
 from python_utils import converters
-import requests
 import zoneinfo
 import tzlocal
 
 # ================== CONFIG ================== #
 
 MAX_RUNTIME_SECONDS = 60 * 20
-MAX_RESULTS_OFFSET = 23000
+MAX_RESULTS_OFFSET = 23200
 
 STATE_FILE = "scrape_state.json"
 RESULTS_FILE = "results.json"
@@ -28,14 +27,12 @@ LOCAL_ZONEINFO = zoneinfo.ZoneInfo(tzlocal.get_localzone_name())
 
 FLARE_SOLVERR_URL = "http://localhost:8191/v1"
 
-START_TIME = time.time()
-
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
-TEAM_MAP_FOR_RESULTS = []
+START_TIME = None
 
 # ================== TIME GUARD ================== #
 
@@ -47,23 +44,20 @@ def time_exceeded():
 def load_state():
     if not os.path.exists(STATE_FILE):
         return {
-            "results_offset": 0,
-            "enriched_match_ids": {}
+            "known_match_ids": {},
+            "enriched_match_ids": {},
+            "failed_match_ids": {}
         }
     with open(STATE_FILE, "r", encoding="utf-8") as f:
         state = json.load(f)
+        state.setdefault("known_match_ids", {})
         state.setdefault("enriched_match_ids", {})
+        state.setdefault("failed_match_ids", {})
         return state
 
 def save_state(state):
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
-
-# ================== FAILURE LOG ================== #
-
-def log_failed_url(url):
-    with open(FAILED_URLS_FILE, "a", encoding="utf-8") as f:
-        f.write(url + "\n")
 
 # ================== HTTP ================== #
 
@@ -75,111 +69,123 @@ def get_parsed_page(url):
             r = requests.post(FLARE_SOLVERR_URL, json=payload, timeout=70)
             r.raise_for_status()
             data = r.json()
-
             if data.get("status") != "ok":
-                raise RuntimeError("FlareSolverr returned non-ok status")
-
+                raise RuntimeError("FlareSolverr non-ok")
             return BeautifulSoup(data["solution"]["response"], "lxml")
-
         except Exception as e:
             logging.warning(f"{attempt}/{MAX_RETRIES} failed for {url}: {e}")
             time.sleep(RETRY_SLEEP_SECONDS)
 
-    log_failed_url(url)
+    with open(FAILED_URLS_FILE, "a") as f:
+        f.write(url + "\n")
     return None
 
 # ================== TEAM CACHE ================== #
 
-def _get_all_teams():
-    if TEAM_MAP_FOR_RESULTS:
+TEAM_MAP = {}
+
+def load_teams():
+    if TEAM_MAP:
         return
 
-    page = get_parsed_page("https://www.hltv.org/stats/teams?minMapCount=0")
-    if not page:
+    soup = get_parsed_page("https://www.hltv.org/stats/teams?minMapCount=0")
+    if not soup:
         return
 
-    for team in page.find_all("td", class_="teamCol-teams-overview"):
-        TEAM_MAP_FOR_RESULTS.append({
-            "id": converters.to_int(team.find("a")["href"].split("/")[-2]),
-            "name": team.find("a").text.strip(),
-        })
+    for team in soup.find_all("td", class_="teamCol-teams-overview"):
+        a = team.find("a")
+        if not a:
+            continue
+        TEAM_MAP[a.text.strip()] = converters.to_int(a["href"].split("/")[-2])
 
-def _findTeamId(name):
-    _get_all_teams()
-    for t in TEAM_MAP_FOR_RESULTS:
-        if t["name"] == name:
-            return t["id"]
-    return None
+def team_id(name):
+    load_teams()
+    return TEAM_MAP.get(name)
 
 # ================== DATE ================== #
 
-def _month_to_number(name):
+def month_to_number(name):
     if name == "Augu":
         name = "August"
     return datetime.datetime.strptime(name, "%B").month
 
-# ================== RESULTS ================== #
+# ================== SCRAPE RESULTS ================== #
 
-def get_results(state):
+def scrape_latest_results(state):
     results = []
-    existing_ids = set()
-    offset = state["results_offset"]
+    known_ids = set(state["known_match_ids"].keys())
 
+    offset = 0
     while offset <= MAX_RESULTS_OFFSET and not time_exceeded():
-        logging.info(f"Results offset {offset}")
+        logging.info(f"Scraping offset {offset}")
         page = get_parsed_page(f"https://www.hltv.org/results?offset={offset}")
         if not page:
             break
 
+        stop = False
+
         for section in page.find_all("div", class_="results-holder"):
-            for res in section.find_all("div", class_="result-con"):
-                href = res.find("a", class_="a-reset")["href"]
-                match_id = converters.to_int(href.split("/")[-2])
-
-                if match_id in existing_ids:
-                    continue
-
-                entry = {
-                    "match-id": match_id,
-                    "url": "https://hltv.org" + href,
-                }
-
-                headline = section.find("span", class_="standard-headline")
-                if headline:
-                    txt = headline.text.replace("Results for ", "")
-                    for s in ["th", "rd", "st", "nd"]:
-                        txt = txt.replace(s, "")
+            headline = section.find("span", class_="standard-headline")
+            date_str = None
+            if headline:
+                txt = headline.text.replace("Results for ", "")
+                for s in ["th", "rd", "st", "nd"]:
+                    txt = txt.replace(s, "")
+                try:
                     m, d, y = txt.split()
                     dt = datetime.datetime(
                         int(y),
-                        _month_to_number(m),
+                        month_to_number(m),
                         int(d),
-                        tzinfo=HLTV_ZONEINFO,
+                        tzinfo=HLTV_ZONEINFO
                     ).astimezone(LOCAL_ZONEINFO)
-                    entry["date"] = dt.strftime("%Y-%m-%d")
+                    date_str = dt.strftime("%Y-%m-%d")
+                except Exception:
+                    pass
 
-                event = res.find("td", class_="event") or res.find(
-                    "td", class_="placeholder-text-cell"
-                )
+            for res in section.find_all("div", class_="result-con"):
+                a = res.find("a", class_="a-reset")
+                if not a:
+                    continue
+
+                match_id = converters.to_int(a["href"].split("/")[-2])
+                if match_id in known_ids:
+                    stop = True
+                    break
+
+                entry = {
+                    "match-id": match_id,
+                    "url": "https://hltv.org" + a["href"],
+                    "date": date_str
+                }
+
+                event = res.find("td", class_="event") or res.find("td", class_="placeholder-text-cell")
                 entry["event"] = event.text.strip() if event else None
 
                 teams = res.find_all("td", class_="team-cell")
                 if len(teams) == 2:
                     entry["team1"] = teams[0].text.strip()
                     entry["team2"] = teams[1].text.strip()
-                    entry["team1-id"] = _findTeamId(entry["team1"])
-                    entry["team2-id"] = _findTeamId(entry["team2"])
+                    entry["team1-id"] = team_id(entry["team1"])
+                    entry["team2-id"] = team_id(entry["team2"])
 
-                    scores = res.find("td", class_="result-score").find_all("span")
-                    entry["team1score"] = converters.to_int(scores[0].text)
-                    entry["team2score"] = converters.to_int(scores[1].text)
+                score_td = res.find("td", class_="result-score")
+                if score_td:
+                    spans = score_td.find_all("span")
+                    if len(spans) == 2:
+                        entry["team1score"] = converters.to_int(spans[0].text)
+                        entry["team2score"] = converters.to_int(spans[1].text)
 
                 results.append(entry)
-                existing_ids.add(match_id)
+                state["known_match_ids"][str(match_id)] = True
+
+        save_state(state)
+
+        if stop:
+            logging.info("Reached known match, stopping scrape")
+            break
 
         offset += 100
-        state["results_offset"] = offset
-        save_state(state)
         time.sleep(1)
 
     return results
@@ -190,156 +196,90 @@ def parse_match_details(soup):
     data = {"format": "", "stage": "", "veto": [], "maps": []}
 
     maps_section = soup.find("div", class_="col-6 col-7-small")
-    format_boxes = maps_section.find_all("div", class_="standard-box veto-box")
+    if not maps_section:
+        return data
 
-    for box in format_boxes:
-        format_text = box.find("div", class_="padding preformatted-text")
-        if format_text:
-            lines = [l.strip() for l in format_text.text.split("\n") if l.strip()]
-            data["format"] = lines[0] if lines else ""
+    for box in maps_section.find_all("div", class_="standard-box veto-box"):
+        text = box.get_text("\n", strip=True)
+        lines = [l for l in text.split("\n") if l]
+        if lines:
+            data["format"] = lines[0]
             if len(lines) > 1:
-                data["stage"] = lines[1].lstrip("* ").strip()
+                data["stage"] = lines[1].lstrip("* ")
 
-    for box in format_boxes:
-        veto_div = box.find("div", class_="padding")
-        if veto_div:
-            veto_text = veto_div.text.lower()
-            if any(k in veto_text for k in ["removed", "picked", "was left over"]):
-                data["veto"] = [
-                    step.text.strip()
-                    for step in veto_div.find_all("div")
-                    if step.text.strip()
-                ]
-                break
+        if any(k in text.lower() for k in ["removed", "picked", "left over"]):
+            data["veto"] = lines
 
-    map_holders = maps_section.find_all("div", class_="mapholder")
-    for map_holder in map_holders:
-        map_data = {}
-
-        map_name_div = map_holder.find("div", class_="mapname")
-        map_data["map"] = map_name_div.text.strip() if map_name_div else "Unknown"
-
-        results = map_holder.find("div", class_="results")
+    for holder in maps_section.find_all("div", class_="mapholder"):
+        map_name = holder.find("div", class_="mapname")
+        results = holder.find("div", class_="results")
         if not results:
             continue
 
-        team1 = results.find("div", class_="results-left")
-        team2 = results.find("span", class_="results-right")
-
-        def parse_team(team):
+        def parse_team(node):
             return {
-                "name": team.find("div", class_="results-teamname").text.strip(),
-                "score": team.find("div", class_="results-team-score").text.strip(),
-                "status": "won" if "won" in team.get("class", []) else "lost",
+                "name": node.find("div", class_="results-teamname").text.strip(),
+                "score": node.find("div", class_="results-team-score").text.strip(),
+                "status": "won" if "won" in node.get("class", []) else "lost"
             }
 
         half = results.find("div", class_="results-center-half-score")
-        half_score = half.text.strip() if half else ""
 
-        map_data["team1"] = parse_team(team1)
-        map_data["team2"] = parse_team(team2)
-        map_data["half_scores"] = half_score
-        map_data["status"] = "played" if half_score else "not_played"
-
-        data["maps"].append(map_data)
+        data["maps"].append({
+            "map": map_name.text.strip() if map_name else "Unknown",
+            "team1": parse_team(results.find("div", class_="results-left")),
+            "team2": parse_team(results.find("span", class_="results-right")),
+            "half_scores": half.text.strip() if half else "",
+            "status": "played" if half else "not_played"
+        })
 
     return data
 
-# ================== PLAYER STATS ================== #
-
-def parse_player_stats(soup):
-    stats_by_map = {}
-
-    matchstats = soup.find("div", class_="matchstats")
-    if not matchstats:
-        return stats_by_map
-
-    map_tabs = matchstats.select(".stats-menu-link .dynamic-map-name-full")
-    map_names = [
-        m.text.strip() for m in map_tabs
-        if m.text.strip().lower() != "all maps"
-    ]
-
-    tables = matchstats.find_all("table", class_="totalstats")
-    table_index = 2
-
-    for map_name in map_names:
-        stats_by_map[map_name] = {"team1": [], "team2": []}
-
-        for team_key in ("team1", "team2"):
-            if table_index >= len(tables):
-                break
-
-            table = tables[table_index]
-            table_index += 1
-
-            for row in table.find_all("tr")[1:]:
-                nick = row.find("span", class_="player-nick")
-                if not nick:
-                    continue
-
-                cells = row.find_all("td")
-                if len(cells) < 9:
-                    continue
-
-                stats_by_map[map_name][team_key].append({
-                    "name": nick.text.strip(),
-                    "kd": cells[1].text.strip(),
-                    "adr": cells[4].text.strip(),
-                    "kast": cells[6].text.strip(),
-                    "rating": cells[8].text.strip(),
-                })
-
-    return stats_by_map
-
 # ================== ENRICH ================== #
 
-def enrich_results(results, state):
-    enriched_ids = state["enriched_match_ids"]
-
-    for match in results:
+def enrich_matches(matches, state):
+    for match in matches:
         if time_exceeded():
-            logging.warning("Time limit reached during enrichment")
             break
 
-        match_id = str(match["match-id"])
-        if enriched_ids.get(match_id):
+        mid = str(match["match-id"])
+        if state["enriched_match_ids"].get(mid):
             continue
-
-        logging.info(f"Enriching match {match_id}")
 
         soup = get_parsed_page(match["url"])
         if not soup:
-            match["enrich_failed"] = True
+            state["failed_match_ids"][mid] = True
             save_state(state)
             continue
 
         match.update(parse_match_details(soup))
-
-        player_stats = parse_player_stats(soup)
-        for m in match.get("maps", []):
-            m["players"] = player_stats.get(
-                m["map"], {"team1": [], "team2": []}
-            )
-
-        enriched_ids[match_id] = True
+        state["enriched_match_ids"][mid] = True
         save_state(state)
-        time.sleep(0.1)
-
-    return results
+        time.sleep(0.2)
 
 # ================== MAIN ================== #
 
 def main():
+    global START_TIME
+    START_TIME = time.time()
+
     state = load_state()
-    results = get_results(state)
-    results = enrich_results(results, state)
+    results = scrape_latest_results(state)
+
+    if os.path.exists(RESULTS_FILE):
+        with open(RESULTS_FILE, "r", encoding="utf-8") as f:
+            existing = json.load(f)
+    else:
+        existing = []
+
+    all_results = results + existing
+    enrich_matches(all_results, state)
 
     with open(RESULTS_FILE, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=4, ensure_ascii=False)
+        json.dump(all_results, f, indent=2, ensure_ascii=False)
 
     save_state(state)
-    logging.info("Run completed successfully")
+    logging.info("Done")
 
 if __name__ == "__main__":
     main()
