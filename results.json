@@ -1,5 +1,2869 @@
 [
   {
+    "match-id": 2389774,
+    "url": "https://hltv.org/matches/2389774/players-vs-crashers-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "Players",
+    "team2": "Crashers",
+    "team1-id": 11711,
+    "team2-id": 6788,
+    "team1score": 2,
+    "team2score": 1,
+    "format": "1. Crashers removed Mirage",
+    "stage": "2. Players removed Nuke",
+    "veto": [
+      "1. Crashers removed Mirage",
+      "2. Players removed Nuke",
+      "3. Crashers picked Ancient",
+      "4. Players picked Dust2",
+      "5. Crashers removed Anubis",
+      "6. Players removed Overpass",
+      "7. Inferno was left over"
+    ],
+    "maps": [
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "Players",
+          "score": "16",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Crashers",
+          "score": "12",
+          "status": "lost"
+        },
+        "half_scores": "(5:7; 7:5) (4:0)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Players",
+          "score": "4",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Crashers",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 0:5)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "Players",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Crashers",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:3)",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2389238,
+    "url": "https://hltv.org/matches/2389238/ecstatic-vs-illwill-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "ECSTATIC",
+    "team2": "illwill",
+    "team1-id": 11419,
+    "team2-id": 13501,
+    "team1score": 1,
+    "team2score": 2,
+    "format": "1. illwill removed Ancient",
+    "stage": "2. ECSTATIC removed Dust2",
+    "veto": [
+      "1. illwill removed Ancient",
+      "2. ECSTATIC removed Dust2",
+      "3. illwill picked Mirage",
+      "4. ECSTATIC picked Overpass",
+      "5. illwill removed Inferno",
+      "6. ECSTATIC removed Anubis",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "ECSTATIC",
+          "score": "12",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "illwill",
+          "score": "16",
+          "status": "won"
+        },
+        "half_scores": "(6:6; 6:6) (0:4)",
+        "status": "played"
+      },
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "ECSTATIC",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "illwill",
+          "score": "11",
+          "status": "lost"
+        },
+        "half_scores": "(4:8; 9:3)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ECSTATIC",
+          "score": "9",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "illwill",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(6:6; 3:7)",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2389827,
+    "url": "https://hltv.org/matches/2389827/masonic-vs-bushido-wildcats-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "MASONIC",
+    "team2": "Bushido Wildcats",
+    "team1-id": 10867,
+    "team2-id": 13281,
+    "team1score": 2,
+    "team2score": 1,
+    "format": "1. MASONIC removed Dust2",
+    "stage": "2. Bushido Wildcats removed Ancient",
+    "veto": [
+      "1. MASONIC removed Dust2",
+      "2. Bushido Wildcats removed Ancient",
+      "3. MASONIC picked Nuke",
+      "4. Bushido Wildcats picked Anubis",
+      "5. MASONIC removed Mirage",
+      "6. Bushido Wildcats removed Overpass",
+      "7. Inferno was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "MASONIC",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Bushido Wildcats",
+          "score": "5",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:1)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "MASONIC",
+          "score": "11",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Bushido Wildcats",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(8:4; 3:9)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "MASONIC",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Bushido Wildcats",
+          "score": "7",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:1)",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2389568,
+    "url": "https://hltv.org/matches/2389568/eyeballers-vs-magic-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "EYEBALLERS",
+    "team2": "magic",
+    "team1-id": 11737,
+    "team2-id": 13592,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "1. magic removed Nuke",
+    "stage": "2. EYEBALLERS removed Dust2",
+    "veto": [
+      "1. magic removed Nuke",
+      "2. EYEBALLERS removed Dust2",
+      "3. magic picked Ancient",
+      "4. EYEBALLERS picked Mirage",
+      "5. magic removed Anubis",
+      "6. EYEBALLERS removed Overpass",
+      "7. Inferno was left over"
+    ],
+    "maps": [
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "EYEBALLERS",
+          "score": "2",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "magic",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(2:10; 0:3)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "EYEBALLERS",
+          "score": "5",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "magic",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(1:11; 4:2)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "EYEBALLERS",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "magic",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2389567,
+    "url": "https://hltv.org/matches/2389567/ex-ruby-vs-9ine-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "ex-RUBY",
+    "team2": "9INE",
+    "team1-id": 13617,
+    "team2-id": 10278,
+    "team1score": 2,
+    "team2score": 1,
+    "format": "1. 9INE removed Mirage",
+    "stage": "2. ex-RUBY removed Inferno",
+    "veto": [
+      "1. 9INE removed Mirage",
+      "2. ex-RUBY removed Inferno",
+      "3. 9INE picked Overpass",
+      "4. ex-RUBY picked Nuke",
+      "5. 9INE removed Dust2",
+      "6. ex-RUBY removed Anubis",
+      "7. Ancient was left over"
+    ],
+    "maps": [
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "ex-RUBY",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "9INE",
+          "score": "5",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:0)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ex-RUBY",
+          "score": "6",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "9INE",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 3:4)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "ex-RUBY",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "9INE",
+          "score": "7",
+          "status": "lost"
+        },
+        "half_scores": "(5:7; 8:0)",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2389237,
+    "url": "https://hltv.org/matches/2389237/nuclear-tigeres-vs-illwill-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "Nuclear TigeRES",
+    "team2": "illwill",
+    "team1-id": 13027,
+    "team2-id": 13501,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "1. illwill removed Ancient",
+    "stage": "2. Nuclear TigeRES removed Overpass",
+    "veto": [
+      "1. illwill removed Ancient",
+      "2. Nuclear TigeRES removed Overpass",
+      "3. illwill picked Nuke",
+      "4. Nuclear TigeRES picked Inferno",
+      "5. illwill removed Anubis",
+      "6. Nuclear TigeRES removed Mirage",
+      "7. Dust2 was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Nuclear TigeRES",
+          "score": "11",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "illwill",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(8:4; 3:9)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "Nuclear TigeRES",
+          "score": "11",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "illwill",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(10:2; 1:11)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Nuclear TigeRES",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "illwill",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2389908,
+    "url": "https://hltv.org/matches/2389908/bmz-vs-nomads-mesa-pro-series-opening-2026",
+    "date": null,
+    "event": "MESA Pro Series Opening 2026",
+    "team1": "BMZ",
+    "team2": "NomadS",
+    "team1-id": 13666,
+    "team2-id": 12900,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. BMZ removed Inferno",
+    "stage": "2. NomadS removed Mirage",
+    "veto": [
+      "1. BMZ removed Inferno",
+      "2. NomadS removed Mirage",
+      "3. BMZ picked Nuke",
+      "4. NomadS picked Ancient",
+      "5. BMZ removed Overpass",
+      "6. NomadS removed Anubis",
+      "7. Dust2 was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "BMZ",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "NomadS",
+          "score": "9",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:3)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "BMZ",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "NomadS",
+          "score": "11",
+          "status": "lost"
+        },
+        "half_scores": "(5:7; 8:4)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "BMZ",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "NomadS",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2389826,
+    "url": "https://hltv.org/matches/2389826/csdiilit-vs-prime-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "CSDIILIT",
+    "team2": "PRIME",
+    "team1-id": 13340,
+    "team2-id": 13663,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. CSDIILIT removed Dust2",
+    "stage": "2. PRIME removed Nuke",
+    "veto": [
+      "1. CSDIILIT removed Dust2",
+      "2. PRIME removed Nuke",
+      "3. CSDIILIT picked Mirage",
+      "4. PRIME picked Inferno",
+      "5. CSDIILIT removed Anubis",
+      "6. PRIME removed Overpass",
+      "7. Ancient was left over"
+    ],
+    "maps": [
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "CSDIILIT",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "PRIME",
+          "score": "9",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:4)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "CSDIILIT",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "PRIME",
+          "score": "7",
+          "status": "lost"
+        },
+        "half_scores": "(5:7; 8:0)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "CSDIILIT",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "PRIME",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2389907,
+    "url": "https://hltv.org/matches/2389907/nexvoid-vs-the-huns-mesa-pro-series-opening-2026",
+    "date": null,
+    "event": "MESA Pro Series Opening 2026",
+    "team1": "NEXVOID",
+    "team2": "The Huns",
+    "team1-id": 13667,
+    "team2-id": 12510,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389566,
+    "url": "https://hltv.org/matches/2389566/betboom-vs-kolesie-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "BetBoom",
+    "team2": "KOLESIE",
+    "team1-id": 12394,
+    "team2-id": 13314,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389236,
+    "url": "https://hltv.org/matches/2389236/ecstatic-vs-genone-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "ECSTATIC",
+    "team2": "GenOne",
+    "team1-id": 11419,
+    "team2-id": 11609,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389825,
+    "url": "https://hltv.org/matches/2389825/home-vs-nexus-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "home",
+    "team2": "Nexus",
+    "team1-id": null,
+    "team2-id": 6239,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389906,
+    "url": "https://hltv.org/matches/2389906/nomads-vs-the-huns-mesa-pro-series-opening-2026",
+    "date": null,
+    "event": "MESA Pro Series Opening 2026",
+    "team1": "NomadS",
+    "team2": "The Huns",
+    "team1-id": 12900,
+    "team2-id": 12510,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389773,
+    "url": "https://hltv.org/matches/2389773/furia-fe-vs-prison-breakers-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "FURIA fe",
+    "team2": "Prison Breakers",
+    "team1-id": 10976,
+    "team2-id": 13512,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389905,
+    "url": "https://hltv.org/matches/2389905/bmz-vs-nexvoid-mesa-pro-series-opening-2026",
+    "date": null,
+    "event": "MESA Pro Series Opening 2026",
+    "team1": "BMZ",
+    "team2": "NEXVOID",
+    "team1-id": 13666,
+    "team2-id": 13667,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389753,
+    "url": "https://hltv.org/matches/2389753/lag-vs-outfit-49-cct-season-3-north-america-series-3",
+    "date": null,
+    "event": "CCT Season 3 North America Series 3",
+    "team1": "LAG",
+    "team2": "Outfit 49",
+    "team1-id": 11955,
+    "team2-id": 13294,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389897,
+    "url": "https://hltv.org/matches/2389897/sakura-vs-farmville-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "Sakura",
+    "team2": "FarmVille",
+    "team1-id": 13531,
+    "team2-id": 13665,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389904,
+    "url": "https://hltv.org/matches/2389904/overknight-vs-f5-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "OverKnight",
+    "team2": "F5",
+    "team1-id": 10901,
+    "team2-id": 13201,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389772,
+    "url": "https://hltv.org/matches/2389772/players-vs-bad-luck-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "Players",
+    "team2": "Bad Luck",
+    "team1-id": 11711,
+    "team2-id": 13342,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389752,
+    "url": "https://hltv.org/matches/2389752/sportsbetexpert-vs-regain-cct-season-3-north-america-series-3",
+    "date": null,
+    "event": "CCT Season 3 North America Series 3",
+    "team1": "SportsBetExpert",
+    "team2": "regain",
+    "team1-id": 13375,
+    "team2-id": 12554,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389824,
+    "url": "https://hltv.org/matches/2389824/whitebird-vs-prime-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "WHITEBIRD",
+    "team2": "PRIME",
+    "team1-id": 13583,
+    "team2-id": 13663,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389771,
+    "url": "https://hltv.org/matches/2389771/folha-amarela-vs-gamehunters-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "FOLHA AMARELA",
+    "team2": "GameHunters",
+    "team1-id": 13475,
+    "team2-id": 12988,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389565,
+    "url": "https://hltv.org/matches/2389565/9ine-vs-los-kogutos-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "9INE",
+    "team2": "los kogutos",
+    "team1-id": 10278,
+    "team2-id": 10854,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389235,
+    "url": "https://hltv.org/matches/2389235/betclic-vs-illwill-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "Betclic",
+    "team2": "illwill",
+    "team1-id": 12916,
+    "team2-id": 13501,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389564,
+    "url": "https://hltv.org/matches/2389564/betboom-vs-forze-reload-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "BetBoom",
+    "team2": "FORZE Reload",
+    "team1-id": 12394,
+    "team2-id": 12857,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389823,
+    "url": "https://hltv.org/matches/2389823/los-kogutos-vs-csdiilit-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "los kogutos",
+    "team2": "CSDIILIT",
+    "team1-id": 10854,
+    "team2-id": 13340,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389234,
+    "url": "https://hltv.org/matches/2389234/9ine-vs-nuclear-tigeres-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "9INE",
+    "team2": "Nuclear TigeRES",
+    "team1-id": 10278,
+    "team2-id": 13027,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389770,
+    "url": "https://hltv.org/matches/2389770/lp-vs-curralzinho-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "LP",
+    "team2": "Curralzinho",
+    "team1-id": 13304,
+    "team2-id": 13417,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389769,
+    "url": "https://hltv.org/matches/2389769/procyon-vs-crashers-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "Procyon",
+    "team2": "Crashers",
+    "team1-id": 10997,
+    "team2-id": 6788,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389058,
+    "url": "https://hltv.org/matches/2389058/oramond-vs-favbet-european-pro-league-series-4",
+    "date": null,
+    "event": "European Pro League Series 4",
+    "team1": "Oramond",
+    "team2": "FAVBET",
+    "team1-id": 13470,
+    "team2-id": 12818,
+    "team1score": 3,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389563,
+    "url": "https://hltv.org/matches/2389563/ence-vs-ex-ruby-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "ENCE",
+    "team2": "ex-RUBY",
+    "team1-id": 4869,
+    "team2-id": 13617,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389233,
+    "url": "https://hltv.org/matches/2389233/ecstatic-vs-sangal-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "ECSTATIC",
+    "team2": "Sangal",
+    "team1-id": 11419,
+    "team2-id": 10333,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389821,
+    "url": "https://hltv.org/matches/2389821/nexus-vs-bushido-wildcats-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "Nexus",
+    "team2": "Bushido Wildcats",
+    "team1-id": 6239,
+    "team2-id": 13281,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389562,
+    "url": "https://hltv.org/matches/2389562/nuclear-tigeres-vs-kolesie-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "Nuclear TigeRES",
+    "team2": "KOLESIE",
+    "team1-id": 13027,
+    "team2-id": 13314,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389232,
+    "url": "https://hltv.org/matches/2389232/genone-vs-am-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "GenOne",
+    "team2": "AM",
+    "team1-id": 11609,
+    "team2-id": 13237,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389822,
+    "url": "https://hltv.org/matches/2389822/home-vs-masonic-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "home",
+    "team2": "MASONIC",
+    "team1-id": null,
+    "team2-id": 10867,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389903,
+    "url": "https://hltv.org/matches/2389903/zomblers-vs-incontrol-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "Zomblers",
+    "team2": "InControl",
+    "team1-id": 12164,
+    "team2-id": 7720,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389751,
+    "url": "https://hltv.org/matches/2389751/overknight-vs-outfit-49-cct-season-3-north-america-series-3",
+    "date": null,
+    "event": "CCT Season 3 North America Series 3",
+    "team1": "OverKnight",
+    "team2": "Outfit 49",
+    "team1-id": 10901,
+    "team2-id": 13294,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389750,
+    "url": "https://hltv.org/matches/2389750/lag-vs-zomblers-cct-season-3-north-america-series-3",
+    "date": null,
+    "event": "CCT Season 3 North America Series 3",
+    "team1": "LAG",
+    "team2": "Zomblers",
+    "team1-id": 11955,
+    "team2-id": 12164,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389768,
+    "url": "https://hltv.org/matches/2389768/fake-do-biru-vs-bestia-academy-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "Fake do Biru",
+    "team2": "BESTIA Academy",
+    "team1-id": 13081,
+    "team2-id": 13026,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389731,
+    "url": "https://hltv.org/matches/2389731/nemiga-vs-k27-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Nemiga",
+    "team2": "K27",
+    "team1-id": 7969,
+    "team2-id": 12895,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389660,
+    "url": "https://hltv.org/matches/2389660/falcons-vs-mouz-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "Falcons",
+    "team2": "MOUZ",
+    "team1-id": 11283,
+    "team2-id": 4494,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389767,
+    "url": "https://hltv.org/matches/2389767/furia-fe-vs-vasco-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "FURIA fe",
+    "team2": "Vasco",
+    "team1-id": 10976,
+    "team2-id": 13413,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389561,
+    "url": "https://hltv.org/matches/2389561/sinners-vs-magic-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "SINNERS",
+    "team2": "magic",
+    "team1-id": 10577,
+    "team2-id": 13592,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389658,
+    "url": "https://hltv.org/matches/2389658/vitality-vs-aurora-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "Vitality",
+    "team2": "Aurora",
+    "team1-id": 9565,
+    "team2-id": 11861,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389231,
+    "url": "https://hltv.org/matches/2389231/ecstatic-vs-fingers-crossed-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "ECSTATIC",
+    "team2": "Fingers Crossed",
+    "team1-id": 11419,
+    "team2-id": 13466,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389820,
+    "url": "https://hltv.org/matches/2389820/omega-vs-vpprodigy-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "Omega",
+    "team2": "VP.Prodigy",
+    "team1-id": 11459,
+    "team2-id": 10864,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389730,
+    "url": "https://hltv.org/matches/2389730/arcred-vs-k27-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "ARCRED",
+    "team2": "K27",
+    "team1-id": 10459,
+    "team2-id": 12895,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389765,
+    "url": "https://hltv.org/matches/2389765/shinden-vs-9z-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "ShindeN",
+    "team2": "9z",
+    "team1-id": 12959,
+    "team2-id": 9996,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389659,
+    "url": "https://hltv.org/matches/2389659/g2-vs-spirit-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "G2",
+    "team2": "Spirit",
+    "team1-id": 5995,
+    "team2-id": 7020,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389657,
+    "url": "https://hltv.org/matches/2389657/astralis-vs-furia-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "Astralis",
+    "team2": "FURIA",
+    "team1-id": 6665,
+    "team2-id": 8297,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389230,
+    "url": "https://hltv.org/matches/2389230/sashi-vs-am-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "Sashi",
+    "team2": "AM",
+    "team1-id": 11712,
+    "team2-id": 13237,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389560,
+    "url": "https://hltv.org/matches/2389560/hotu-vs-favbet-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "HOTU",
+    "team2": "FAVBET",
+    "team1-id": 11581,
+    "team2-id": 12818,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389819,
+    "url": "https://hltv.org/matches/2389819/aurora-young-blud-vs-rebels-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "Aurora Young Blud",
+    "team2": "Rebels",
+    "team1-id": 12366,
+    "team2-id": 12642,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389729,
+    "url": "https://hltv.org/matches/2389729/k27-vs-nuclear-tigeres-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "K27",
+    "team2": "Nuclear TigeRES",
+    "team1-id": 12895,
+    "team2-id": 13027,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389728,
+    "url": "https://hltv.org/matches/2389728/arcred-vs-nemiga-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "ARCRED",
+    "team2": "Nemiga",
+    "team1-id": 10459,
+    "team2-id": 7969,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389229,
+    "url": "https://hltv.org/matches/2389229/sinners-vs-genone-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "SINNERS",
+    "team2": "GenOne",
+    "team1-id": 10577,
+    "team2-id": 11609,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389655,
+    "url": "https://hltv.org/matches/2389655/mouz-vs-faze-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "MOUZ",
+    "team2": "FaZe",
+    "team1-id": 4494,
+    "team2-id": 6667,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389656,
+    "url": "https://hltv.org/matches/2389656/3dmax-vs-falcons-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "3DMAX",
+    "team2": "Falcons",
+    "team1-id": 4901,
+    "team2-id": 11283,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389559,
+    "url": "https://hltv.org/matches/2389559/ecstatic-vs-oramond-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "ECSTATIC",
+    "team2": "Oramond",
+    "team1-id": 11419,
+    "team2-id": 13470,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389818,
+    "url": "https://hltv.org/matches/2389818/bebop-vs-quazar-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "Bebop",
+    "team2": "QUAZAR",
+    "team1-id": 13613,
+    "team2-id": 11312,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389726,
+    "url": "https://hltv.org/matches/2389726/whitebird-vs-nuclear-tigeres-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "WHITEBIRD",
+    "team2": "Nuclear TigeRES",
+    "team1-id": 13583,
+    "team2-id": 13027,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389558,
+    "url": "https://hltv.org/matches/2389558/eyeballers-vs-1win-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "EYEBALLERS",
+    "team2": "1win",
+    "team1-id": 11737,
+    "team2-id": 10621,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389727,
+    "url": "https://hltv.org/matches/2389727/k27-vs-nemesis-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "K27",
+    "team2": "Nemesis",
+    "team1-id": 12895,
+    "team2-id": 8634,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389817,
+    "url": "https://hltv.org/matches/2389817/ww-vs-pigeons-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "WW",
+    "team2": "Pigeons",
+    "team1-id": 12967,
+    "team2-id": 12721,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389057,
+    "url": "https://hltv.org/matches/2389057/magic-vs-ex-ruby-european-pro-league-series-4",
+    "date": null,
+    "event": "European Pro League Series 4",
+    "team1": "magic",
+    "team2": "ex-RUBY",
+    "team1-id": 13592,
+    "team2-id": 13617,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389228,
+    "url": "https://hltv.org/matches/2389228/nemesis-vs-illwill-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "Nemesis",
+    "team2": "illwill",
+    "team1-id": 8634,
+    "team2-id": 13501,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389900,
+    "url": "https://hltv.org/matches/2389900/regain-vs-blitzkrieg-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "regain",
+    "team2": "Blitzkrieg",
+    "team1-id": 12554,
+    "team2-id": 13657,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389902,
+    "url": "https://hltv.org/matches/2389902/sportsbetexpert-vs-chicken-coop-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "SportsBetExpert",
+    "team2": "Chicken Coop",
+    "team1-id": 13375,
+    "team2-id": 13107,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389901,
+    "url": "https://hltv.org/matches/2389901/lag-vs-reign-above-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "LAG",
+    "team2": "Reign Above",
+    "team1-id": 11955,
+    "team2-id": 13425,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389899,
+    "url": "https://hltv.org/matches/2389899/outfit-49-vs-aether-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "Outfit 49",
+    "team2": "Aether",
+    "team1-id": 13294,
+    "team2-id": 12908,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389898,
+    "url": "https://hltv.org/matches/2389898/flyquest-red-vs-wildcard-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "FlyQuest RED",
+    "team2": "Wildcard",
+    "team1-id": 12301,
+    "team2-id": 12257,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389748,
+    "url": "https://hltv.org/matches/2389748/regain-vs-mouse-cct-season-3-north-america-series-3",
+    "date": null,
+    "event": "CCT Season 3 North America Series 3",
+    "team1": "regain",
+    "team2": "mouse",
+    "team1-id": 12554,
+    "team2-id": 13661,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389766,
+    "url": "https://hltv.org/matches/2389766/ex-kr-vs-prison-breakers-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "ex-KRÜ",
+    "team2": "Prison Breakers",
+    "team1-id": null,
+    "team2-id": 13512,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389724,
+    "url": "https://hltv.org/matches/2389724/nemiga-vs-nuclear-tigeres-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Nemiga",
+    "team2": "Nuclear TigeRES",
+    "team1-id": 7969,
+    "team2-id": 13027,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389653,
+    "url": "https://hltv.org/matches/2389653/furia-vs-natus-vincere-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "FURIA",
+    "team2": "Natus Vincere",
+    "team1-id": 8297,
+    "team2-id": 4608,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389654,
+    "url": "https://hltv.org/matches/2389654/fut-vs-astralis-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "FUT",
+    "team2": "Astralis",
+    "team1-id": 13286,
+    "team2-id": 6665,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389725,
+    "url": "https://hltv.org/matches/2389725/bet-m-vs-nemesis-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "BET-M",
+    "team2": "Nemesis",
+    "team1-id": 13619,
+    "team2-id": 8634,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389557,
+    "url": "https://hltv.org/matches/2389557/minlate-vs-forze-reload-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "MINLATE",
+    "team2": "FORZE Reload",
+    "team1-id": 6626,
+    "team2-id": 12857,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389816,
+    "url": "https://hltv.org/matches/2389816/vpprodigy-vs-quazar-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "VP.Prodigy",
+    "team2": "QUAZAR",
+    "team1-id": 10864,
+    "team2-id": 11312,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389749,
+    "url": "https://hltv.org/matches/2389749/mythic-vs-sportsbetexpert-cct-season-3-north-america-series-3",
+    "date": null,
+    "event": "CCT Season 3 North America Series 3",
+    "team1": "Mythic",
+    "team2": "SportsBetExpert",
+    "team1-id": 5479,
+    "team2-id": 13375,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389556,
+    "url": "https://hltv.org/matches/2389556/favbet-vs-fingers-crossed-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "FAVBET",
+    "team2": "Fingers Crossed",
+    "team1-id": 12818,
+    "team2-id": 13466,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389226,
+    "url": "https://hltv.org/matches/2389226/inner-circle-vs-betclic-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "Inner Circle",
+    "team2": "Betclic",
+    "team1-id": 13117,
+    "team2-id": 12916,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389652,
+    "url": "https://hltv.org/matches/2389652/nrg-vs-falcons-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "NRG",
+    "team2": "Falcons",
+    "team1-id": 6673,
+    "team2-id": 11283,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389650,
+    "url": "https://hltv.org/matches/2389650/faze-vs-bcgame-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "FaZe",
+    "team2": "BC.Game",
+    "team1-id": 6667,
+    "team2-id": 12878,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389723,
+    "url": "https://hltv.org/matches/2389723/whitebird-vs-rustec-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "WHITEBIRD",
+    "team2": "RUSTEC",
+    "team1-id": 13583,
+    "team2-id": 12834,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389815,
+    "url": "https://hltv.org/matches/2389815/omega-vs-bebop-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "Omega",
+    "team2": "Bebop",
+    "team1-id": 11459,
+    "team2-id": 13613,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389722,
+    "url": "https://hltv.org/matches/2389722/arcred-vs-k27-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "ARCRED",
+    "team2": "K27",
+    "team1-id": 10459,
+    "team2-id": 12895,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389227,
+    "url": "https://hltv.org/matches/2389227/sangal-vs-nemiga-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "Sangal",
+    "team2": "Nemiga",
+    "team1-id": 10333,
+    "team2-id": 7969,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389225,
+    "url": "https://hltv.org/matches/2389225/9ine-vs-mouz-nxt-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "9INE",
+    "team2": "MOUZ NXT",
+    "team1-id": 10278,
+    "team2-id": 11176,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389651,
+    "url": "https://hltv.org/matches/2389651/mouz-vs-aurora-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "MOUZ",
+    "team2": "Aurora",
+    "team1-id": 4494,
+    "team2-id": 11861,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389814,
+    "url": "https://hltv.org/matches/2389814/pigeons-vs-rebels-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "Pigeons",
+    "team2": "Rebels",
+    "team1-id": 12721,
+    "team2-id": 12642,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389649,
+    "url": "https://hltv.org/matches/2389649/3dmax-vs-vitality-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "3DMAX",
+    "team2": "Vitality",
+    "team1-id": 4901,
+    "team2-id": 9565,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389721,
+    "url": "https://hltv.org/matches/2389721/nuclear-tigeres-vs-nemesis-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Nuclear TigeRES",
+    "team2": "Nemesis",
+    "team1-id": 13027,
+    "team2-id": 8634,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389555,
+    "url": "https://hltv.org/matches/2389555/1win-vs-johnny-speeds-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "1win",
+    "team2": "Johnny Speeds",
+    "team1-id": 10621,
+    "team2-id": 12604,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389720,
+    "url": "https://hltv.org/matches/2389720/k27-vs-rustec-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "K27",
+    "team2": "RUSTEC",
+    "team1-id": 12895,
+    "team2-id": 12834,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389055,
+    "url": "https://hltv.org/matches/2389055/favbet-vs-ex-ruby-european-pro-league-series-4",
+    "date": null,
+    "event": "European Pro League Series 4",
+    "team1": "FAVBET",
+    "team2": "ex-RUBY",
+    "team1-id": 12818,
+    "team2-id": 13617,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389719,
+    "url": "https://hltv.org/matches/2389719/nemiga-vs-bet-m-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Nemiga",
+    "team2": "BET-M",
+    "team1-id": 7969,
+    "team2-id": 13619,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389718,
+    "url": "https://hltv.org/matches/2389718/arcred-vs-whitebird-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "ARCRED",
+    "team2": "WHITEBIRD",
+    "team1-id": 10459,
+    "team2-id": 13583,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389056,
+    "url": "https://hltv.org/matches/2389056/magic-vs-oramond-european-pro-league-series-4",
+    "date": null,
+    "event": "European Pro League Series 4",
+    "team1": "magic",
+    "team2": "Oramond",
+    "team1-id": 13592,
+    "team2-id": 13470,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389813,
+    "url": "https://hltv.org/matches/2389813/ww-vs-aurora-young-blud-cct-season-3-europe-series-15-closed-qualifier",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "WW",
+    "team2": "Aurora Young Blud",
+    "team1-id": 12967,
+    "team2-id": 12366,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389224,
+    "url": "https://hltv.org/matches/2389224/nuclear-tigeres-vs-unity-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "Nuclear TigeRES",
+    "team2": "UNiTY",
+    "team1-id": 13027,
+    "team2-id": 12267,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389697,
+    "url": "https://hltv.org/matches/2389697/mibr-vs-red-canids-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "MIBR",
+    "team2": "RED Canids",
+    "team1-id": 9215,
+    "team2-id": 7176,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389717,
+    "url": "https://hltv.org/matches/2389717/bet-m-vs-jumbo-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "BET-M",
+    "team2": "JUMBO",
+    "team1-id": 13619,
+    "team2-id": 13238,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389696,
+    "url": "https://hltv.org/matches/2389696/red-canids-vs-bestia-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "RED Canids",
+    "team2": "BESTIA",
+    "team1-id": 7176,
+    "team2-id": 12144,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389887,
+    "url": "https://hltv.org/matches/2389887/ex-ruby-vs-mouz-nxt-exort-series-21",
+    "date": null,
+    "event": "Exort Series 21",
+    "team1": "ex-RUBY",
+    "team2": "MOUZ NXT",
+    "team1-id": 13617,
+    "team2-id": 11176,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389648,
+    "url": "https://hltv.org/matches/2389648/parivision-vs-astralis-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "PARIVISION",
+    "team2": "Astralis",
+    "team1-id": 12467,
+    "team2-id": 6665,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389647,
+    "url": "https://hltv.org/matches/2389647/natus-vincere-vs-spirit-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "Natus Vincere",
+    "team2": "Spirit",
+    "team1-id": 4608,
+    "team2-id": 7020,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389554,
+    "url": "https://hltv.org/matches/2389554/fingers-crossed-vs-los-kogutos-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "Fingers Crossed",
+    "team2": "los kogutos",
+    "team1-id": 13466,
+    "team2-id": 10854,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389712,
+    "url": "https://hltv.org/matches/2389712/nemesis-vs-oxuji-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Nemesis",
+    "team2": "Oxuji",
+    "team1-id": 8634,
+    "team2-id": 13553,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389716,
+    "url": "https://hltv.org/matches/2389716/gluck-vs-jumbo-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Gluck",
+    "team2": "JUMBO",
+    "team1-id": 13656,
+    "team2-id": 13238,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389646,
+    "url": "https://hltv.org/matches/2389646/the-mongolz-vs-furia-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "The MongolZ",
+    "team2": "FURIA",
+    "team1-id": 6248,
+    "team2-id": 8297,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389695,
+    "url": "https://hltv.org/matches/2389695/oddik-vs-mibr-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "ODDIK",
+    "team2": "MIBR",
+    "team1-id": 11768,
+    "team2-id": 9215,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389645,
+    "url": "https://hltv.org/matches/2389645/g2-vs-fut-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "G2",
+    "team2": "FUT",
+    "team1-id": 5995,
+    "team2-id": 13286,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389711,
+    "url": "https://hltv.org/matches/2389711/muerta-vs-oxuji-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "MUERTA",
+    "team2": "Oxuji",
+    "team1-id": 13577,
+    "team2-id": 13553,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389168,
+    "url": "https://hltv.org/matches/2389168/eternal-fire-vs-masonic-a1-gaming-league-season-11",
+    "date": null,
+    "event": "A1 Gaming League Season 11",
+    "team1": "Eternal Fire",
+    "team2": "MASONIC",
+    "team1-id": 11251,
+    "team2-id": 10867,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389553,
+    "url": "https://hltv.org/matches/2389553/ex-ruby-vs-forze-reload-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "ex-RUBY",
+    "team2": "FORZE Reload",
+    "team1-id": 13617,
+    "team2-id": 12857,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389886,
+    "url": "https://hltv.org/matches/2389886/mouz-nxt-vs-bet-m-exort-series-21",
+    "date": null,
+    "event": "Exort Series 21",
+    "team1": "MOUZ NXT",
+    "team2": "BET-M",
+    "team1-id": 11176,
+    "team2-id": 13619,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389715,
+    "url": "https://hltv.org/matches/2389715/nuclear-tigeres-vs-bet-m-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Nuclear TigeRES",
+    "team2": "BET-M",
+    "team1-id": 13027,
+    "team2-id": 13619,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389167,
+    "url": "https://hltv.org/matches/2389167/acend-vs-brute-a1-gaming-league-season-11",
+    "date": null,
+    "event": "A1 Gaming League Season 11",
+    "team1": "Acend",
+    "team2": "BRUTE",
+    "team1-id": 13518,
+    "team2-id": 9139,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389644,
+    "url": "https://hltv.org/matches/2389644/falcons-vs-aurora-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "Falcons",
+    "team2": "Aurora",
+    "team1-id": 11283,
+    "team2-id": 11861,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389710,
+    "url": "https://hltv.org/matches/2389710/nemesis-vs-nemiga-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Nemesis",
+    "team2": "Nemiga",
+    "team1-id": 8634,
+    "team2-id": 7969,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389885,
+    "url": "https://hltv.org/matches/2389885/ex-ruby-vs-masonic-exort-series-21",
+    "date": null,
+    "event": "Exort Series 21",
+    "team1": "ex-RUBY",
+    "team2": "MASONIC",
+    "team1-id": 13617,
+    "team2-id": 10867,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389643,
+    "url": "https://hltv.org/matches/2389643/mouz-vs-nrg-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "MOUZ",
+    "team2": "NRG",
+    "team1-id": 4494,
+    "team2-id": 6673,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389054,
+    "url": "https://hltv.org/matches/2389054/sashi-vs-oramond-european-pro-league-series-4",
+    "date": null,
+    "event": "European Pro League Series 4",
+    "team1": "Sashi",
+    "team2": "Oramond",
+    "team1-id": 11712,
+    "team2-id": 13470,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389552,
+    "url": "https://hltv.org/matches/2389552/magic-vs-minlate-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "magic",
+    "team2": "MINLATE",
+    "team1-id": 13592,
+    "team2-id": 6626,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389166,
+    "url": "https://hltv.org/matches/2389166/phantom-vs-state-a1-gaming-league-season-11",
+    "date": null,
+    "event": "A1 Gaming League Season 11",
+    "team1": "Phantom",
+    "team2": "STATE",
+    "team1-id": 13173,
+    "team2-id": 13623,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389896,
+    "url": "https://hltv.org/matches/2389896/mix52-vs-depo-1xbet-winter-battle-cup-2026",
+    "date": null,
+    "event": "1xBet Winter Battle Cup 2026",
+    "team1": "mix52",
+    "team2": "DEPO",
+    "team1-id": 13652,
+    "team2-id": 12536,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389714,
+    "url": "https://hltv.org/matches/2389714/bet-m-vs-jumbo-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "BET-M",
+    "team2": "JUMBO",
+    "team1-id": 13619,
+    "team2-id": 13238,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389053,
+    "url": "https://hltv.org/matches/2389053/1win-vs-magic-european-pro-league-series-4",
+    "date": null,
+    "event": "European Pro League Series 4",
+    "team1": "1win",
+    "team2": "magic",
+    "team1-id": 10621,
+    "team2-id": 13592,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389709,
+    "url": "https://hltv.org/matches/2389709/nemiga-vs-oxuji-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Nemiga",
+    "team2": "Oxuji",
+    "team1-id": 7969,
+    "team2-id": 13553,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389708,
+    "url": "https://hltv.org/matches/2389708/nemesis-vs-muerta-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Nemesis",
+    "team2": "MUERTA",
+    "team1-id": 8634,
+    "team2-id": 13577,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389741,
+    "url": "https://hltv.org/matches/2389741/underground-vs-ding-cuts-dfrag-open-series-3",
+    "date": null,
+    "event": "DFRAG Open Series 3",
+    "team1": "Underground",
+    "team2": "Ding Cuts",
+    "team1-id": 13580,
+    "team2-id": 13660,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389713,
+    "url": "https://hltv.org/matches/2389713/nuclear-tigeres-vs-gluck-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Nuclear TigeRES",
+    "team2": "Gluck",
+    "team1-id": 13027,
+    "team2-id": 13656,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389740,
+    "url": "https://hltv.org/matches/2389740/ding-cuts-vs-shanghai-sharks-dfrag-open-series-3",
+    "date": null,
+    "event": "DFRAG Open Series 3",
+    "team1": "Ding Cuts",
+    "team2": "Shanghai Sharks",
+    "team1-id": 13660,
+    "team2-id": 12943,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389739,
+    "url": "https://hltv.org/matches/2389739/mindfreak-vs-underground-dfrag-open-series-3",
+    "date": null,
+    "event": "DFRAG Open Series 3",
+    "team1": "Mindfreak",
+    "team2": "Underground",
+    "team1-id": 11668,
+    "team2-id": 13580,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389693,
+    "url": "https://hltv.org/matches/2389693/bestia-vs-marsborne-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "BESTIA",
+    "team2": "Marsborne",
+    "team1-id": 12144,
+    "team2-id": 13124,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389737,
+    "url": "https://hltv.org/matches/2389737/mindfreak-vs-ding-cuts-dfrag-open-series-3",
+    "date": null,
+    "event": "DFRAG Open Series 3",
+    "team1": "Mindfreak",
+    "team2": "Ding Cuts",
+    "team1-id": 11668,
+    "team2-id": 13660,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389738,
+    "url": "https://hltv.org/matches/2389738/underground-vs-shanghai-sharks-dfrag-open-series-3",
+    "date": null,
+    "event": "DFRAG Open Series 3",
+    "team1": "Underground",
+    "team2": "Shanghai Sharks",
+    "team1-id": 13580,
+    "team2-id": 12943,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389694,
+    "url": "https://hltv.org/matches/2389694/mibr-vs-9z-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "MIBR",
+    "team2": "9z",
+    "team1-id": 9215,
+    "team2-id": 9996,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389707,
+    "url": "https://hltv.org/matches/2389707/rustec-vs-ww-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "RUSTEC",
+    "team2": "WW",
+    "team1-id": 12834,
+    "team2-id": 12967,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389702,
+    "url": "https://hltv.org/matches/2389702/whitebird-vs-forze-reload-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "WHITEBIRD",
+    "team2": "FORZE Reload",
+    "team1-id": 13583,
+    "team2-id": 12857,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389691,
+    "url": "https://hltv.org/matches/2389691/procyon-vs-marsborne-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "Procyon",
+    "team2": "Marsborne",
+    "team1-id": 10997,
+    "team2-id": 13124,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389692,
+    "url": "https://hltv.org/matches/2389692/sharks-vs-9z-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "Sharks",
+    "team2": "9z",
+    "team1-id": 8113,
+    "team2-id": 9996,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389706,
+    "url": "https://hltv.org/matches/2389706/virtuspro-vs-ww-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Virtus.pro",
+    "team2": "WW",
+    "team1-id": 4555,
+    "team2-id": 12967,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389689,
+    "url": "https://hltv.org/matches/2389689/oddik-vs-bounty-hunters-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "ODDIK",
+    "team2": "Bounty Hunters",
+    "team1-id": 11768,
+    "team2-id": 6544,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389641,
+    "url": "https://hltv.org/matches/2389641/vitality-vs-bcgame-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "Vitality",
+    "team2": "BC.Game",
+    "team1-id": 9565,
+    "team2-id": 12878,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389642,
+    "url": "https://hltv.org/matches/2389642/faze-vs-3dmax-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "FaZe",
+    "team2": "3DMAX",
+    "team1-id": 6667,
+    "team2-id": 4901,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389551,
+    "url": "https://hltv.org/matches/2389551/am-vs-favbet-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "AM",
+    "team2": "FAVBET",
+    "team1-id": 13237,
+    "team2-id": 12818,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389701,
+    "url": "https://hltv.org/matches/2389701/watermelon-vs-forze-reload-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "WATERMELON",
+    "team2": "FORZE Reload",
+    "team1-id": 13326,
+    "team2-id": 12857,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389163,
+    "url": "https://hltv.org/matches/2389163/aab-vs-washington-a1-gaming-league-season-11",
+    "date": null,
+    "event": "A1 Gaming League Season 11",
+    "team1": "AaB",
+    "team2": "Washington",
+    "team1-id": 9621,
+    "team2-id": 13483,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389640,
+    "url": "https://hltv.org/matches/2389640/spirit-vs-astralis-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "Spirit",
+    "team2": "Astralis",
+    "team1-id": 7020,
+    "team2-id": 6665,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389051,
+    "url": "https://hltv.org/matches/2389051/ex-ruby-vs-kolesie-european-pro-league-series-4",
+    "date": null,
+    "event": "European Pro League Series 4",
+    "team1": "ex-RUBY",
+    "team2": "KOLESIE",
+    "team1-id": 13617,
+    "team2-id": 13314,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389690,
+    "url": "https://hltv.org/matches/2389690/shinden-vs-red-canids-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "ShindeN",
+    "team2": "RED Canids",
+    "team1-id": 12959,
+    "team2-id": 7176,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389550,
+    "url": "https://hltv.org/matches/2389550/1win-vs-leo-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "1win",
+    "team2": "Leo",
+    "team1-id": 10621,
+    "team2-id": 11446,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389705,
+    "url": "https://hltv.org/matches/2389705/rustec-vs-arcred-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "RUSTEC",
+    "team2": "ARCRED",
+    "team1-id": 12834,
+    "team2-id": 10459,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389637,
+    "url": "https://hltv.org/matches/2389637/furia-vs-fut-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "FURIA",
+    "team2": "FUT",
+    "team1-id": 8297,
+    "team2-id": 13286,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389223,
+    "url": "https://hltv.org/matches/2389223/favbet-vs-fingers-crossed-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "FAVBET",
+    "team2": "Fingers Crossed",
+    "team1-id": 12818,
+    "team2-id": 13466,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389639,
+    "url": "https://hltv.org/matches/2389639/natus-vincere-vs-parivision-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "Natus Vincere",
+    "team2": "PARIVISION",
+    "team1-id": 4608,
+    "team2-id": 12467,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389687,
+    "url": "https://hltv.org/matches/2389687/imperial-vs-bounty-hunters-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "Imperial",
+    "team2": "Bounty Hunters",
+    "team1-id": 11655,
+    "team2-id": 6544,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389700,
+    "url": "https://hltv.org/matches/2389700/k27-vs-whitebird-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "K27",
+    "team2": "WHITEBIRD",
+    "team1-id": 12895,
+    "team2-id": 13583,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389164,
+    "url": "https://hltv.org/matches/2389164/los-kogutos-vs-777-a1-gaming-league-season-11",
+    "date": null,
+    "event": "A1 Gaming League Season 11",
+    "team1": "los kogutos",
+    "team2": "777",
+    "team1-id": 10854,
+    "team2-id": 10943,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389688,
+    "url": "https://hltv.org/matches/2389688/fluxo-vs-red-canids-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "Fluxo",
+    "team2": "RED Canids",
+    "team1-id": 11837,
+    "team2-id": 7176,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389052,
+    "url": "https://hltv.org/matches/2389052/inner-circle-vs-favbet-european-pro-league-series-4",
+    "date": null,
+    "event": "European Pro League Series 4",
+    "team1": "Inner Circle",
+    "team2": "FAVBET",
+    "team1-id": 13117,
+    "team2-id": 12818,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389638,
+    "url": "https://hltv.org/matches/2389638/the-mongolz-vs-g2-iem-krakw-2026",
+    "date": null,
+    "event": "IEM Kraków 2026",
+    "team1": "The MongolZ",
+    "team2": "G2",
+    "team1-id": 6248,
+    "team2-id": 5995,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389549,
+    "url": "https://hltv.org/matches/2389549/johnny-speeds-vs-metizport-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "Johnny Speeds",
+    "team2": "Metizport",
+    "team1-id": 12604,
+    "team2-id": 11641,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389704,
+    "url": "https://hltv.org/matches/2389704/arcred-vs-ww-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "ARCRED",
+    "team2": "WW",
+    "team1-id": 10459,
+    "team2-id": 12967,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389165,
+    "url": "https://hltv.org/matches/2389165/fingers-crossed-vs-csdiilit-a1-gaming-league-season-11",
+    "date": null,
+    "event": "A1 Gaming League Season 11",
+    "team1": "Fingers Crossed",
+    "team2": "CSDIILIT",
+    "team1-id": 13466,
+    "team2-id": 13340,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389222,
+    "url": "https://hltv.org/matches/2389222/genone-vs-aab-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "GenOne",
+    "team2": "AaB",
+    "team1-id": 11609,
+    "team2-id": 9621,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389699,
+    "url": "https://hltv.org/matches/2389699/forze-reload-vs-whitebird-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "FORZE Reload",
+    "team2": "WHITEBIRD",
+    "team1-id": 12857,
+    "team2-id": 13583,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389736,
+    "url": "https://hltv.org/matches/2389736/rooster-vs-mc-dfrag-open-series-3",
+    "date": null,
+    "event": "DFRAG Open Series 3",
+    "team1": "Rooster",
+    "team2": "Mc",
+    "team1-id": 9881,
+    "team2-id": 12217,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389698,
+    "url": "https://hltv.org/matches/2389698/k27-vs-watermelon-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "K27",
+    "team2": "WATERMELON",
+    "team1-id": 12895,
+    "team2-id": 13326,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389703,
+    "url": "https://hltv.org/matches/2389703/virtuspro-vs-rustec-exort-cataclysm-season-1",
+    "date": null,
+    "event": "Exort Cataclysm Season 1",
+    "team1": "Virtus.pro",
+    "team2": "RUSTEC",
+    "team1-id": 4555,
+    "team2-id": 12834,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389221,
+    "url": "https://hltv.org/matches/2389221/mouz-nxt-vs-arcred-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "MOUZ NXT",
+    "team2": "ARCRED",
+    "team1-id": 11176,
+    "team2-id": 10459,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389735,
+    "url": "https://hltv.org/matches/2389735/the-gentlemans-kennel-vs-mc-dfrag-open-series-3",
+    "date": null,
+    "event": "DFRAG Open Series 3",
+    "team1": "The Gentlemans Kennel",
+    "team2": "Mc",
+    "team1-id": 13659,
+    "team2-id": 12217,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389734,
+    "url": "https://hltv.org/matches/2389734/rooster-vs-thunder-downunder-dfrag-open-series-3",
+    "date": null,
+    "event": "DFRAG Open Series 3",
+    "team1": "Rooster",
+    "team2": "THUNDER dOWNUNDER",
+    "team1-id": 9881,
+    "team2-id": 13486,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389732,
+    "url": "https://hltv.org/matches/2389732/thunder-downunder-vs-mc-dfrag-open-series-3",
+    "date": null,
+    "event": "DFRAG Open Series 3",
+    "team1": "THUNDER dOWNUNDER",
+    "team2": "Mc",
+    "team1-id": 13486,
+    "team2-id": 12217,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389685,
+    "url": "https://hltv.org/matches/2389685/sharks-vs-mibr-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "Sharks",
+    "team2": "MIBR",
+    "team1-id": 8113,
+    "team2-id": 9215,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389733,
+    "url": "https://hltv.org/matches/2389733/rooster-vs-the-gentlemans-kennel-dfrag-open-series-3",
+    "date": null,
+    "event": "DFRAG Open Series 3",
+    "team1": "Rooster",
+    "team2": "The Gentlemans Kennel",
+    "team1-id": 9881,
+    "team2-id": 13659,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389686,
+    "url": "https://hltv.org/matches/2389686/luna-vs-9z-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "LUNA",
+    "team2": "9z",
+    "team1-id": 13655,
+    "team2-id": 9996,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389684,
+    "url": "https://hltv.org/matches/2389684/mibr-vs-9z-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "MIBR",
+    "team2": "9z",
+    "team1-id": 9215,
+    "team2-id": 9996,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389683,
+    "url": "https://hltv.org/matches/2389683/sharks-vs-luna-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "Sharks",
+    "team2": "LUNA",
+    "team1-id": 8113,
+    "team2-id": 13655,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389146,
+    "url": "https://hltv.org/matches/2389146/sinners-vs-nemiga-cct-season-3-europe-series-13",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 13",
+    "team1": "SINNERS",
+    "team2": "Nemiga",
+    "team1-id": 10577,
+    "team2-id": 7969,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389548,
+    "url": "https://hltv.org/matches/2389548/oramond-vs-magic-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "Oramond",
+    "team2": "magic",
+    "team1-id": 13470,
+    "team2-id": 13592,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389635,
+    "url": "https://hltv.org/matches/2389635/fut-vs-liquid-iem-krakw-2026-stage-1",
+    "date": null,
+    "event": "IEM Kraków 2026 Stage 1",
+    "team1": "FUT",
+    "team2": "Liquid",
+    "team1-id": 13286,
+    "team2-id": 5973,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389633,
+    "url": "https://hltv.org/matches/2389633/gamerlegion-vs-astralis-iem-krakw-2026-stage-1",
+    "date": null,
+    "event": "IEM Kraków 2026 Stage 1",
+    "team1": "GamerLegion",
+    "team2": "Astralis",
+    "team1-id": 9928,
+    "team2-id": 6665,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389681,
+    "url": "https://hltv.org/matches/2389681/marsborne-vs-bestia-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "Marsborne",
+    "team2": "BESTIA",
+    "team1-id": 13124,
+    "team2-id": 12144,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389682,
+    "url": "https://hltv.org/matches/2389682/procyon-vs-isurus-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "Procyon",
+    "team2": "Isurus",
+    "team1-id": 10997,
+    "team2-id": 7653,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389547,
+    "url": "https://hltv.org/matches/2389547/kolesie-vs-minlate-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "KOLESIE",
+    "team2": "MINLATE",
+    "team1-id": 13314,
+    "team2-id": 6626,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389636,
+    "url": "https://hltv.org/matches/2389636/pain-vs-aurora-iem-krakw-2026-stage-1",
+    "date": null,
+    "event": "IEM Kraków 2026 Stage 1",
+    "team1": "paiN",
+    "team2": "Aurora",
+    "team1-id": 4773,
+    "team2-id": 11861,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389145,
+    "url": "https://hltv.org/matches/2389145/nemiga-vs-big-cct-season-3-europe-series-13",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 13",
+    "team1": "Nemiga",
+    "team2": "BIG",
+    "team1-id": 7969,
+    "team2-id": 7532,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389634,
+    "url": "https://hltv.org/matches/2389634/bcgame-vs-ninjas-in-pyjamas-iem-krakw-2026-stage-1",
+    "date": null,
+    "event": "IEM Kraków 2026 Stage 1",
+    "team1": "BC.Game",
+    "team2": "Ninjas in Pyjamas",
+    "team1-id": 12878,
+    "team2-id": 4411,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389220,
+    "url": "https://hltv.org/matches/2389220/eternal-fire-vs-mouz-nxt-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "Eternal Fire",
+    "team2": "MOUZ NXT",
+    "team1-id": 11251,
+    "team2-id": 11176,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389679,
+    "url": "https://hltv.org/matches/2389679/bestia-vs-isurus-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "BESTIA",
+    "team2": "Isurus",
+    "team1-id": 12144,
+    "team2-id": 7653,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389628,
+    "url": "https://hltv.org/matches/2389628/astralis-vs-nrg-iem-krakw-2026-stage-1",
+    "date": null,
+    "event": "IEM Kraków 2026 Stage 1",
+    "team1": "Astralis",
+    "team2": "NRG",
+    "team1-id": 6665,
+    "team2-id": 6673,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389680,
+    "url": "https://hltv.org/matches/2389680/marsborne-vs-procyon-fire-conter-season-1",
+    "date": null,
+    "event": "FiRe CONTER Season 1",
+    "team1": "Marsborne",
+    "team2": "Procyon",
+    "team1-id": 13124,
+    "team2-id": 10997,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389629,
+    "url": "https://hltv.org/matches/2389629/gamerlegion-vs-heroic-iem-krakw-2026-stage-1",
+    "date": null,
+    "event": "IEM Kraków 2026 Stage 1",
+    "team1": "GamerLegion",
+    "team2": "HEROIC",
+    "team1-id": 9928,
+    "team2-id": 7175,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389219,
+    "url": "https://hltv.org/matches/2389219/favbet-vs-betclic-nodwin-clutch-series-4",
+    "date": null,
+    "event": "NODWIN Clutch Series 4",
+    "team1": "FAVBET",
+    "team2": "Betclic",
+    "team1-id": 12818,
+    "team2-id": 12916,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389546,
+    "url": "https://hltv.org/matches/2389546/am-vs-los-kogutos-cct-season-3-europe-series-14",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "AM",
+    "team2": "los kogutos",
+    "team1-id": 13237,
+    "team2-id": 10854,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389144,
+    "url": "https://hltv.org/matches/2389144/1win-vs-sinners-cct-season-3-europe-series-13",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 13",
+    "team1": "1win",
+    "team2": "SINNERS",
+    "team1-id": 10621,
+    "team2-id": 10577,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
     "match-id": 2389907,
     "url": "https://hltv.org/matches/2389907/nexvoid-vs-the-huns-mesa-pro-series-opening-2026",
     "date": null,
@@ -19579,7 +22443,65 @@
     "team1-id": 13617,
     "team2-id": 13501,
     "team1score": 1,
-    "team2score": 2
+    "team2score": 2,
+    "format": "1. illwill removed Ancient",
+    "stage": "2. ex-RUBY removed Inferno",
+    "veto": [
+      "1. illwill removed Ancient",
+      "2. ex-RUBY removed Inferno",
+      "3. illwill picked Nuke",
+      "4. ex-RUBY picked Dust2",
+      "5. illwill removed Overpass",
+      "6. ex-RUBY removed Anubis",
+      "7. Mirage was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ex-RUBY",
+          "score": "10",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "illwill",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(6:6; 4:7)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "ex-RUBY",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "illwill",
+          "score": "7",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:1)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "ex-RUBY",
+          "score": "8",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "illwill",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(7:5; 1:8)",
+        "status": "played"
+      }
+    ]
   },
   {
     "match-id": 2389540,
@@ -19591,7 +22513,65 @@
     "team1-id": 13470,
     "team2-id": 11446,
     "team1score": 2,
-    "team2score": 0
+    "team2score": 0,
+    "format": "1. Leo removed Mirage",
+    "stage": "2. Oramond removed Anubis",
+    "veto": [
+      "1. Leo removed Mirage",
+      "2. Oramond removed Anubis",
+      "3. Leo picked Dust2",
+      "4. Oramond picked Nuke",
+      "5. Leo removed Overpass",
+      "6. Oramond removed Inferno",
+      "7. Ancient was left over"
+    ],
+    "maps": [
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Oramond",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Leo",
+          "score": "11",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:5)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Oramond",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Leo",
+          "score": "9",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:5)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "Oramond",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Leo",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
   },
   {
     "match-id": 2389471,
@@ -19603,7 +22583,65 @@
     "team1-id": 5973,
     "team2-id": 4411,
     "team1score": 2,
-    "team2score": 0
+    "team2score": 0,
+    "format": "1. Ninjas in Pyjamas removed Inferno",
+    "stage": "2. Liquid removed Overpass",
+    "veto": [
+      "1. Ninjas in Pyjamas removed Inferno",
+      "2. Liquid removed Overpass",
+      "3. Ninjas in Pyjamas picked Nuke",
+      "4. Liquid picked Mirage",
+      "5. Ninjas in Pyjamas removed Ancient",
+      "6. Liquid removed Dust2",
+      "7. Anubis was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Liquid",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Ninjas in Pyjamas",
+          "score": "6",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:1)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "Liquid",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Ninjas in Pyjamas",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(5:7; 8:1)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "Liquid",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Ninjas in Pyjamas",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
   },
   {
     "match-id": 2389474,
@@ -19615,7 +22653,65 @@
     "team1-id": 13286,
     "team2-id": 4901,
     "team1score": 1,
-    "team2score": 2
+    "team2score": 2,
+    "format": "1. FUT removed Inferno",
+    "stage": "2. 3DMAX removed Mirage",
+    "veto": [
+      "1. FUT removed Inferno",
+      "2. 3DMAX removed Mirage",
+      "3. FUT picked Ancient",
+      "4. 3DMAX picked Anubis",
+      "5. FUT removed Nuke",
+      "6. 3DMAX removed Overpass",
+      "7. Dust2 was left over"
+    ],
+    "maps": [
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "FUT",
+          "score": "16",
+          "status": "won"
+        },
+        "team2": {
+          "name": "3DMAX",
+          "score": "13",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 4:8) (4:1)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "FUT",
+          "score": "13",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "3DMAX",
+          "score": "16",
+          "status": "won"
+        },
+        "half_scores": "(8:4; 4:8) (1:4)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "FUT",
+          "score": "5",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "3DMAX",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 2:4)",
+        "status": "played"
+      }
+    ]
   },
   {
     "match-id": 2389660,
@@ -23583,7 +26679,65 @@
     "team1-id": 13466,
     "team2-id": 13592,
     "team1score": 1,
-    "team2score": 2
+    "team2score": 2,
+    "format": "1. Fingers Crossed removed Overpass",
+    "stage": "2. magic removed Nuke",
+    "veto": [
+      "1. Fingers Crossed removed Overpass",
+      "2. magic removed Nuke",
+      "3. Fingers Crossed picked Inferno",
+      "4. magic picked Dust2",
+      "5. Fingers Crossed removed Anubis",
+      "6. magic removed Ancient",
+      "7. Mirage was left over"
+    ],
+    "maps": [
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "Fingers Crossed",
+          "score": "4",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "magic",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 0:5)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Fingers Crossed",
+          "score": "22",
+          "status": "won"
+        },
+        "team2": {
+          "name": "magic",
+          "score": "20",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 6:6) (10:8)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "Fingers Crossed",
+          "score": "5",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "magic",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(2:10; 3:3)",
+        "status": "played"
+      }
+    ]
   },
   {
     "match-id": 2389139,
@@ -23595,7 +26749,65 @@
     "team1-id": 7532,
     "team2-id": 10459,
     "team1score": 1,
-    "team2score": 0
+    "team2score": 0,
+    "format": "1. BIG removed Anubis",
+    "stage": "2. ARCRED removed Overpass",
+    "veto": [
+      "1. BIG removed Anubis",
+      "2. ARCRED removed Overpass",
+      "3. BIG picked Ancient",
+      "4. ARCRED picked Nuke",
+      "5. BIG removed Dust2",
+      "6. ARCRED removed Mirage",
+      "7. Inferno was left over"
+    ],
+    "maps": [
+      {
+        "map": "Default",
+        "team1": {
+          "name": "BIG",
+          "score": "1",
+          "status": "won"
+        },
+        "team2": {
+          "name": "ARCRED",
+          "score": "0",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "BIG",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "ARCRED",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "BIG",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "ARCRED",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
   },
   {
     "match-id": 2389659,
@@ -27561,7 +30773,65 @@
     "team1-id": 12394,
     "team2-id": 11581,
     "team1score": 2,
-    "team2score": 1
+    "team2score": 1,
+    "format": "1. HOTU removed Nuke",
+    "stage": "2. BetBoom removed Overpass",
+    "veto": [
+      "1. HOTU removed Nuke",
+      "2. BetBoom removed Overpass",
+      "3. HOTU picked Anubis",
+      "4. BetBoom picked Dust2",
+      "5. HOTU removed Inferno",
+      "6. BetBoom removed Ancient",
+      "7. Mirage was left over"
+    ],
+    "maps": [
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "BetBoom",
+          "score": "12",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "HOTU",
+          "score": "16",
+          "status": "won"
+        },
+        "half_scores": "(6:6; 6:6) (0:4)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "BetBoom",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "HOTU",
+          "score": "7",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:3)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "BetBoom",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "HOTU",
+          "score": "10",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:5)",
+        "status": "played"
+      }
+    ]
   },
   {
     "match-id": 2389041,
@@ -27573,7 +30843,65 @@
     "team1-id": 11641,
     "team2-id": 13613,
     "team1score": 0,
-    "team2score": 2
+    "team2score": 2,
+    "format": "1. Metizport removed Train",
+    "stage": "2. Bebop removed Inferno",
+    "veto": [
+      "1. Metizport removed Train",
+      "2. Bebop removed Inferno",
+      "3. Metizport picked Overpass",
+      "4. Bebop picked Mirage",
+      "5. Metizport removed Dust2",
+      "6. Bebop removed Ancient",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "Metizport",
+          "score": "3",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Bebop",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 0:4)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "Metizport",
+          "score": "20",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Bebop",
+          "score": "22",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 7:5) (8:10)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Metizport",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Bebop",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
   },
   {
     "match-id": 2389213,
@@ -27585,7 +30913,65 @@
     "team1-id": 11609,
     "team2-id": 11251,
     "team1score": 2,
-    "team2score": 0
+    "team2score": 0,
+    "format": "1. Eternal Fire removed Inferno",
+    "stage": "2. GenOne removed Mirage",
+    "veto": [
+      "1. Eternal Fire removed Inferno",
+      "2. GenOne removed Mirage",
+      "3. Eternal Fire picked Dust2",
+      "4. GenOne picked Ancient",
+      "5. Eternal Fire removed Overpass",
+      "6. GenOne removed Anubis",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "GenOne",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Eternal Fire",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:4)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "GenOne",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Eternal Fire",
+          "score": "9",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:3)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "GenOne",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Eternal Fire",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
   },
   {
     "match-id": 2389473,
@@ -27597,7 +30983,65 @@
     "team1-id": 5704,
     "team2-id": 12878,
     "team1score": 0,
-    "team2score": 2
+    "team2score": 2,
+    "format": "1. BC.Game removed Mirage",
+    "stage": "2. Legacy removed Nuke",
+    "veto": [
+      "1. BC.Game removed Mirage",
+      "2. Legacy removed Nuke",
+      "3. BC.Game picked Overpass",
+      "4. Legacy picked Inferno",
+      "5. BC.Game removed Ancient",
+      "6. Legacy removed Anubis",
+      "7. Dust2 was left over"
+    ],
+    "maps": [
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "Legacy",
+          "score": "13",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "BC.Game",
+          "score": "16",
+          "status": "won"
+        },
+        "half_scores": "(10:2; 2:10) (1:4)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "Legacy",
+          "score": "1",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "BC.Game",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(1:11; 0:2)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Legacy",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "BC.Game",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
   },
   {
     "match-id": 2389138,
@@ -27609,7 +31053,65 @@
     "team1-id": 11737,
     "team2-id": 10621,
     "team1score": 0,
-    "team2score": 2
+    "team2score": 2,
+    "format": "1. 1win removed Nuke",
+    "stage": "2. EYEBALLERS removed Dust2",
+    "veto": [
+      "1. 1win removed Nuke",
+      "2. EYEBALLERS removed Dust2",
+      "3. 1win picked Inferno",
+      "4. EYEBALLERS picked Anubis",
+      "5. 1win removed Ancient",
+      "6. EYEBALLERS removed Overpass",
+      "7. Mirage was left over"
+    ],
+    "maps": [
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "EYEBALLERS",
+          "score": "7",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "1win",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 2:6)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "EYEBALLERS",
+          "score": "6",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "1win",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(6:6; 0:7)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "EYEBALLERS",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "1win",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
   },
   {
     "match-id": 2389476,
@@ -27621,7 +31123,65 @@
     "team1-id": 6673,
     "team2-id": 11241,
     "team1score": 2,
-    "team2score": 1
+    "team2score": 1,
+    "format": "1. NRG removed Ancient",
+    "stage": "2. B8 removed Nuke",
+    "veto": [
+      "1. NRG removed Ancient",
+      "2. B8 removed Nuke",
+      "3. NRG picked Dust2",
+      "4. B8 picked Mirage",
+      "5. NRG removed Anubis",
+      "6. B8 removed Overpass",
+      "7. Inferno was left over"
+    ],
+    "maps": [
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "NRG",
+          "score": "4",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "B8",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 1:4)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "NRG",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "B8",
+          "score": "2",
+          "status": "lost"
+        },
+        "half_scores": "(12:0; 1:2)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "NRG",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "B8",
+          "score": "11",
+          "status": "lost"
+        },
+        "half_scores": "(9:3; 4:8)",
+        "status": "played"
+      }
+    ]
   },
   {
     "match-id": 2389212,
@@ -27633,7 +31193,65 @@
     "team1-id": 10459,
     "team2-id": 12858,
     "team1score": 2,
-    "team2score": 1
+    "team2score": 1,
+    "format": "1. kONO removed Mirage",
+    "stage": "2. ARCRED removed Overpass",
+    "veto": [
+      "1. kONO removed Mirage",
+      "2. ARCRED removed Overpass",
+      "3. kONO picked Nuke",
+      "4. ARCRED picked Dust2",
+      "5. kONO removed Ancient",
+      "6. ARCRED removed Inferno",
+      "7. Anubis was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ARCRED",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "kONO",
+          "score": "6",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:0)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "ARCRED",
+          "score": "11",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "kONO",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 6:6)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "ARCRED",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "kONO",
+          "score": "2",
+          "status": "lost"
+        },
+        "half_scores": "(11:1; 2:1)",
+        "status": "played"
+      }
+    ]
   },
   {
     "match-id": 2389137,
@@ -27645,7 +31263,65 @@
     "team1-id": 4869,
     "team2-id": 13617,
     "team1score": 2,
-    "team2score": 1
+    "team2score": 1,
+    "format": "1. ENCE removed Ancient",
+    "stage": "2. ex-RUBY removed Inferno",
+    "veto": [
+      "1. ENCE removed Ancient",
+      "2. ex-RUBY removed Inferno",
+      "3. ENCE picked Anubis",
+      "4. ex-RUBY picked Mirage",
+      "5. ENCE removed Overpass",
+      "6. ex-RUBY removed Dust2",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "ENCE",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "ex-RUBY",
+          "score": "4",
+          "status": "lost"
+        },
+        "half_scores": "(9:3; 4:1)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "ENCE",
+          "score": "4",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "ex-RUBY",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 0:5)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ENCE",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "ex-RUBY",
+          "score": "5",
+          "status": "lost"
+        },
+        "half_scores": "(10:2; 3:3)",
+        "status": "played"
+      }
+    ]
   },
   {
     "match-id": 2389046,
@@ -27657,7 +31333,65 @@
     "team1-id": 12818,
     "team2-id": 11176,
     "team1score": 2,
-    "team2score": 1
+    "team2score": 1,
+    "format": "1. MOUZ NXT removed Inferno",
+    "stage": "2. FAVBET removed Mirage",
+    "veto": [
+      "1. MOUZ NXT removed Inferno",
+      "2. FAVBET removed Mirage",
+      "3. MOUZ NXT picked Nuke",
+      "4. FAVBET picked Dust2",
+      "5. MOUZ NXT removed Overpass",
+      "6. FAVBET removed Train",
+      "7. Ancient was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "FAVBET",
+          "score": "16",
+          "status": "won"
+        },
+        "team2": {
+          "name": "MOUZ NXT",
+          "score": "14",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 4:8) (4:2)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "FAVBET",
+          "score": "4",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "MOUZ NXT",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 1:4)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "FAVBET",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "MOUZ NXT",
+          "score": "6",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:0)",
+        "status": "played"
+      }
+    ]
   },
   {
     "match-id": 2389475,
@@ -27669,7 +31403,65 @@
     "team1-id": 6665,
     "team2-id": 4773,
     "team1score": 2,
-    "team2score": 0
+    "team2score": 0,
+    "format": "1. paiN removed Ancient",
+    "stage": "2. Astralis removed Anubis",
+    "veto": [
+      "1. paiN removed Ancient",
+      "2. Astralis removed Anubis",
+      "3. paiN picked Dust2",
+      "4. Astralis picked Overpass",
+      "5. paiN removed Inferno",
+      "6. Astralis removed Mirage",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Astralis",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "paiN",
+          "score": "10",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:4)",
+        "status": "played"
+      },
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "Astralis",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "paiN",
+          "score": "7",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:3)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Astralis",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "paiN",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
   },
   {
     "match-id": 2389538,
@@ -27681,7 +31473,65 @@
     "team1-id": 13237,
     "team2-id": 6626,
     "team1score": 0,
-    "team2score": 2
+    "team2score": 2,
+    "format": "1. MINLATE removed Dust2",
+    "stage": "2. AM removed Anubis",
+    "veto": [
+      "1. MINLATE removed Dust2",
+      "2. AM removed Anubis",
+      "3. MINLATE picked Nuke",
+      "4. AM picked Ancient",
+      "5. MINLATE removed Overpass",
+      "6. AM removed Inferno",
+      "7. Mirage was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "AM",
+          "score": "2",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "MINLATE",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(2:10; 0:3)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "AM",
+          "score": "5",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "MINLATE",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 1:5)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "AM",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "MINLATE",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
   },
   {
     "match-id": 2389653,
@@ -31549,7 +35399,65 @@
     "team1-id": 12812,
     "team2-id": 11581,
     "team1score": 0,
-    "team2score": 2
+    "team2score": 2,
+    "format": "1. ALLINNERS removed Nuke",
+    "stage": "2. HOTU removed Inferno",
+    "veto": [
+      "1. ALLINNERS removed Nuke",
+      "2. HOTU removed Inferno",
+      "3. ALLINNERS picked Mirage",
+      "4. HOTU picked Overpass",
+      "5. ALLINNERS removed Anubis",
+      "6. HOTU removed Dust2",
+      "7. Ancient was left over"
+    ],
+    "maps": [
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "ALLINNERS",
+          "score": "10",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "HOTU",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(6:6; 4:7)",
+        "status": "played"
+      },
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "ALLINNERS",
+          "score": "3",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "HOTU",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(1:11; 2:2)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "ALLINNERS",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "HOTU",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
   },
   {
     "match-id": 2389470,
@@ -31561,7 +35469,65 @@
     "team1-id": 7175,
     "team2-id": 12467,
     "team1score": 1,
-    "team2score": 2
+    "team2score": 2,
+    "format": "1. HEROIC removed Anubis",
+    "stage": "2. PARIVISION removed Nuke",
+    "veto": [
+      "1. HEROIC removed Anubis",
+      "2. PARIVISION removed Nuke",
+      "3. HEROIC picked Inferno",
+      "4. PARIVISION picked Dust2",
+      "5. HEROIC removed Overpass",
+      "6. PARIVISION removed Mirage",
+      "7. Ancient was left over"
+    ],
+    "maps": [
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "HEROIC",
+          "score": "6",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "PARIVISION",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 3:4)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "HEROIC",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "PARIVISION",
+          "score": "6",
+          "status": "lost"
+        },
+        "half_scores": "(9:3; 4:3)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "HEROIC",
+          "score": "6",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "PARIVISION",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 3:4)",
+        "status": "played"
+      }
+    ]
   },
   {
     "match-id": 2389537,
@@ -31573,7 +35539,65 @@
     "team1-id": 13314,
     "team2-id": 13617,
     "team1score": 2,
-    "team2score": 1
+    "team2score": 1,
+    "format": "1. ex-RUBY removed Inferno",
+    "stage": "2. KOLESIE removed Dust2",
+    "veto": [
+      "1. ex-RUBY removed Inferno",
+      "2. KOLESIE removed Dust2",
+      "3. ex-RUBY picked Mirage",
+      "4. KOLESIE picked Nuke",
+      "5. ex-RUBY removed Anubis",
+      "6. KOLESIE removed Overpass",
+      "7. Ancient was left over"
+    ],
+    "maps": [
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "KOLESIE",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "ex-RUBY",
+          "score": "11",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:5)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "KOLESIE",
+          "score": "6",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "ex-RUBY",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 1:6)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "KOLESIE",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "ex-RUBY",
+          "score": "4",
+          "status": "lost"
+        },
+        "half_scores": "(9:3; 4:1)",
+        "status": "played"
+      }
+    ]
   },
   {
     "match-id": 2389211,
@@ -31585,7 +35609,65 @@
     "team1-id": 12267,
     "team2-id": 12916,
     "team1score": 2,
-    "team2score": 1
+    "team2score": 1,
+    "format": "1. UNiTY removed Nuke",
+    "stage": "2. Betclic removed Inferno",
+    "veto": [
+      "1. UNiTY removed Nuke",
+      "2. Betclic removed Inferno",
+      "3. UNiTY picked Ancient",
+      "4. Betclic picked Dust2",
+      "5. UNiTY removed Overpass",
+      "6. Betclic removed Anubis",
+      "7. Mirage was left over"
+    ],
+    "maps": [
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "UNiTY",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Betclic",
+          "score": "5",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:0)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "UNiTY",
+          "score": "6",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Betclic",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 1:6)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "UNiTY",
+          "score": "16",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Betclic",
+          "score": "14",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 5:7) (4:2)",
+        "status": "played"
+      }
+    ]
   },
   {
     "match-id": 2389469,
