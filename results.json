@@ -9,6 +9,3528 @@
     "team1-id": 4608,
     "team2-id": 5995,
     "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389978,
+    "url": "https://hltv.org/matches/2389978/fut-vs-parivision-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "FUT",
+    "team2": "PARIVISION",
+    "team1-id": 13286,
+    "team2-id": 12467,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389977,
+    "url": "https://hltv.org/matches/2389977/aurora-vs-astralis-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "Aurora",
+    "team2": "Astralis",
+    "team1-id": 11861,
+    "team2-id": 6665,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390494,
+    "url": "https://hltv.org/matches/2390494/aether-vs-lag-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "Aether",
+    "team2": "LAG",
+    "team1-id": 12908,
+    "team2-id": 11955,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "1. LAG removed Overpass",
+    "stage": "2. Aether removed Dust2",
+    "veto": [
+      "1. LAG removed Overpass",
+      "2. Aether removed Dust2",
+      "3. LAG picked Inferno",
+      "4. Aether picked Mirage",
+      "5. LAG removed Anubis",
+      "6. Aether removed Ancient",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "Aether",
+          "score": "9",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "LAG",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 4:6)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "Aether",
+          "score": "4",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "LAG",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(2:10; 2:3)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Aether",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "LAG",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390579,
+    "url": "https://hltv.org/matches/2390579/boss-vs-rave-esl-challenger-league-season-51-north-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 North America Cup 1",
+    "team1": "BOSS",
+    "team2": "Rave",
+    "team1-id": 12534,
+    "team2-id": 13414,
+    "team1score": 0,
+    "team2score": 1,
+    "format": "Best of 3 (Online)",
+    "stage": "Upper bracket quarter-final",
+    "veto": [],
+    "maps": [
+      {
+        "map": "Default",
+        "team1": {
+          "name": "BOSS",
+          "score": "0",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Rave",
+          "score": "1",
+          "status": "won"
+        },
+        "half_scores": "",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390549,
+    "url": "https://hltv.org/matches/2390549/oddik-vs-red-canids-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "ODDIK",
+    "team2": "RED Canids",
+    "team1-id": 11768,
+    "team2-id": 7176,
+    "team1score": 2,
+    "team2score": 1,
+    "format": "1. RED Canids removed Dust2",
+    "stage": "2. ODDIK removed Mirage",
+    "veto": [
+      "1. RED Canids removed Dust2",
+      "2. ODDIK removed Mirage",
+      "3. RED Canids picked Nuke",
+      "4. ODDIK picked Anubis",
+      "5. RED Canids removed Overpass",
+      "6. ODDIK removed Inferno",
+      "7. Ancient was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ODDIK",
+          "score": "9",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "RED Canids",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(7:5; 2:8)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "ODDIK",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "RED Canids",
+          "score": "6",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:2)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "ODDIK",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "RED Canids",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:3)",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390585,
+    "url": "https://hltv.org/matches/2390585/overknight-vs-incontrol-esl-challenger-league-season-51-north-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 North America Cup 1",
+    "team1": "OverKnight",
+    "team2": "InControl",
+    "team1-id": 10901,
+    "team2-id": 7720,
+    "team1score": 0,
+    "team2score": 1,
+    "format": "Best of 3 (Online)",
+    "stage": "Lower bracket round 1",
+    "veto": [],
+    "maps": [
+      {
+        "map": "Default",
+        "team1": {
+          "name": "OverKnight",
+          "score": "0",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "InControl",
+          "score": "1",
+          "status": "won"
+        },
+        "half_scores": "",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390553,
+    "url": "https://hltv.org/matches/2390553/procyon-vs-ex-kr-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "Procyon",
+    "team2": "ex-KRÜ",
+    "team1-id": 10997,
+    "team2-id": 13664,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. ex-KRÜ removed Overpass",
+    "stage": "2. Procyon removed Ancient",
+    "veto": [
+      "1. ex-KRÜ removed Overpass",
+      "2. Procyon removed Ancient",
+      "3. ex-KRÜ picked Dust2",
+      "4. Procyon picked Nuke",
+      "5. ex-KRÜ removed Inferno",
+      "6. Procyon removed Mirage",
+      "7. Anubis was left over"
+    ],
+    "maps": [
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Procyon",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "ex-KRÜ",
+          "score": "5",
+          "status": "lost"
+        },
+        "half_scores": "(9:3; 4:2)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Procyon",
+          "score": "19",
+          "status": "won"
+        },
+        "team2": {
+          "name": "ex-KRÜ",
+          "score": "15",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 6:6) (7:3)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "Procyon",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "ex-KRÜ",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390550,
+    "url": "https://hltv.org/matches/2390550/shinden-vs-sharks-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "ShindeN",
+    "team2": "Sharks",
+    "team1-id": 12959,
+    "team2-id": 8113,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. ShindeN removed Anubis",
+    "stage": "2. Sharks removed Dust2",
+    "veto": [
+      "1. ShindeN removed Anubis",
+      "2. Sharks removed Dust2",
+      "3. ShindeN picked Mirage",
+      "4. Sharks picked Inferno",
+      "5. ShindeN removed Ancient",
+      "6. Sharks removed Overpass",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "ShindeN",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Sharks",
+          "score": "10",
+          "status": "lost"
+        },
+        "half_scores": "(4:8; 9:2)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "ShindeN",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Sharks",
+          "score": "9",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:3)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ShindeN",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Sharks",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390555,
+    "url": "https://hltv.org/matches/2390555/fake-do-biru-vs-lp-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "Fake do Biru",
+    "team2": "LP",
+    "team1-id": 13081,
+    "team2-id": 13304,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "1. LP removed Anubis",
+    "stage": "2. Fake do Biru removed Ancient",
+    "veto": [
+      "1. LP removed Anubis",
+      "2. Fake do Biru removed Ancient",
+      "3. LP picked Mirage",
+      "4. Fake do Biru picked Nuke",
+      "5. LP removed Dust2",
+      "6. Fake do Biru removed Inferno",
+      "7. Overpass was left over"
+    ],
+    "maps": [
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "Fake do Biru",
+          "score": "14",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "LP",
+          "score": "16",
+          "status": "won"
+        },
+        "half_scores": "(12:0; 0:12) (2:4)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Fake do Biru",
+          "score": "2",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "LP",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(0:12; 2:1)",
+        "status": "played"
+      },
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "Fake do Biru",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "LP",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390551,
+    "url": "https://hltv.org/matches/2390551/galorys-vs-imperial-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "Galorys",
+    "team2": "Imperial",
+    "team1-id": 12677,
+    "team2-id": 11655,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. Galorys removed Inferno",
+    "stage": "2. Imperial removed Ancient",
+    "veto": [
+      "1. Galorys removed Inferno",
+      "2. Imperial removed Ancient",
+      "3. Galorys picked Overpass",
+      "4. Imperial picked Dust2",
+      "5. Galorys removed Mirage",
+      "6. Imperial removed Anubis",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "Galorys",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Imperial",
+          "score": "6",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:1)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Galorys",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Imperial",
+          "score": "11",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:7)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Galorys",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Imperial",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390548,
+    "url": "https://hltv.org/matches/2390548/mibr-vs-bounty-hunters-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "MIBR",
+    "team2": "Bounty Hunters",
+    "team1-id": 9215,
+    "team2-id": 6544,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. Bounty Hunters removed Inferno",
+    "stage": "2. MIBR removed Dust2",
+    "veto": [
+      "1. Bounty Hunters removed Inferno",
+      "2. MIBR removed Dust2",
+      "3. Bounty Hunters picked Nuke",
+      "4. MIBR picked Ancient",
+      "5. Bounty Hunters removed Overpass",
+      "6. MIBR removed Mirage",
+      "7. Anubis was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "MIBR",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Bounty Hunters",
+          "score": "4",
+          "status": "lost"
+        },
+        "half_scores": "(11:1; 2:3)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "MIBR",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Bounty Hunters",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:2)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "MIBR",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Bounty Hunters",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390493,
+    "url": "https://hltv.org/matches/2390493/wildcard-vs-blitzkrieg-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "Wildcard",
+    "team2": "Blitzkrieg",
+    "team1-id": 12257,
+    "team2-id": 13657,
+    "team1score": 1,
+    "team2score": 0,
+    "format": "Best of 3 (Online)",
+    "stage": "Quarter-final",
+    "veto": [],
+    "maps": [
+      {
+        "map": "Default",
+        "team1": {
+          "name": "Wildcard",
+          "score": "1",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Blitzkrieg",
+          "score": "0",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390554,
+    "url": "https://hltv.org/matches/2390554/keyd-stars-vs-folha-amarela-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "Keyd Stars",
+    "team2": "FOLHA AMARELA",
+    "team1-id": 6033,
+    "team2-id": 13475,
+    "team1score": 0,
+    "team2score": 1,
+    "format": "Best of 3 (Online)",
+    "stage": "Lower bracket round 1",
+    "veto": [],
+    "maps": [
+      {
+        "map": "Default",
+        "team1": {
+          "name": "Keyd Stars",
+          "score": "0",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "FOLHA AMARELA",
+          "score": "1",
+          "status": "won"
+        },
+        "half_scores": "",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390552,
+    "url": "https://hltv.org/matches/2390552/four-magic-vs-yawara-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "Four Magic",
+    "team2": "Yawara",
+    "team1-id": 13520,
+    "team2-id": 11933,
+    "team1score": 1,
+    "team2score": 0,
+    "format": "Best of 3 (Online)",
+    "stage": "Lower bracket round 1",
+    "veto": [],
+    "maps": [
+      {
+        "map": "Default",
+        "team1": {
+          "name": "Four Magic",
+          "score": "1",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Yawara",
+          "score": "0",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390042,
+    "url": "https://hltv.org/matches/2390042/arcred-vs-los-kogutos-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "ARCRED",
+    "team2": "los kogutos",
+    "team1-id": 10459,
+    "team2-id": 10854,
+    "team1score": 1,
+    "team2score": 2,
+    "format": "1. ARCRED removed Overpass",
+    "stage": "2. los kogutos removed Inferno",
+    "veto": [
+      "1. ARCRED removed Overpass",
+      "2. los kogutos removed Inferno",
+      "3. ARCRED picked Dust2",
+      "4. los kogutos picked Mirage",
+      "5. ARCRED removed Ancient",
+      "6. los kogutos removed Anubis",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "ARCRED",
+          "score": "14",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "los kogutos",
+          "score": "16",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 7:5) (2:4)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "ARCRED",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "los kogutos",
+          "score": "5",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:1)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ARCRED",
+          "score": "6",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "los kogutos",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 2:5)",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390390,
+    "url": "https://hltv.org/matches/2390390/nuclear-tigeres-vs-leo-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "Nuclear TigeRES",
+    "team2": "Leo",
+    "team1-id": 13027,
+    "team2-id": 11446,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "1. Leo removed Inferno",
+    "stage": "2. Nuclear TigeRES removed Overpass",
+    "veto": [
+      "1. Leo removed Inferno",
+      "2. Nuclear TigeRES removed Overpass",
+      "3. Leo picked Dust2",
+      "4. Nuclear TigeRES picked Ancient",
+      "5. Leo removed Mirage",
+      "6. Nuclear TigeRES removed Nuke",
+      "7. Anubis was left over"
+    ],
+    "maps": [
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Nuclear TigeRES",
+          "score": "16",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Leo",
+          "score": "19",
+          "status": "won"
+        },
+        "half_scores": "(7:5; 5:7) (4:7)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "Nuclear TigeRES",
+          "score": "5",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Leo",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 1:5)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "Nuclear TigeRES",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Leo",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390243,
+    "url": "https://hltv.org/matches/2390243/ence-academy-vs-basement-boys-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "ENCE Academy",
+    "team2": "BASEMENT BOYS",
+    "team1-id": 11790,
+    "team2-id": 13181,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "1. BASEMENT BOYS removed Overpass",
+    "stage": "2. ENCE Academy removed Inferno",
+    "veto": [
+      "1. BASEMENT BOYS removed Overpass",
+      "2. ENCE Academy removed Inferno",
+      "3. BASEMENT BOYS picked Dust2",
+      "4. ENCE Academy picked Nuke",
+      "5. BASEMENT BOYS removed Ancient",
+      "6. ENCE Academy removed Anubis",
+      "7. Mirage was left over"
+    ],
+    "maps": [
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "ENCE Academy",
+          "score": "6",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "BASEMENT BOYS",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 1:6)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ENCE Academy",
+          "score": "13",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "BASEMENT BOYS",
+          "score": "16",
+          "status": "won"
+        },
+        "half_scores": "(7:5; 5:7) (1:4)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "ENCE Academy",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "BASEMENT BOYS",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390391,
+    "url": "https://hltv.org/matches/2390391/mouz-nxt-vs-johnny-speeds-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "MOUZ NXT",
+    "team2": "Johnny Speeds",
+    "team1-id": 11176,
+    "team2-id": 12604,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. MOUZ NXT removed Inferno",
+    "stage": "2. Johnny Speeds removed Ancient",
+    "veto": [
+      "1. MOUZ NXT removed Inferno",
+      "2. Johnny Speeds removed Ancient",
+      "3. MOUZ NXT picked Anubis",
+      "4. Johnny Speeds picked Overpass",
+      "5. MOUZ NXT removed Mirage",
+      "6. Johnny Speeds removed Dust2",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "MOUZ NXT",
+          "score": "16",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Johnny Speeds",
+          "score": "12",
+          "status": "lost"
+        },
+        "half_scores": "(4:8; 8:4) (4:0)",
+        "status": "played"
+      },
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "MOUZ NXT",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Johnny Speeds",
+          "score": "9",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:4)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "MOUZ NXT",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Johnny Speeds",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390388,
+    "url": "https://hltv.org/matches/2390388/tdk-vs-sparta-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "TDK",
+    "team2": "SPARTA",
+    "team1-id": 13644,
+    "team2-id": 13214,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. TDK removed Nuke",
+    "stage": "2. SPARTA removed Inferno",
+    "veto": [
+      "1. TDK removed Nuke",
+      "2. SPARTA removed Inferno",
+      "3. TDK picked Anubis",
+      "4. SPARTA picked Mirage",
+      "5. TDK removed Ancient",
+      "6. SPARTA removed Dust2",
+      "7. Overpass was left over"
+    ],
+    "maps": [
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "TDK",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "SPARTA",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(9:3; 4:5)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "TDK",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "SPARTA",
+          "score": "10",
+          "status": "lost"
+        },
+        "half_scores": "(10:2; 3:8)",
+        "status": "played"
+      },
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "TDK",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "SPARTA",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390389,
+    "url": "https://hltv.org/matches/2390389/genone-vs-oramond-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "GenOne",
+    "team2": "Oramond",
+    "team1-id": 11609,
+    "team2-id": 13470,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. GenOne removed Mirage",
+    "stage": "2. Oramond removed Anubis",
+    "veto": [
+      "1. GenOne removed Mirage",
+      "2. Oramond removed Anubis",
+      "3. GenOne picked Inferno",
+      "4. Oramond picked Ancient",
+      "5. GenOne removed Nuke",
+      "6. Oramond removed Overpass",
+      "7. Dust2 was left over"
+    ],
+    "maps": [
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "GenOne",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Oramond",
+          "score": "7",
+          "status": "lost"
+        },
+        "half_scores": "(9:3; 4:4)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "GenOne",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Oramond",
+          "score": "7",
+          "status": "lost"
+        },
+        "half_scores": "(10:2; 3:5)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "GenOne",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Oramond",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390392,
+    "url": "https://hltv.org/matches/2390392/rebels-vs-alliance-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "Rebels",
+    "team2": "Alliance",
+    "team1-id": 12642,
+    "team2-id": 12474,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "1. Rebels removed Mirage",
+    "stage": "2. Alliance removed Dust2",
+    "veto": [
+      "1. Rebels removed Mirage",
+      "2. Alliance removed Dust2",
+      "3. Rebels picked Nuke",
+      "4. Alliance picked Inferno",
+      "5. Rebels removed Overpass",
+      "6. Alliance removed Anubis",
+      "7. Ancient was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Rebels",
+          "score": "9",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Alliance",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 6:4)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "Rebels",
+          "score": "7",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Alliance",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 4:4)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "Rebels",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Alliance",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390395,
+    "url": "https://hltv.org/matches/2390395/sangal-vs-ex-flame-sharks-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "Sangal",
+    "team2": "ex-Flame Sharks",
+    "team1-id": 10333,
+    "team2-id": 13678,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. ex-Flame Sharks removed Overpass",
+    "stage": "2. Sangal removed Inferno",
+    "veto": [
+      "1. ex-Flame Sharks removed Overpass",
+      "2. Sangal removed Inferno",
+      "3. ex-Flame Sharks picked Dust2",
+      "4. Sangal picked Nuke",
+      "5. ex-Flame Sharks removed Mirage",
+      "6. Sangal removed Ancient",
+      "7. Anubis was left over"
+    ],
+    "maps": [
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Sangal",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "ex-Flame Sharks",
+          "score": "7",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:3)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Sangal",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "ex-Flame Sharks",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:2)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "Sangal",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "ex-Flame Sharks",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2389877,
+    "url": "https://hltv.org/matches/2389877/ecstatic-vs-vpprodigy-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "ECSTATIC",
+    "team2": "VP.Prodigy",
+    "team1-id": 11419,
+    "team2-id": 10864,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. ECSTATIC removed Dust2",
+    "stage": "2. VP.Prodigy removed Ancient",
+    "veto": [
+      "1. ECSTATIC removed Dust2",
+      "2. VP.Prodigy removed Ancient",
+      "3. ECSTATIC picked Inferno",
+      "4. VP.Prodigy picked Overpass",
+      "5. ECSTATIC removed Anubis",
+      "6. VP.Prodigy removed Mirage",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "ECSTATIC",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "VP.Prodigy",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:3)",
+        "status": "played"
+      },
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "ECSTATIC",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "VP.Prodigy",
+          "score": "6",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:1)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ECSTATIC",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "VP.Prodigy",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390394,
+    "url": "https://hltv.org/matches/2390394/illwill-vs-elitenergy-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "illwill",
+    "team2": "eLITenergy",
+    "team1-id": 13501,
+    "team2-id": 13568,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. eLITenergy removed Mirage",
+    "stage": "2. illwill removed Ancient",
+    "veto": [
+      "1. eLITenergy removed Mirage",
+      "2. illwill removed Ancient",
+      "3. eLITenergy picked Overpass",
+      "4. illwill picked Nuke",
+      "5. eLITenergy removed Dust2",
+      "6. illwill removed Inferno",
+      "7. Anubis was left over"
+    ],
+    "maps": [
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "illwill",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "eLITenergy",
+          "score": "3",
+          "status": "lost"
+        },
+        "half_scores": "(11:1; 2:2)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "illwill",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "eLITenergy",
+          "score": "1",
+          "status": "lost"
+        },
+        "half_scores": "(11:1; 2:0)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "illwill",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "eLITenergy",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2390242,
+    "url": "https://hltv.org/matches/2390242/whitebird-vs-havu-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "WHITEBIRD",
+    "team2": "HAVU",
+    "team1-id": 13583,
+    "team2-id": 7865,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389979,
+    "url": "https://hltv.org/matches/2389979/natus-vincere-vs-g2-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "Natus Vincere",
+    "team2": "G2",
+    "team1-id": 4608,
+    "team2-id": 5995,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389876,
+    "url": "https://hltv.org/matches/2389876/johnny-speeds-vs-metizport-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "Johnny Speeds",
+    "team2": "Metizport",
+    "team1-id": 12604,
+    "team2-id": 11641,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390626,
+    "url": "https://hltv.org/matches/2390626/ex-zero-tenacity-vs-bushido-wildcats-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "ex-Zero Tenacity",
+    "team2": "Bushido Wildcats",
+    "team1-id": 13573,
+    "team2-id": 13281,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390393,
+    "url": "https://hltv.org/matches/2390393/famalico-vs-ex-ruby-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "Famalicão",
+    "team2": "ex-RUBY",
+    "team1-id": 13364,
+    "team2-id": 13617,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390523,
+    "url": "https://hltv.org/matches/2390523/eruption-vs-last-bullet-esl-challenger-league-season-51-asia-pacific-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Asia-Pacific Cup 1",
+    "team1": "Eruption",
+    "team2": "Last Bullet",
+    "team1-id": 12097,
+    "team2-id": 13433,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390041,
+    "url": "https://hltv.org/matches/2390041/ex-ruby-vs-bebop-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "ex-RUBY",
+    "team2": "Bebop",
+    "team1-id": 13617,
+    "team2-id": 13613,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390521,
+    "url": "https://hltv.org/matches/2390521/morningstar-vs-legion-esl-challenger-league-season-51-asia-pacific-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Asia-Pacific Cup 1",
+    "team1": "Morningstar",
+    "team2": "Legion",
+    "team1-id": 13602,
+    "team2-id": 12535,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390524,
+    "url": "https://hltv.org/matches/2390524/chinggis-warriors-vs-nomads-esl-challenger-league-season-51-asia-pacific-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Asia-Pacific Cup 1",
+    "team1": "Chinggis Warriors",
+    "team2": "NomadS",
+    "team1-id": 12646,
+    "team2-id": 12900,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389978,
+    "url": "https://hltv.org/matches/2389978/fut-vs-parivision-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "FUT",
+    "team2": "PARIVISION",
+    "team1-id": 13286,
+    "team2-id": 12467,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390627,
+    "url": "https://hltv.org/matches/2390627/dundu-vs-pigeons-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "DUNDU",
+    "team2": "Pigeons",
+    "team1-id": null,
+    "team2-id": 12721,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390625,
+    "url": "https://hltv.org/matches/2390625/arcred-vs-ence-academy-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "ARCRED",
+    "team2": "ENCE Academy",
+    "team1-id": 10459,
+    "team2-id": 11790,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390040,
+    "url": "https://hltv.org/matches/2390040/mouz-nxt-vs-tdk-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "MOUZ NXT",
+    "team2": "TDK",
+    "team1-id": 11176,
+    "team2-id": 13644,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390241,
+    "url": "https://hltv.org/matches/2390241/omega-vs-csdiilit-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "Omega",
+    "team2": "CSDIILIT",
+    "team1-id": 11459,
+    "team2-id": 13340,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390525,
+    "url": "https://hltv.org/matches/2390525/deep-cross-vs-arise-esl-challenger-league-season-51-asia-pacific-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Asia-Pacific Cup 1",
+    "team1": "Deep Cross",
+    "team2": "Arise",
+    "team1-id": 13527,
+    "team2-id": 13502,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390522,
+    "url": "https://hltv.org/matches/2390522/boring-players-vs-change-the-game-esl-challenger-league-season-51-asia-pacific-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Asia-Pacific Cup 1",
+    "team1": "BORING PLAYERS",
+    "team2": "Change The Game",
+    "team1-id": 12948,
+    "team2-id": 13175,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389875,
+    "url": "https://hltv.org/matches/2389875/kolesie-vs-los-kogutos-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "KOLESIE",
+    "team2": "los kogutos",
+    "team1-id": 13314,
+    "team2-id": 10854,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390501,
+    "url": "https://hltv.org/matches/2390501/underground-vs-ground-zero-esl-challenger-league-season-51-oceania-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Oceania Cup 1",
+    "team1": "Underground",
+    "team2": "Ground Zero",
+    "team1-id": 13580,
+    "team2-id": 8536,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389874,
+    "url": "https://hltv.org/matches/2389874/mouz-nxt-vs-favbet-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "MOUZ NXT",
+    "team2": "FAVBET",
+    "team1-id": 11176,
+    "team2-id": 12818,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389977,
+    "url": "https://hltv.org/matches/2389977/aurora-vs-astralis-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "Aurora",
+    "team2": "Astralis",
+    "team1-id": 11861,
+    "team2-id": 6665,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390500,
+    "url": "https://hltv.org/matches/2390500/mindfreak-vs-time-waves-esl-challenger-league-season-51-oceania-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Oceania Cup 1",
+    "team1": "Mindfreak",
+    "team2": "Time Waves",
+    "team1-id": 11668,
+    "team2-id": 13543,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390504,
+    "url": "https://hltv.org/matches/2390504/fury-vs-bbbmbcbs-esl-challenger-league-season-51-oceania-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Oceania Cup 1",
+    "team1": "FURY",
+    "team2": "BBBMBCBS",
+    "team1-id": 10299,
+    "team2-id": 11109,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390503,
+    "url": "https://hltv.org/matches/2390503/thunder-downunder-vs-bbbmbcbs-esl-challenger-league-season-51-oceania-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Oceania Cup 1",
+    "team1": "THUNDER dOWNUNDER",
+    "team2": "BBBMBCBS",
+    "team1-id": 13486,
+    "team2-id": 11109,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390624,
+    "url": "https://hltv.org/matches/2390624/kono-vs-los-kogutos-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "kONO",
+    "team2": "los kogutos",
+    "team1-id": 12858,
+    "team2-id": 10854,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390240,
+    "url": "https://hltv.org/matches/2390240/tdk-vs-bushido-wildcats-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "TDK",
+    "team2": "Bushido Wildcats",
+    "team1-id": 13644,
+    "team2-id": 13281,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390502,
+    "url": "https://hltv.org/matches/2390502/rooster-vs-skele-esl-challenger-league-season-51-oceania-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Oceania Cup 1",
+    "team1": "Rooster",
+    "team2": "Skele",
+    "team1-id": 9881,
+    "team2-id": 13685,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390039,
+    "url": "https://hltv.org/matches/2390039/ww-vs-omega-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "WW",
+    "team2": "Omega",
+    "team1-id": 12967,
+    "team2-id": 11459,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390602,
+    "url": "https://hltv.org/matches/2390602/skele-vs-le-lux-cct-season-3-oceania-series-4",
+    "date": null,
+    "event": "CCT Season 3 Oceania Series 4",
+    "team1": "Skele",
+    "team2": "LE-LUX",
+    "team1-id": 13685,
+    "team2-id": 12731,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390603,
+    "url": "https://hltv.org/matches/2390603/jft-vs-abyssal-cct-season-3-oceania-series-4",
+    "date": null,
+    "event": "CCT Season 3 Oceania Series 4",
+    "team1": "JFT",
+    "team2": "Abyssal",
+    "team1-id": 13113,
+    "team2-id": null,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390671,
+    "url": "https://hltv.org/matches/2390671/fisher-college-vs-f5-pgl-bucharest-2026-north-america-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2026 North America Open Qualifier 2",
+    "team1": "Fisher College",
+    "team2": "F5",
+    "team1-id": 12769,
+    "team2-id": 13201,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390670,
+    "url": "https://hltv.org/matches/2390670/smokepoint-vs-aether-pgl-bucharest-2026-north-america-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2026 North America Open Qualifier 2",
+    "team1": "smokepoint",
+    "team2": "Aether",
+    "team1-id": 13692,
+    "team2-id": 12908,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390574,
+    "url": "https://hltv.org/matches/2390574/voca-vs-zomblers-esl-challenger-league-season-51-north-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 North America Cup 1",
+    "team1": "Voca",
+    "team2": "Zomblers",
+    "team1-id": 13499,
+    "team2-id": 12164,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390672,
+    "url": "https://hltv.org/matches/2390672/back-to-back-vs-bounty-hunters-pgl-bucharest-2026-south-america-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2026 South America Open Qualifier 2",
+    "team1": "Back to Back",
+    "team2": "Bounty Hunters",
+    "team1-id": 13691,
+    "team2-id": 6544,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390583,
+    "url": "https://hltv.org/matches/2390583/sportsbetexpert-vs-outfit-49-esl-challenger-league-season-51-north-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 North America Cup 1",
+    "team1": "SportsBetExpert",
+    "team2": "Outfit 49",
+    "team1-id": 13375,
+    "team2-id": 13294,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390575,
+    "url": "https://hltv.org/matches/2390575/mythic-vs-sakura-esl-challenger-league-season-51-north-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 North America Cup 1",
+    "team1": "Mythic",
+    "team2": "Sakura",
+    "team1-id": 5479,
+    "team2-id": 13531,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390673,
+    "url": "https://hltv.org/matches/2390673/keyd-stars-vs-yawara-pgl-bucharest-2026-south-america-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2026 South America Open Qualifier 2",
+    "team1": "Keyd Stars",
+    "team2": "Yawara",
+    "team1-id": 6033,
+    "team2-id": 11933,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390577,
+    "url": "https://hltv.org/matches/2390577/incontrol-vs-marsborne-esl-challenger-league-season-51-north-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 North America Cup 1",
+    "team1": "InControl",
+    "team2": "Marsborne",
+    "team1-id": 7720,
+    "team2-id": 13124,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390570,
+    "url": "https://hltv.org/matches/2390570/m80-vs-money-crew-esl-challenger-league-season-51-north-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 North America Cup 1",
+    "team1": "M80",
+    "team2": "Money Crew",
+    "team1-id": 12376,
+    "team2-id": 13469,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390573,
+    "url": "https://hltv.org/matches/2390573/outfit-49-vs-rave-esl-challenger-league-season-51-north-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 North America Cup 1",
+    "team1": "Outfit 49",
+    "team2": "Rave",
+    "team1-id": 13294,
+    "team2-id": 13414,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390491,
+    "url": "https://hltv.org/matches/2390491/regain-vs-outfit-49-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "regain",
+    "team2": "Outfit 49",
+    "team1-id": 12554,
+    "team2-id": 13294,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390547,
+    "url": "https://hltv.org/matches/2390547/lp-vs-imperial-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "LP",
+    "team2": "Imperial",
+    "team1-id": 13304,
+    "team2-id": 11655,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390546,
+    "url": "https://hltv.org/matches/2390546/fake-do-biru-vs-galorys-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "Fake do Biru",
+    "team2": "Galorys",
+    "team1-id": 13081,
+    "team2-id": 12677,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390544,
+    "url": "https://hltv.org/matches/2390544/sharks-vs-folha-amarela-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "Sharks",
+    "team2": "FOLHA AMARELA",
+    "team1-id": 8113,
+    "team2-id": 13475,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390669,
+    "url": "https://hltv.org/matches/2390669/oxuji-vs-mouz-nxt-pgl-bucharest-2026-europe-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 2",
+    "team1": "Oxuji",
+    "team2": "MOUZ NXT",
+    "team1-id": 13553,
+    "team2-id": 11176,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390540,
+    "url": "https://hltv.org/matches/2390540/mibr-vs-four-magic-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "MIBR",
+    "team2": "Four Magic",
+    "team1-id": 9215,
+    "team2-id": 13520,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390572,
+    "url": "https://hltv.org/matches/2390572/boss-vs-sportsbetexpert-esl-challenger-league-season-51-north-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 North America Cup 1",
+    "team1": "BOSS",
+    "team2": "SportsBetExpert",
+    "team1-id": 12534,
+    "team2-id": 13375,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390571,
+    "url": "https://hltv.org/matches/2390571/lag-vs-regain-esl-challenger-league-season-51-north-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 North America Cup 1",
+    "team1": "LAG",
+    "team2": "regain",
+    "team1-id": 11955,
+    "team2-id": 12554,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390576,
+    "url": "https://hltv.org/matches/2390576/flyquest-red-vs-overknight-esl-challenger-league-season-51-north-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 North America Cup 1",
+    "team1": "FlyQuest RED",
+    "team2": "OverKnight",
+    "team1-id": 12301,
+    "team2-id": 10901,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390542,
+    "url": "https://hltv.org/matches/2390542/oddik-vs-procyon-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "ODDIK",
+    "team2": "Procyon",
+    "team1-id": 11768,
+    "team2-id": 10997,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390543,
+    "url": "https://hltv.org/matches/2390543/ex-kr-vs-red-canids-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "ex-KRÜ",
+    "team2": "RED Canids",
+    "team1-id": 13664,
+    "team2-id": 7176,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390541,
+    "url": "https://hltv.org/matches/2390541/yawara-vs-bounty-hunters-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "Yawara",
+    "team2": "Bounty Hunters",
+    "team1-id": 11933,
+    "team2-id": 6544,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389873,
+    "url": "https://hltv.org/matches/2389873/sinners-vs-lazer-cats-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "SINNERS",
+    "team2": "Lazer Cats",
+    "team1-id": 10577,
+    "team2-id": 12087,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390376,
+    "url": "https://hltv.org/matches/2390376/unity-vs-alliance-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "UNiTY",
+    "team2": "Alliance",
+    "team1-id": 12267,
+    "team2-id": 12474,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390038,
+    "url": "https://hltv.org/matches/2390038/ex-zero-tenacity-vs-whitebird-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "ex-Zero Tenacity",
+    "team2": "WHITEBIRD",
+    "team1-id": 13573,
+    "team2-id": 13583,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390383,
+    "url": "https://hltv.org/matches/2390383/tnt-vs-ex-flame-sharks-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "TNT",
+    "team2": "ex-Flame Sharks",
+    "team1-id": 6814,
+    "team2-id": 13678,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390667,
+    "url": "https://hltv.org/matches/2390667/mouz-nxt-vs-magic-pgl-bucharest-2026-europe-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 2",
+    "team1": "MOUZ NXT",
+    "team2": "magic",
+    "team1-id": 11176,
+    "team2-id": 13592,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390668,
+    "url": "https://hltv.org/matches/2390668/fokus-vs-mix52-pgl-bucharest-2026-europe-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 2",
+    "team1": "FOKUS",
+    "team2": "mix52",
+    "team1-id": 13679,
+    "team2-id": 13652,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390380,
+    "url": "https://hltv.org/matches/2390380/ww-vs-elitenergy-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "WW",
+    "team2": "eLITenergy",
+    "team1-id": 12967,
+    "team2-id": 13568,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390379,
+    "url": "https://hltv.org/matches/2390379/ex-ruby-vs-havu-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "ex-RUBY",
+    "team2": "HAVU",
+    "team1-id": 13617,
+    "team2-id": 7865,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390377,
+    "url": "https://hltv.org/matches/2390377/ence-academy-vs-rebels-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "ENCE Academy",
+    "team2": "Rebels",
+    "team1-id": 11790,
+    "team2-id": 12642,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390381,
+    "url": "https://hltv.org/matches/2390381/illwill-vs-kolesie-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "illwill",
+    "team2": "KOLESIE",
+    "team1-id": 13501,
+    "team2-id": 13314,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389872,
+    "url": "https://hltv.org/matches/2389872/am-vs-acend-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "AM",
+    "team2": "Acend",
+    "team1-id": 13237,
+    "team2-id": 13518,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390382,
+    "url": "https://hltv.org/matches/2390382/sangal-vs-omega-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "Sangal",
+    "team2": "Omega",
+    "team1-id": 10333,
+    "team2-id": 11459,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390545,
+    "url": "https://hltv.org/matches/2390545/keyd-stars-vs-shinden-esl-challenger-league-season-51-south-america-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 South America Cup 1",
+    "team1": "Keyd Stars",
+    "team2": "ShindeN",
+    "team1-id": 6033,
+    "team2-id": 12959,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390665,
+    "url": "https://hltv.org/matches/2390665/mix52-vs-nemiga-pgl-bucharest-2026-europe-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 2",
+    "team1": "mix52",
+    "team2": "Nemiga",
+    "team1-id": 13652,
+    "team2-id": 7969,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389975,
+    "url": "https://hltv.org/matches/2389975/furia-vs-parivision-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "FURIA",
+    "team2": "PARIVISION",
+    "team1-id": 8297,
+    "team2-id": 12467,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390488,
+    "url": "https://hltv.org/matches/2390488/ww-vs-bushido-wildcats-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "WW",
+    "team2": "Bushido Wildcats",
+    "team1-id": 12967,
+    "team2-id": 13281,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390666,
+    "url": "https://hltv.org/matches/2390666/ursa-vs-oxuji-pgl-bucharest-2026-europe-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 2",
+    "team1": "Ursa",
+    "team2": "Oxuji",
+    "team1-id": 13231,
+    "team2-id": 13553,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390378,
+    "url": "https://hltv.org/matches/2390378/algo-vs-famalico-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "ALGO",
+    "team2": "Famalicão",
+    "team1-id": 13163,
+    "team2-id": 13364,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390664,
+    "url": "https://hltv.org/matches/2390664/fokus-vs-jijiehao-pgl-bucharest-2026-europe-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 2",
+    "team1": "FOKUS",
+    "team2": "JiJieHao",
+    "team1-id": 13679,
+    "team2-id": 10245,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390037,
+    "url": "https://hltv.org/matches/2390037/astral-vs-qwentry-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "ASTRAL",
+    "team2": "QWENTRY",
+    "team1-id": 13333,
+    "team2-id": 13510,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390518,
+    "url": "https://hltv.org/matches/2390518/arise-vs-change-the-game-esl-challenger-league-season-51-asia-pacific-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Asia-Pacific Cup 1",
+    "team1": "Arise",
+    "team2": "Change The Game",
+    "team1-id": 13502,
+    "team2-id": 13175,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390487,
+    "url": "https://hltv.org/matches/2390487/omega-vs-los-kogutos-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "Omega",
+    "team2": "los kogutos",
+    "team1-id": 11459,
+    "team2-id": 10854,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390516,
+    "url": "https://hltv.org/matches/2390516/the-qube-vs-legion-esl-challenger-league-season-51-asia-pacific-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Asia-Pacific Cup 1",
+    "team1": "The QUBE",
+    "team2": "Legion",
+    "team1-id": 12825,
+    "team2-id": 12535,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389871,
+    "url": "https://hltv.org/matches/2389871/inner-circle-vs-whitebird-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "Inner Circle",
+    "team2": "WHITEBIRD",
+    "team1-id": 13117,
+    "team2-id": 13583,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390486,
+    "url": "https://hltv.org/matches/2390486/lazer-cats-vs-ence-academy-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "Lazer Cats",
+    "team2": "ENCE Academy",
+    "team1-id": 12087,
+    "team2-id": 11790,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389976,
+    "url": "https://hltv.org/matches/2389976/g2-vs-heroic-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "G2",
+    "team2": "HEROIC",
+    "team1-id": 5995,
+    "team2-id": 7175,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390517,
+    "url": "https://hltv.org/matches/2390517/boring-players-vs-deep-cross-esl-challenger-league-season-51-asia-pacific-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Asia-Pacific Cup 1",
+    "team1": "BORING PLAYERS",
+    "team2": "Deep Cross",
+    "team1-id": 12948,
+    "team2-id": 13527,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390036,
+    "url": "https://hltv.org/matches/2390036/forze-reload-vs-kono-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "FORZE Reload",
+    "team2": "kONO",
+    "team1-id": 12857,
+    "team2-id": 12858,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390238,
+    "url": "https://hltv.org/matches/2390238/vpprodigy-vs-csdiilit-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "VP.Prodigy",
+    "team2": "CSDIILIT",
+    "team1-id": 10864,
+    "team2-id": 13340,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390520,
+    "url": "https://hltv.org/matches/2390520/just-swing-vs-nomads-esl-challenger-league-season-51-asia-pacific-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Asia-Pacific Cup 1",
+    "team1": "Just Swing",
+    "team2": "NomadS",
+    "team1-id": 11349,
+    "team2-id": 12900,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389973,
+    "url": "https://hltv.org/matches/2389973/natus-vincere-vs-the-mongolz-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "Natus Vincere",
+    "team2": "The MongolZ",
+    "team1-id": 4608,
+    "team2-id": 6248,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389974,
+    "url": "https://hltv.org/matches/2389974/b8-vs-aurora-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "B8",
+    "team2": "Aurora",
+    "team1-id": 11241,
+    "team2-id": 11861,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390601,
+    "url": "https://hltv.org/matches/2390601/underground-vs-shanghai-sharks-cct-season-3-oceania-series-4",
+    "date": null,
+    "event": "CCT Season 3 Oceania Series 4",
+    "team1": "Underground",
+    "team2": "Shanghai Sharks",
+    "team1-id": 13580,
+    "team2-id": 12943,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389870,
+    "url": "https://hltv.org/matches/2389870/alliance-vs-phantom-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "Alliance",
+    "team2": "Phantom",
+    "team1-id": 12474,
+    "team2-id": 13173,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389971,
+    "url": "https://hltv.org/matches/2389971/mouz-vs-fut-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "MOUZ",
+    "team2": "FUT",
+    "team1-id": 4494,
+    "team2-id": 13286,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390035,
+    "url": "https://hltv.org/matches/2390035/illwill-vs-brute-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "illwill",
+    "team2": "BRUTE",
+    "team1-id": 13501,
+    "team2-id": 9139,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390485,
+    "url": "https://hltv.org/matches/2390485/kono-vs-vpprodigy-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "kONO",
+    "team2": "VP.Prodigy",
+    "team1-id": 12858,
+    "team2-id": 10864,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389972,
+    "url": "https://hltv.org/matches/2389972/faze-vs-astralis-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "FaZe",
+    "team2": "Astralis",
+    "team1-id": 6667,
+    "team2-id": 6665,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390498,
+    "url": "https://hltv.org/matches/2390498/exsto-vs-bbbmbcbs-esl-challenger-league-season-51-oceania-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Oceania Cup 1",
+    "team1": "Exsto",
+    "team2": "BBBMBCBS",
+    "team1-id": 9492,
+    "team2-id": 11109,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390239,
+    "url": "https://hltv.org/matches/2390239/prime-vs-bushido-wildcats-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "PRIME",
+    "team2": "Bushido Wildcats",
+    "team1-id": 13663,
+    "team2-id": 13281,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390600,
+    "url": "https://hltv.org/matches/2390600/time-waves-vs-bbbmbcbs-cct-season-3-oceania-series-4",
+    "date": null,
+    "event": "CCT Season 3 Oceania Series 4",
+    "team1": "Time Waves",
+    "team2": "BBBMBCBS",
+    "team1-id": 13543,
+    "team2-id": 11109,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390519,
+    "url": "https://hltv.org/matches/2390519/ihc-vs-last-bullet-esl-challenger-league-season-51-asia-pacific-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Asia-Pacific Cup 1",
+    "team1": "IHC",
+    "team2": "Last Bullet",
+    "team1-id": 11585,
+    "team2-id": 13433,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390499,
+    "url": "https://hltv.org/matches/2390499/fury-vs-time-waves-esl-challenger-league-season-51-oceania-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Oceania Cup 1",
+    "team1": "FURY",
+    "team2": "Time Waves",
+    "team1-id": 10299,
+    "team2-id": 13543,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390492,
+    "url": "https://hltv.org/matches/2390492/zomblers-vs-farmville-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "Zomblers",
+    "team2": "FarmVille",
+    "team1-id": 12164,
+    "team2-id": 13665,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390235,
+    "url": "https://hltv.org/matches/2390235/masonic-vs-bushido-wildcats-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "MASONIC",
+    "team2": "Bushido Wildcats",
+    "team1-id": 10867,
+    "team2-id": 13281,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390034,
+    "url": "https://hltv.org/matches/2390034/illwill-vs-bebop-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "illwill",
+    "team2": "Bebop",
+    "team1-id": 13501,
+    "team2-id": 13613,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390375,
+    "url": "https://hltv.org/matches/2390375/ex-flame-sharks-vs-johnny-speeds-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "ex-Flame Sharks",
+    "team2": "Johnny Speeds",
+    "team1-id": 13678,
+    "team2-id": 12604,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390373,
+    "url": "https://hltv.org/matches/2390373/leo-vs-kolesie-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "Leo",
+    "team2": "KOLESIE",
+    "team1-id": 11446,
+    "team2-id": 13314,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390374,
+    "url": "https://hltv.org/matches/2390374/mouz-nxt-vs-omega-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "MOUZ NXT",
+    "team2": "Omega",
+    "team1-id": 11176,
+    "team2-id": 11459,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389869,
+    "url": "https://hltv.org/matches/2389869/astral-vs-vpprodigy-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "ASTRAL",
+    "team2": "VP.Prodigy",
+    "team1-id": 13333,
+    "team2-id": 10864,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390371,
+    "url": "https://hltv.org/matches/2390371/havu-vs-oramond-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "HAVU",
+    "team2": "Oramond",
+    "team1-id": 7865,
+    "team2-id": 13470,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390372,
+    "url": "https://hltv.org/matches/2390372/nuclear-tigeres-vs-elitenergy-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "Nuclear TigeRES",
+    "team2": "eLITenergy",
+    "team1-id": 13027,
+    "team2-id": 13568,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389969,
+    "url": "https://hltv.org/matches/2389969/furia-vs-falcons-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "FURIA",
+    "team2": "Falcons",
+    "team1-id": 8297,
+    "team2-id": 11283,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390368,
+    "url": "https://hltv.org/matches/2390368/sparta-vs-alliance-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "SPARTA",
+    "team2": "Alliance",
+    "team1-id": 13214,
+    "team2-id": 12474,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390370,
+    "url": "https://hltv.org/matches/2390370/famalico-vs-genone-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "Famalicão",
+    "team2": "GenOne",
+    "team1-id": 13364,
+    "team2-id": 11609,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390234,
+    "url": "https://hltv.org/matches/2390234/csdiilit-vs-rebels-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "CSDIILIT",
+    "team2": "Rebels",
+    "team1-id": 13340,
+    "team2-id": 12642,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390483,
+    "url": "https://hltv.org/matches/2390483/arcred-vs-prime-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "ARCRED",
+    "team2": "PRIME",
+    "team1-id": 10459,
+    "team2-id": 13663,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390033,
+    "url": "https://hltv.org/matches/2390033/ex-zero-tenacity-vs-los-kogutos-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "ex-Zero Tenacity",
+    "team2": "los kogutos",
+    "team1-id": 13573,
+    "team2-id": 10854,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389970,
+    "url": "https://hltv.org/matches/2389970/g2-vs-pain-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "G2",
+    "team2": "paiN",
+    "team1-id": 5995,
+    "team2-id": 4773,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389868,
+    "url": "https://hltv.org/matches/2389868/kono-vs-lazer-cats-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "kONO",
+    "team2": "Lazer Cats",
+    "team1-id": 12858,
+    "team2-id": 12087,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390369,
+    "url": "https://hltv.org/matches/2390369/rebels-vs-tdk-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "Rebels",
+    "team2": "TDK",
+    "team1-id": 12642,
+    "team2-id": 13644,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390484,
+    "url": "https://hltv.org/matches/2390484/dundu-vs-csdiilit-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "DUNDU",
+    "team2": "CSDIILIT",
+    "team1-id": null,
+    "team2-id": 13340,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389967,
+    "url": "https://hltv.org/matches/2389967/mouz-vs-vitality-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "MOUZ",
+    "team2": "Vitality",
+    "team1-id": 4494,
+    "team2-id": 9565,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390363,
+    "url": "https://hltv.org/matches/2390363/ex-ruby-vs-nexus-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "ex-RUBY",
+    "team2": "Nexus",
+    "team1-id": 13617,
+    "team2-id": 6239,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389968,
+    "url": "https://hltv.org/matches/2389968/3dmax-vs-heroic-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "3DMAX",
+    "team2": "HEROIC",
+    "team1-id": 4901,
+    "team2-id": 7175,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390361,
+    "url": "https://hltv.org/matches/2390361/ence-academy-vs-olybet-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "ENCE Academy",
+    "team2": "OlyBet",
+    "team1-id": 11790,
+    "team2-id": 13551,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390365,
+    "url": "https://hltv.org/matches/2390365/vpprodigy-vs-illwill-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "VP.Prodigy",
+    "team2": "illwill",
+    "team1-id": 10864,
+    "team2-id": 13501,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390364,
+    "url": "https://hltv.org/matches/2390364/ww-vs-forze-reload-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "WW",
+    "team2": "FORZE Reload",
+    "team1-id": 12967,
+    "team2-id": 12857,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390237,
+    "url": "https://hltv.org/matches/2390237/whitebird-vs-prime-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "WHITEBIRD",
+    "team2": "PRIME",
+    "team1-id": 13583,
+    "team2-id": 13663,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389965,
+    "url": "https://hltv.org/matches/2389965/the-mongolz-vs-b8-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "The MongolZ",
+    "team2": "B8",
+    "team1-id": 6248,
+    "team2-id": 11241,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389867,
+    "url": "https://hltv.org/matches/2389867/phantom-vs-algo-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "Phantom",
+    "team2": "ALGO",
+    "team1-id": 13173,
+    "team2-id": 13163,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390366,
+    "url": "https://hltv.org/matches/2390366/los-kogutos-vs-sangal-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "los kogutos",
+    "team2": "Sangal",
+    "team1-id": 10854,
+    "team2-id": 10333,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390482,
+    "url": "https://hltv.org/matches/2390482/ex-zero-tenacity-vs-home-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "ex-Zero Tenacity",
+    "team2": "home",
+    "team1-id": 13573,
+    "team2-id": 13662,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390032,
+    "url": "https://hltv.org/matches/2390032/mouz-nxt-vs-brute-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "MOUZ NXT",
+    "team2": "BRUTE",
+    "team1-id": 11176,
+    "team2-id": 9139,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390362,
+    "url": "https://hltv.org/matches/2390362/ex-500-vs-algo-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "ex-500",
+    "team2": "ALGO",
+    "team1-id": null,
+    "team2-id": 13163,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389966,
+    "url": "https://hltv.org/matches/2389966/fut-vs-astralis-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "FUT",
+    "team2": "Astralis",
+    "team1-id": 13286,
+    "team2-id": 6665,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389963,
+    "url": "https://hltv.org/matches/2389963/natus-vincere-vs-aurora-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "Natus Vincere",
+    "team2": "Aurora",
+    "team1-id": 4608,
+    "team2-id": 11861,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390236,
+    "url": "https://hltv.org/matches/2390236/ence-academy-vs-vpprodigy-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "ENCE Academy",
+    "team2": "VP.Prodigy",
+    "team1-id": 11790,
+    "team2-id": 10864,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390031,
+    "url": "https://hltv.org/matches/2390031/arcred-vs-whitebird-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "ARCRED",
+    "team2": "WHITEBIRD",
+    "team1-id": 10459,
+    "team2-id": 13583,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389964,
+    "url": "https://hltv.org/matches/2389964/faze-vs-parivision-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "FaZe",
+    "team2": "PARIVISION",
+    "team1-id": 6667,
+    "team2-id": 12467,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390481,
+    "url": "https://hltv.org/matches/2390481/olybet-vs-pigeons-jb-pro-league-season-2",
+    "date": null,
+    "event": "JB Pro League Season 2",
+    "team1": "OlyBet",
+    "team2": "Pigeons",
+    "team1-id": 13551,
+    "team2-id": 12721,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390489,
+    "url": "https://hltv.org/matches/2390489/mouse-vs-lag-pgl-bucharest-2026-north-america-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 North America Open Qualifier 1",
+    "team1": "mouse",
+    "team2": "LAG",
+    "team1-id": 13661,
+    "team2-id": 11955,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390490,
+    "url": "https://hltv.org/matches/2390490/wildcard-vs-claymakers-pgl-bucharest-2026-north-america-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 North America Open Qualifier 1",
+    "team1": "Wildcard",
+    "team2": "ClayMakers",
+    "team1-id": 12257,
+    "team2-id": 12242,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390460,
+    "url": "https://hltv.org/matches/2390460/chicken-coop-vs-farmville-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "Chicken Coop",
+    "team2": "FarmVille",
+    "team1-id": 13107,
+    "team2-id": 13665,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390480,
+    "url": "https://hltv.org/matches/2390480/folha-amarela-vs-bounty-hunters-pgl-bucharest-2026-south-america-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 South America Open Qualifier 1",
+    "team1": "FOLHA AMARELA",
+    "team2": "Bounty Hunters",
+    "team1-id": 13475,
+    "team2-id": 6544,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390360,
+    "url": "https://hltv.org/matches/2390360/jijiehao-vs-unity-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "JiJieHao",
+    "team2": "UNiTY",
+    "team1-id": 10245,
+    "team2-id": 12267,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390367,
+    "url": "https://hltv.org/matches/2390367/tnt-vs-kono-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "TNT",
+    "team2": "kONO",
+    "team1-id": 6814,
+    "team2-id": 12858,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390479,
+    "url": "https://hltv.org/matches/2390479/lp-vs-galorys-pgl-bucharest-2026-south-america-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 South America Open Qualifier 1",
+    "team1": "LP",
+    "team2": "Galorys",
+    "team1-id": 13304,
+    "team2-id": 12677,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390477,
+    "url": "https://hltv.org/matches/2390477/bounty-hunters-vs-r2-pgl-bucharest-2026-south-america-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 South America Open Qualifier 1",
+    "team1": "Bounty Hunters",
+    "team2": "R2",
+    "team1-id": 6544,
+    "team2-id": 13327,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390402,
+    "url": "https://hltv.org/matches/2390402/boss-vs-lag-prizepicks-na-revival-series-12",
+    "date": null,
+    "event": "PrizePicks NA Revival Series 12",
+    "team1": "BOSS",
+    "team2": "LAG",
+    "team1-id": 12534,
+    "team2-id": 11955,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390459,
+    "url": "https://hltv.org/matches/2390459/outfit-49-vs-incontrol-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "Outfit 49",
+    "team2": "InControl",
+    "team1-id": 13294,
+    "team2-id": 7720,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390478,
+    "url": "https://hltv.org/matches/2390478/yawara-vs-folha-amarela-pgl-bucharest-2026-south-america-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 South America Open Qualifier 1",
+    "team1": "Yawara",
+    "team2": "FOLHA AMARELA",
+    "team1-id": 11933,
+    "team2-id": 13475,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390476,
+    "url": "https://hltv.org/matches/2390476/galorys-vs-procyon-pgl-bucharest-2026-south-america-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 South America Open Qualifier 1",
+    "team1": "Galorys",
+    "team2": "Procyon",
+    "team1-id": 12677,
+    "team2-id": 10997,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390475,
+    "url": "https://hltv.org/matches/2390475/lp-vs-crashers-pgl-bucharest-2026-south-america-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 South America Open Qualifier 1",
+    "team1": "LP",
+    "team2": "Crashers",
+    "team1-id": 13304,
+    "team2-id": 6788,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389812,
+    "url": "https://hltv.org/matches/2389812/red-canids-vs-sharks-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "RED Canids",
+    "team2": "Sharks",
+    "team1-id": 7176,
+    "team2-id": 8113,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390473,
+    "url": "https://hltv.org/matches/2390473/inner-circle-vs-eternal-fire-pgl-bucharest-2026-europe-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 1",
+    "team1": "Inner Circle",
+    "team2": "Eternal Fire",
+    "team1-id": 13117,
+    "team2-id": 11251,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390401,
+    "url": "https://hltv.org/matches/2390401/farmville-vs-lag-prizepicks-na-revival-series-12",
+    "date": null,
+    "event": "PrizePicks NA Revival Series 12",
+    "team1": "FarmVille",
+    "team2": "LAG",
+    "team1-id": 13665,
+    "team2-id": 11955,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390474,
+    "url": "https://hltv.org/matches/2390474/aab-vs-tricked-pgl-bucharest-2026-europe-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 1",
+    "team1": "AaB",
+    "team2": "Tricked",
+    "team1-id": 9621,
+    "team2-id": 4602,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390458,
+    "url": "https://hltv.org/matches/2390458/sportsbetexpert-vs-blitzkrieg-dust2us-eagle-masters-series-6",
+    "date": null,
+    "event": "Dust2.us Eagle Masters Series 6",
+    "team1": "SportsBetExpert",
+    "team2": "Blitzkrieg",
+    "team1-id": 13375,
+    "team2-id": 13657,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390030,
+    "url": "https://hltv.org/matches/2390030/ex-ruby-vs-qwentry-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "ex-RUBY",
+    "team2": "QWENTRY",
+    "team1-id": 13617,
+    "team2-id": 13510,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390353,
+    "url": "https://hltv.org/matches/2390353/minlate-vs-forze-reload-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "MINLATE",
+    "team2": "FORZE Reload",
+    "team1-id": 6626,
+    "team2-id": 12857,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390358,
+    "url": "https://hltv.org/matches/2390358/astral-vs-tnt-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "ASTRAL",
+    "team2": "TNT",
+    "team1-id": 13333,
+    "team2-id": 6814,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390357,
+    "url": "https://hltv.org/matches/2390357/csdiilit-vs-sangal-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "CSDIILIT",
+    "team2": "Sangal",
+    "team1-id": 13340,
+    "team2-id": 10333,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389866,
+    "url": "https://hltv.org/matches/2389866/lazer-cats-vs-whitebird-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "Lazer Cats",
+    "team2": "WHITEBIRD",
+    "team1-id": 12087,
+    "team2-id": 13583,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389961,
+    "url": "https://hltv.org/matches/2389961/vitality-vs-the-mongolz-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "Vitality",
+    "team2": "The MongolZ",
+    "team1-id": 9565,
+    "team2-id": 6248,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390354,
+    "url": "https://hltv.org/matches/2390354/bushido-wildcats-vs-vpprodigy-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "Bushido Wildcats",
+    "team2": "VP.Prodigy",
+    "team1-id": 13281,
+    "team2-id": 10864,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390470,
+    "url": "https://hltv.org/matches/2390470/yngods-vs-eternal-fire-pgl-bucharest-2026-europe-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 1",
+    "team1": "yngods",
+    "team2": "Eternal Fire",
+    "team1-id": 13450,
+    "team2-id": 11251,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389811,
+    "url": "https://hltv.org/matches/2389811/shinden-vs-sharks-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "ShindeN",
+    "team2": "Sharks",
+    "team1-id": 12959,
+    "team2-id": 8113,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390103,
+    "url": "https://hltv.org/matches/2390103/pigeons-vs-let-her-cook-jb-pro-league-female-season-1",
+    "date": null,
+    "event": "JB Pro League Female Season 1",
+    "team1": "Pigeons",
+    "team2": "Let Her Cook",
+    "team1-id": 12721,
+    "team2-id": 12421,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390472,
+    "url": "https://hltv.org/matches/2390472/tricked-vs-mix52-pgl-bucharest-2026-europe-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 1",
+    "team1": "Tricked",
+    "team2": "mix52",
+    "team1-id": 4602,
+    "team2-id": 13652,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390471,
+    "url": "https://hltv.org/matches/2390471/lilmix-vs-aab-pgl-bucharest-2026-europe-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 1",
+    "team1": "Lilmix",
+    "team2": "AaB",
+    "team1-id": 9735,
+    "team2-id": 9621,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390400,
+    "url": "https://hltv.org/matches/2390400/boss-vs-outfit-49-prizepicks-na-revival-series-12",
+    "date": null,
+    "event": "PrizePicks NA Revival Series 12",
+    "team1": "BOSS",
+    "team2": "Outfit 49",
+    "team1-id": 12534,
+    "team2-id": 13294,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2390355,
+    "url": "https://hltv.org/matches/2390355/prime-vs-illwill-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "PRIME",
+    "team2": "illwill",
+    "team1-id": 13663,
+    "team2-id": 13501,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390359,
+    "url": "https://hltv.org/matches/2390359/whitebird-vs-kono-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "WHITEBIRD",
+    "team2": "kONO",
+    "team1-id": 13583,
+    "team2-id": 12858,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390232,
+    "url": "https://hltv.org/matches/2390232/rebels-vs-vpprodigy-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "Rebels",
+    "team2": "VP.Prodigy",
+    "team1-id": 12642,
+    "team2-id": 10864,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390469,
+    "url": "https://hltv.org/matches/2390469/inner-circle-vs-japczany-pgl-bucharest-2026-europe-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2026 Europe Open Qualifier 1",
+    "team1": "Inner Circle",
+    "team2": "japczany",
+    "team1-id": 13117,
+    "team2-id": 13614,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389962,
+    "url": "https://hltv.org/matches/2389962/b8-vs-heroic-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "B8",
+    "team2": "HEROIC",
+    "team1-id": 11241,
+    "team2-id": 7175,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389865,
+    "url": "https://hltv.org/matches/2389865/astral-vs-los-kogutos-cct-season-3-europe-series-15",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 15",
+    "team1": "ASTRAL",
+    "team2": "los kogutos",
+    "team1-id": 13333,
+    "team2-id": 10854,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389959,
+    "url": "https://hltv.org/matches/2389959/furia-vs-fut-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "FURIA",
+    "team2": "FUT",
+    "team1-id": 8297,
+    "team2-id": 13286,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390346,
+    "url": "https://hltv.org/matches/2390346/olybet-vs-am-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "OlyBet",
+    "team2": "AM",
+    "team1-id": 13551,
+    "team2-id": 13237,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2390029,
+    "url": "https://hltv.org/matches/2390029/kono-vs-ww-cct-season-3-europe-series-16",
+    "date": null,
+    "event": "CCT Season 3 Europe Series 16",
+    "team1": "kONO",
+    "team2": "WW",
+    "team1-id": 12858,
+    "team2-id": 12967,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390351,
+    "url": "https://hltv.org/matches/2390351/lazer-cats-vs-nexus-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "Lazer Cats",
+    "team2": "Nexus",
+    "team1-id": 12087,
+    "team2-id": 6239,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390347,
+    "url": "https://hltv.org/matches/2390347/basement-boys-vs-ence-academy-esl-challenger-league-season-51-europe-cup-1",
+    "date": null,
+    "event": "ESL Challenger League Season 51 Europe Cup 1",
+    "team1": "BASEMENT BOYS",
+    "team2": "ENCE Academy",
+    "team1-id": 13181,
+    "team2-id": 11790,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390305,
+    "url": "https://hltv.org/matches/2390305/1win-vs-nuclear-tigeres-gluck-starpearl-season-1",
+    "date": null,
+    "event": "GLuck StarPearl Season 1",
+    "team1": "1win",
+    "team2": "Nuclear TigeRES",
+    "team1-id": 10621,
+    "team2-id": 13027,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2390233,
+    "url": "https://hltv.org/matches/2390233/prime-vs-bushido-wildcats-nodwin-clutch-series-5-closed-qualifier",
+    "date": null,
+    "event": "NODWIN Clutch Series 5 Closed Qualifier",
+    "team1": "PRIME",
+    "team2": "Bushido Wildcats",
+    "team1-id": 13663,
+    "team2-id": 13281,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2389810,
+    "url": "https://hltv.org/matches/2389810/lp-vs-red-canids-cct-season-3-south-america-series-8",
+    "date": null,
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "LP",
+    "team2": "RED Canids",
+    "team1-id": 13304,
+    "team2-id": 7176,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2389960,
+    "url": "https://hltv.org/matches/2389960/aurora-vs-pain-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "Aurora",
+    "team2": "paiN",
+    "team1-id": 11861,
+    "team2-id": 4773,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2389979,
+    "url": "https://hltv.org/matches/2389979/natus-vincere-vs-g2-pgl-cluj-napoca-2026",
+    "date": null,
+    "event": "PGL Cluj-Napoca 2026",
+    "team1": "Natus Vincere",
+    "team2": "G2",
+    "team1-id": 4608,
+    "team2-id": 5995,
+    "team1score": 2,
     "team2score": 0,
     "format": "1. G2 removed Nuke",
     "stage": "2. Natus Vincere removed Overpass",
