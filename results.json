@@ -36,6 +36,3236 @@
     "team2score": 2
   },
   {
+    "match-id": 2399677,
+    "url": "https://hltv.org/matches/2399677/banda-chuya-vs-revise-cct-2026-challengers-europe-series-8",
+    "date": null,
+    "event": "CCT 2026 Challengers Europe Series 8",
+    "team1": "Banda Chuya",
+    "team2": "Revise",
+    "team1-id": 13900,
+    "team2-id": 13971,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. Banda Chuya removed Inferno",
+    "stage": "2. Revise removed Nuke",
+    "veto": [
+      "1. Banda Chuya removed Inferno",
+      "2. Revise removed Nuke",
+      "3. Banda Chuya picked Ancient",
+      "4. Revise picked Cache",
+      "5. Banda Chuya removed Dust2",
+      "6. Revise removed Anubis",
+      "7. Mirage was left over"
+    ],
+    "maps": [
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "Banda Chuya",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Revise",
+          "score": "6",
+          "status": "lost"
+        },
+        "half_scores": "(9:3; 4:3)",
+        "status": "played"
+      },
+      {
+        "map": "Cache",
+        "team1": {
+          "name": "Banda Chuya",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Revise",
+          "score": "4",
+          "status": "lost"
+        },
+        "half_scores": "(11:1; 2:3)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "Banda Chuya",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Revise",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399431,
+    "url": "https://hltv.org/matches/2399431/ence-vs-phantom-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "ENCE",
+    "team2": "Phantom",
+    "team1-id": 4869,
+    "team2-id": 13173,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "1. ENCE removed Ancient",
+    "stage": "2. Phantom removed Cache",
+    "veto": [
+      "1. ENCE removed Ancient",
+      "2. Phantom removed Cache",
+      "3. ENCE picked Anubis",
+      "4. Phantom picked Dust2",
+      "5. ENCE removed Nuke",
+      "6. Phantom removed Mirage",
+      "7. Inferno was left over"
+    ],
+    "maps": [
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "ENCE",
+          "score": "8",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Phantom",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(6:6; 2:7)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "ENCE",
+          "score": "11",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Phantom",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 7:5)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "ENCE",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Phantom",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399312,
+    "url": "https://hltv.org/matches/2399312/bushido-wildcats-vs-gothic-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "Bushido Wildcats",
+    "team2": "Gothic",
+    "team1-id": 13281,
+    "team2-id": 14014,
+    "team1score": 1,
+    "team2score": 0,
+    "format": "Best of 3 (Online)",
+    "stage": "Swiss round 3 (teams with a 0-2 record). Losing team is eliminated.",
+    "veto": [],
+    "maps": [
+      {
+        "map": "Default",
+        "team1": {
+          "name": "Bushido Wildcats",
+          "score": "1",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Gothic",
+          "score": "0",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399659,
+    "url": "https://hltv.org/matches/2399659/eyeballers-vs-gamerlegion-pgl-bucharest-2027-closed-qualifier",
+    "date": null,
+    "event": "PGL Bucharest 2027 Closed Qualifier",
+    "team1": "EYEBALLERS",
+    "team2": "GamerLegion",
+    "team1-id": 11737,
+    "team2-id": 9928,
+    "team1score": 2,
+    "team2score": 1,
+    "format": "1. EYEBALLERS removed Cache",
+    "stage": "2. GamerLegion removed Anubis",
+    "veto": [
+      "1. EYEBALLERS removed Cache",
+      "2. GamerLegion removed Anubis",
+      "3. EYEBALLERS picked Mirage",
+      "4. GamerLegion picked Nuke",
+      "5. GamerLegion removed Dust2",
+      "6. EYEBALLERS removed Ancient",
+      "7. Inferno was left over"
+    ],
+    "maps": [
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "EYEBALLERS",
+          "score": "10",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "GamerLegion",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 6:5)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "EYEBALLERS",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "GamerLegion",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:2)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "EYEBALLERS",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "GamerLegion",
+          "score": "4",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:0)",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399474,
+    "url": "https://hltv.org/matches/2399474/privateer-vs-noir-verse-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "Privateer",
+    "team2": "Noir Verse",
+    "team1-id": 13914,
+    "team2-id": 13877,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. Noir Verse removed Inferno",
+    "stage": "2. Privateer removed Mirage",
+    "veto": [
+      "1. Noir Verse removed Inferno",
+      "2. Privateer removed Mirage",
+      "3. Noir Verse picked Anubis",
+      "4. Privateer picked Nuke",
+      "5. Noir Verse removed Cache",
+      "6. Privateer removed Dust2",
+      "7. Ancient was left over"
+    ],
+    "maps": [
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "Privateer",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Noir Verse",
+          "score": "11",
+          "status": "lost"
+        },
+        "half_scores": "(5:7; 8:4)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Privateer",
+          "score": "19",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Noir Verse",
+          "score": "17",
+          "status": "lost"
+        },
+        "half_scores": "(4:8; 8:4) (7:5)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "Privateer",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Noir Verse",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399675,
+    "url": "https://hltv.org/matches/2399675/honvd-vs-titanflow-cct-2026-challengers-europe-series-8",
+    "date": null,
+    "event": "CCT 2026 Challengers Europe Series 8",
+    "team1": "Honvéd",
+    "team2": "TitanFlow",
+    "team1-id": 11110,
+    "team2-id": 14021,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "1. Honvéd removed Mirage",
+    "stage": "2. TitanFlow removed Nuke",
+    "veto": [
+      "1. Honvéd removed Mirage",
+      "2. TitanFlow removed Nuke",
+      "3. Honvéd picked Inferno",
+      "4. TitanFlow picked Cache",
+      "5. Honvéd removed Anubis",
+      "6. TitanFlow removed Ancient",
+      "7. Dust2 was left over"
+    ],
+    "maps": [
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "Honvéd",
+          "score": "4",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "TitanFlow",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 1:4)",
+        "status": "played"
+      },
+      {
+        "map": "Cache",
+        "team1": {
+          "name": "Honvéd",
+          "score": "8",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "TitanFlow",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(7:5; 1:8)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Honvéd",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "TitanFlow",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399652,
+    "url": "https://hltv.org/matches/2399652/quazar-vs-young-tigeres-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "QUAZAR",
+    "team2": "Young TigeRES",
+    "team1-id": 11312,
+    "team2-id": 13796,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. Young TigeRES removed Inferno",
+    "stage": "2. QUAZAR removed Ancient",
+    "veto": [
+      "1. Young TigeRES removed Inferno",
+      "2. QUAZAR removed Ancient",
+      "3. Young TigeRES picked Dust2",
+      "4. QUAZAR picked Cache",
+      "5. Young TigeRES removed Nuke",
+      "6. QUAZAR removed Anubis",
+      "7. Mirage was left over"
+    ],
+    "maps": [
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "QUAZAR",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Young TigeRES",
+          "score": "9",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:4)",
+        "status": "played"
+      },
+      {
+        "map": "Cache",
+        "team1": {
+          "name": "QUAZAR",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Young TigeRES",
+          "score": "4",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:0)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "QUAZAR",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Young TigeRES",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399267,
+    "url": "https://hltv.org/matches/2399267/mibr-vs-100-thieves-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "MIBR",
+    "team2": "100 Thieves",
+    "team1-id": 9215,
+    "team2-id": 8474,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. MIBR removed Dust2",
+    "stage": "2. 100 Thieves removed Inferno",
+    "veto": [
+      "1. MIBR removed Dust2",
+      "2. 100 Thieves removed Inferno",
+      "3. MIBR picked Nuke",
+      "4. 100 Thieves picked Mirage",
+      "5. MIBR removed Anubis",
+      "6. 100 Thieves removed Ancient",
+      "7. Cache was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "MIBR",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "100 Thieves",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(5:7; 8:1)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "MIBR",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "100 Thieves",
+          "score": "10",
+          "status": "lost"
+        },
+        "half_scores": "(5:7; 8:3)",
+        "status": "played"
+      },
+      {
+        "map": "Cache",
+        "team1": {
+          "name": "MIBR",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "100 Thieves",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399088,
+    "url": "https://hltv.org/matches/2399088/genone-vs-butterfly-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "GenOne",
+    "team2": "Butterfly",
+    "team1-id": 11609,
+    "team2-id": 13908,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. Butterfly removed Anubis",
+    "stage": "2. GenOne removed Mirage",
+    "veto": [
+      "1. Butterfly removed Anubis",
+      "2. GenOne removed Mirage",
+      "3. Butterfly picked Nuke",
+      "4. GenOne picked Inferno",
+      "5. Butterfly removed Cache",
+      "6. GenOne removed Dust2",
+      "7. Ancient was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "GenOne",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Butterfly",
+          "score": "1",
+          "status": "lost"
+        },
+        "half_scores": "(11:1; 2:0)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "GenOne",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Butterfly",
+          "score": "5",
+          "status": "lost"
+        },
+        "half_scores": "(10:2; 3:3)",
+        "status": "played"
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "GenOne",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Butterfly",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399311,
+    "url": "https://hltv.org/matches/2399311/lavked-vs-lfo-10-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "Lavked",
+    "team2": "LFO 10",
+    "team1-id": 12609,
+    "team2-id": 14084,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "1. LFO 10 removed Nuke",
+    "stage": "2. Lavked removed Cache",
+    "veto": [
+      "1. LFO 10 removed Nuke",
+      "2. Lavked removed Cache",
+      "3. LFO 10 picked Mirage",
+      "4. Lavked picked Dust2",
+      "5. LFO 10 removed Inferno",
+      "6. Lavked removed Ancient",
+      "7. Anubis was left over"
+    ],
+    "maps": [
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "Lavked",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "LFO 10",
+          "score": "11",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:7)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Lavked",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "LFO 10",
+          "score": "9",
+          "status": "lost"
+        },
+        "half_scores": "(5:7; 8:2)",
+        "status": "played"
+      },
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "Lavked",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "LFO 10",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399676,
+    "url": "https://hltv.org/matches/2399676/bebop-vs-donstu-cct-2026-challengers-europe-series-8",
+    "date": null,
+    "event": "CCT 2026 Challengers Europe Series 8",
+    "team1": "Bebop",
+    "team2": "DONSTU",
+    "team1-id": 13613,
+    "team2-id": 13714,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "1. DONSTU removed Mirage",
+    "stage": "2. Bebop removed Ancient",
+    "veto": [
+      "1. DONSTU removed Mirage",
+      "2. Bebop removed Ancient",
+      "3. DONSTU picked Anubis",
+      "4. Bebop picked Nuke",
+      "5. DONSTU removed Inferno",
+      "6. Bebop removed Cache",
+      "7. Dust2 was left over"
+    ],
+    "maps": [
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "Bebop",
+          "score": "2",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "DONSTU",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(2:10; 0:3)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Bebop",
+          "score": "2",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "DONSTU",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(2:10; 0:3)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "Bebop",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "DONSTU",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399769,
+    "url": "https://hltv.org/matches/2399769/nuclear-tigeres-vs-black-phoenix-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "Nuclear TigeRES",
+    "team2": "Black Phoenix",
+    "team1-id": 13027,
+    "team2-id": 13924,
+    "team1score": 1,
+    "team2score": 0,
+    "format": "Best of 3 (Online)",
+    "stage": "Group A winners' match",
+    "veto": [],
+    "maps": [
+      {
+        "map": "Default",
+        "team1": {
+          "name": "Nuclear TigeRES",
+          "score": "1",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Black Phoenix",
+          "score": "0",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399430,
+    "url": "https://hltv.org/matches/2399430/wbt-vs-havu-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "WBT",
+    "team2": "HAVU",
+    "team1-id": 13683,
+    "team2-id": 7865,
+    "team1score": 1,
+    "team2score": 2,
+    "format": "1. HAVU removed Anubis",
+    "stage": "2. WBT removed Inferno",
+    "veto": [
+      "1. HAVU removed Anubis",
+      "2. WBT removed Inferno",
+      "3. HAVU picked Nuke",
+      "4. WBT picked Dust2",
+      "5. HAVU removed Ancient",
+      "6. WBT removed Cache",
+      "7. Mirage was left over"
+    ],
+    "maps": [
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "WBT",
+          "score": "13",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "HAVU",
+          "score": "16",
+          "status": "won"
+        },
+        "half_scores": "(6:6; 6:6) (1:4)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "WBT",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "HAVU",
+          "score": "9",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:4)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "WBT",
+          "score": "10",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "HAVU",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(7:5; 3:8)",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399266,
+    "url": "https://hltv.org/matches/2399266/ninjas-in-pyjamas-vs-heroic-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "Ninjas in Pyjamas",
+    "team2": "HEROIC",
+    "team1-id": 4411,
+    "team2-id": 7175,
+    "team1score": 2,
+    "team2score": 1,
+    "format": "1. Ninjas in Pyjamas removed Dust2",
+    "stage": "2. HEROIC removed Anubis",
+    "veto": [
+      "1. Ninjas in Pyjamas removed Dust2",
+      "2. HEROIC removed Anubis",
+      "3. Ninjas in Pyjamas picked Cache",
+      "4. HEROIC picked Inferno",
+      "5. Ninjas in Pyjamas removed Ancient",
+      "6. HEROIC removed Nuke",
+      "7. Mirage was left over"
+    ],
+    "maps": [
+      {
+        "map": "Cache",
+        "team1": {
+          "name": "Ninjas in Pyjamas",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "HEROIC",
+          "score": "7",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:3)",
+        "status": "played"
+      },
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "Ninjas in Pyjamas",
+          "score": "7",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "HEROIC",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 2:6)",
+        "status": "played"
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "Ninjas in Pyjamas",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "HEROIC",
+          "score": "11",
+          "status": "lost"
+        },
+        "half_scores": "(5:7; 8:4)",
+        "status": "played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399646,
+    "url": "https://hltv.org/matches/2399646/vpfuture-vs-black-phoenix-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "VP.Future",
+    "team2": "Black Phoenix",
+    "team1-id": 14099,
+    "team2-id": 13924,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "1. VP.Future removed Cache",
+    "stage": "2. Black Phoenix removed Ancient",
+    "veto": [
+      "1. VP.Future removed Cache",
+      "2. Black Phoenix removed Ancient",
+      "3. VP.Future picked Inferno",
+      "4. Black Phoenix picked Dust2",
+      "5. VP.Future removed Anubis",
+      "6. Black Phoenix removed Mirage",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Inferno",
+        "team1": {
+          "name": "VP.Future",
+          "score": "10",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Black Phoenix",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 6:5)",
+        "status": "played"
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "VP.Future",
+          "score": "6",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Black Phoenix",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 1:6)",
+        "status": "played"
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "VP.Future",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Black Phoenix",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played"
+      }
+    ]
+  },
+  {
+    "match-id": 2399658,
+    "url": "https://hltv.org/matches/2399658/eternal-fire-vs-nuclear-tigeres-pgl-bucharest-2027-closed-qualifier",
+    "date": null,
+    "event": "PGL Bucharest 2027 Closed Qualifier",
+    "team1": "Eternal Fire",
+    "team2": "Nuclear TigeRES",
+    "team1-id": 11251,
+    "team2-id": 13027,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399087,
+    "url": "https://hltv.org/matches/2399087/bet-m-vs-just-players-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "BET-M",
+    "team2": "Just Players",
+    "team1-id": 13619,
+    "team2-id": 13776,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399473,
+    "url": "https://hltv.org/matches/2399473/revise-vs-illyrians-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "Revise",
+    "team2": "Illyrians",
+    "team1-id": 13971,
+    "team2-id": 11719,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399310,
+    "url": "https://hltv.org/matches/2399310/g2-ares-vs-ex-6666-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "G2 Ares",
+    "team2": "ex-6666",
+    "team1-id": 12889,
+    "team2-id": 14100,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399546,
+    "url": "https://hltv.org/matches/2399546/rooster-vs-off-chops-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "Rooster",
+    "team2": "Off Chops",
+    "team1-id": 9881,
+    "team2-id": 14095,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399545,
+    "url": "https://hltv.org/matches/2399545/flyquest-vs-nexvoid-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "FlyQuest",
+    "team2": "NEXVOID",
+    "team1-id": 12774,
+    "team2-id": 13667,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399543,
+    "url": "https://hltv.org/matches/2399543/nexvoid-vs-off-chops-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "NEXVOID",
+    "team2": "Off Chops",
+    "team1-id": 13667,
+    "team2-id": 14095,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399544,
+    "url": "https://hltv.org/matches/2399544/flyquest-vs-rooster-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "FlyQuest",
+    "team2": "Rooster",
+    "team1-id": 12774,
+    "team2-id": 9881,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399650,
+    "url": "https://hltv.org/matches/2399650/jumbo-vs-young-tigeres-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "JUMBO",
+    "team2": "Young TigeRES",
+    "team1-id": 13238,
+    "team2-id": 13796,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399651,
+    "url": "https://hltv.org/matches/2399651/quazar-vs-xcity-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "QUAZAR",
+    "team2": "Xcity",
+    "team1-id": 11312,
+    "team2-id": 13847,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399674,
+    "url": "https://hltv.org/matches/2399674/red-canids-academy-vs-realgotis22-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "RED Canids Academy",
+    "team2": "realgotis22",
+    "team1-id": 13029,
+    "team2-id": null,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399762,
+    "url": "https://hltv.org/matches/2399762/honvd-vs-lavked-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "Honvéd",
+    "team2": "Lavked",
+    "team1-id": 11110,
+    "team2-id": 12609,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399673,
+    "url": "https://hltv.org/matches/2399673/quintessncia-vs-damajuana-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "QUINTESSÊNCIA",
+    "team2": "DAMAJUANA",
+    "team1-id": 13811,
+    "team2-id": 13697,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399413,
+    "url": "https://hltv.org/matches/2399413/betboom-vs-legacy-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "BETBOOM",
+    "team2": "Legacy",
+    "team1-id": 12394,
+    "team2-id": 5704,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399649,
+    "url": "https://hltv.org/matches/2399649/xcity-vs-y27-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "Xcity",
+    "team2": "Y27",
+    "team1-id": 13847,
+    "team2-id": 14025,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399309,
+    "url": "https://hltv.org/matches/2399309/baks-vs-g2-ares-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "BAKS",
+    "team2": "G2 Ares",
+    "team1-id": 11699,
+    "team2-id": 12889,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399657,
+    "url": "https://hltv.org/matches/2399657/gamerlegion-vs-ex-rustec-pgl-bucharest-2027-closed-qualifier",
+    "date": null,
+    "event": "PGL Bucharest 2027 Closed Qualifier",
+    "team1": "GamerLegion",
+    "team2": "ex-RUSTEC",
+    "team1-id": 9928,
+    "team2-id": 13901,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399086,
+    "url": "https://hltv.org/matches/2399086/mellren-vs-ex-6666-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "mellren",
+    "team2": "ex-6666",
+    "team1-id": 13759,
+    "team2-id": 14100,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399265,
+    "url": "https://hltv.org/matches/2399265/100-thieves-vs-sangal-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "100 Thieves",
+    "team2": "Sangal",
+    "team1-id": 8474,
+    "team2-id": 10333,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399645,
+    "url": "https://hltv.org/matches/2399645/black-phoenix-vs-young-tigeres-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "Black Phoenix",
+    "team2": "Young TigeRES",
+    "team1-id": 13924,
+    "team2-id": 13796,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399472,
+    "url": "https://hltv.org/matches/2399472/noir-verse-vs-antidaun-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "Noir Verse",
+    "team2": "antidaun",
+    "team1-id": 13877,
+    "team2-id": 14085,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399672,
+    "url": "https://hltv.org/matches/2399672/procyon-vs-los-ninos-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "Procyon",
+    "team2": "LOS NINOS",
+    "team1-id": 10997,
+    "team2-id": 14092,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399761,
+    "url": "https://hltv.org/matches/2399761/private-vs-upgrade-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "PRIVATE",
+    "team2": "UPGRADE",
+    "team1-id": 14030,
+    "team2-id": 13989,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399656,
+    "url": "https://hltv.org/matches/2399656/bbl-vs-eyeballers-pgl-bucharest-2027-closed-qualifier",
+    "date": null,
+    "event": "PGL Bucharest 2027 Closed Qualifier",
+    "team1": "BBL",
+    "team2": "EYEBALLERS",
+    "team1-id": 13996,
+    "team2-id": 11737,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399264,
+    "url": "https://hltv.org/matches/2399264/astralis-vs-mibr-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "Astralis",
+    "team2": "MIBR",
+    "team1-id": 6665,
+    "team2-id": 9215,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399642,
+    "url": "https://hltv.org/matches/2399642/young-tigeres-vs-y27-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "Young TigeRES",
+    "team2": "Y27",
+    "team1-id": 13796,
+    "team2-id": 14025,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399429,
+    "url": "https://hltv.org/matches/2399429/phantom-vs-havu-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "Phantom",
+    "team2": "HAVU",
+    "team1-id": 13173,
+    "team2-id": 7865,
+    "team1score": 13,
+    "team2score": 4
+  },
+  {
+    "match-id": 2399471,
+    "url": "https://hltv.org/matches/2399471/mellren-vs-privateer-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "mellren",
+    "team2": "Privateer",
+    "team1-id": 13759,
+    "team2-id": 13914,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399412,
+    "url": "https://hltv.org/matches/2399412/aurora-vs-9z-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "Aurora",
+    "team2": "9z",
+    "team1-id": 11861,
+    "team2-id": 9996,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399760,
+    "url": "https://hltv.org/matches/2399760/rune-eaters-vs-hyperspirit-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "Rune Eaters",
+    "team2": "HYPERSPIRIT",
+    "team1-id": 12194,
+    "team2-id": 13012,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399085,
+    "url": "https://hltv.org/matches/2399085/ex-zero-tenacity-vs-unity-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "ex-Zero Tenacity",
+    "team2": "UNiTY",
+    "team1-id": 13573,
+    "team2-id": 12267,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399308,
+    "url": "https://hltv.org/matches/2399308/forze-reload-vs-lavked-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "FORZE Reload",
+    "team2": "Lavked",
+    "team1-id": 12857,
+    "team2-id": 12609,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399671,
+    "url": "https://hltv.org/matches/2399671/joga-de-terno-vs-your-end-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "JOGA DE TERNO",
+    "team2": "your end",
+    "team1-id": 12907,
+    "team2-id": 14008,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399643,
+    "url": "https://hltv.org/matches/2399643/black-phoenix-vs-xcity-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "Black Phoenix",
+    "team2": "Xcity",
+    "team1-id": 13924,
+    "team2-id": 13847,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399428,
+    "url": "https://hltv.org/matches/2399428/voca-vs-rounds-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "Voca",
+    "team2": "ROUNDS",
+    "team1-id": 13499,
+    "team2-id": 12457,
+    "team1score": 13,
+    "team2score": 9
+  },
+  {
+    "match-id": 2399655,
+    "url": "https://hltv.org/matches/2399655/nemesis-vs-nuclear-tigeres-pgl-bucharest-2027-closed-qualifier",
+    "date": null,
+    "event": "PGL Bucharest 2027 Closed Qualifier",
+    "team1": "Nemesis",
+    "team2": "Nuclear TigeRES",
+    "team1-id": 8634,
+    "team2-id": 13027,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399307,
+    "url": "https://hltv.org/matches/2399307/ex-rustec-vs-saint-sinners-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "ex-RUSTEC",
+    "team2": "Saint Sinners",
+    "team1-id": 13901,
+    "team2-id": 13998,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399427,
+    "url": "https://hltv.org/matches/2399427/phantom-vs-rounds-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "Phantom",
+    "team2": "ROUNDS",
+    "team1-id": 13173,
+    "team2-id": 12457,
+    "team1score": 13,
+    "team2score": 6
+  },
+  {
+    "match-id": 2399263,
+    "url": "https://hltv.org/matches/2399263/fnatic-vs-heroic-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "fnatic",
+    "team2": "HEROIC",
+    "team1-id": 4623,
+    "team2-id": 7175,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399644,
+    "url": "https://hltv.org/matches/2399644/quazar-vs-vpfuture-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "QUAZAR",
+    "team2": "VP.Future",
+    "team1-id": 11312,
+    "team2-id": 14099,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399470,
+    "url": "https://hltv.org/matches/2399470/benched-gods-vs-illyrians-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "benched gods",
+    "team2": "Illyrians",
+    "team1-id": 13599,
+    "team2-id": 11719,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399426,
+    "url": "https://hltv.org/matches/2399426/voca-vs-havu-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "Voca",
+    "team2": "HAVU",
+    "team1-id": 13499,
+    "team2-id": 7865,
+    "team1score": 8,
+    "team2score": 13
+  },
+  {
+    "match-id": 2399654,
+    "url": "https://hltv.org/matches/2399654/eternal-fire-vs-betclic-pgl-bucharest-2027-closed-qualifier",
+    "date": null,
+    "event": "PGL Bucharest 2027 Closed Qualifier",
+    "team1": "Eternal Fire",
+    "team2": "Betclic",
+    "team1-id": 11251,
+    "team2-id": 12916,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399648,
+    "url": "https://hltv.org/matches/2399648/d06eg-vs-jumbo-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "d06eg",
+    "team2": "JUMBO",
+    "team1-id": 14098,
+    "team2-id": 13238,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399262,
+    "url": "https://hltv.org/matches/2399262/ninjas-in-pyjamas-vs-liquid-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "Ninjas in Pyjamas",
+    "team2": "Liquid",
+    "team1-id": 4411,
+    "team2-id": 5973,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399084,
+    "url": "https://hltv.org/matches/2399084/bushido-wildcats-vs-ex-rustec-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "Bushido Wildcats",
+    "team2": "ex-RUSTEC",
+    "team1-id": 13281,
+    "team2-id": 13901,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399306,
+    "url": "https://hltv.org/matches/2399306/black-phoenix-vs-illyrians-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "Black Phoenix",
+    "team2": "Illyrians",
+    "team1-id": 13924,
+    "team2-id": 11719,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399469,
+    "url": "https://hltv.org/matches/2399469/lilmix-vs-revise-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "Lilmix",
+    "team2": "Revise",
+    "team1-id": 9735,
+    "team2-id": 13971,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399542,
+    "url": "https://hltv.org/matches/2399542/abyssal-vs-off-chops-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "Abyssal",
+    "team2": "Off Chops",
+    "team1-id": 13686,
+    "team2-id": 14095,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399425,
+    "url": "https://hltv.org/matches/2399425/havu-vs-rounds-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "HAVU",
+    "team2": "ROUNDS",
+    "team1-id": 7865,
+    "team2-id": 12457,
+    "team1score": 13,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399641,
+    "url": "https://hltv.org/matches/2399641/jumbo-vs-vpfuture-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "JUMBO",
+    "team2": "VP.Future",
+    "team1-id": 13238,
+    "team2-id": 14099,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399640,
+    "url": "https://hltv.org/matches/2399640/quazar-vs-d06eg-gluck-yungstar-2026-series-3",
+    "date": null,
+    "event": "GLuck Yungstar 2026 Series 3",
+    "team1": "QUAZAR",
+    "team2": "d06eg",
+    "team1-id": 11312,
+    "team2-id": 14098,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399424,
+    "url": "https://hltv.org/matches/2399424/voca-vs-phantom-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "Voca",
+    "team2": "Phantom",
+    "team1-id": 13499,
+    "team2-id": 13173,
+    "team1score": 4,
+    "team2score": 13
+  },
+  {
+    "match-id": 2399083,
+    "url": "https://hltv.org/matches/2399083/brute-vs-walczaki-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "BRUTE",
+    "team2": "Walczaki",
+    "team1-id": 9139,
+    "team2-id": 13808,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399541,
+    "url": "https://hltv.org/matches/2399541/off-chops-vs-ground-zero-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "Off Chops",
+    "team2": "Ground Zero",
+    "team1-id": 14095,
+    "team2-id": 8536,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399540,
+    "url": "https://hltv.org/matches/2399540/flyquest-vs-abyssal-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "FlyQuest",
+    "team2": "Abyssal",
+    "team1-id": 12774,
+    "team2-id": 13686,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399539,
+    "url": "https://hltv.org/matches/2399539/ground-zero-vs-abyssal-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "Ground Zero",
+    "team2": "Abyssal",
+    "team1-id": 8536,
+    "team2-id": 13686,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399538,
+    "url": "https://hltv.org/matches/2399538/flyquest-vs-off-chops-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "FlyQuest",
+    "team2": "Off Chops",
+    "team1-id": 12774,
+    "team2-id": 14095,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399670,
+    "url": "https://hltv.org/matches/2399670/a-nata-vs-sementes-do-mal-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "A NATA",
+    "team2": "Sementes do Mal",
+    "team1-id": 14090,
+    "team2-id": 13978,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399571,
+    "url": "https://hltv.org/matches/2399571/private-vs-honvd-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "PRIVATE",
+    "team2": "Honvéd",
+    "team1-id": 14030,
+    "team2-id": 11110,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399411,
+    "url": "https://hltv.org/matches/2399411/legacy-vs-furia-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "Legacy",
+    "team2": "FURIA",
+    "team1-id": 5704,
+    "team2-id": 8297,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399669,
+    "url": "https://hltv.org/matches/2399669/martians-vs-hacha-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "Martians",
+    "team2": "Hacha",
+    "team1-id": 13230,
+    "team2-id": 13722,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399261,
+    "url": "https://hltv.org/matches/2399261/mibr-vs-bcgame-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "MIBR",
+    "team2": "BC.Game",
+    "team1-id": 9215,
+    "team2-id": 12878,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399668,
+    "url": "https://hltv.org/matches/2399668/zetta-vs-sukeban-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "Zetta",
+    "team2": "SUKEBAN",
+    "team1-id": 13833,
+    "team2-id": 14091,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399468,
+    "url": "https://hltv.org/matches/2399468/pcific-vs-saint-sinners-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "PCIFIC",
+    "team2": "Saint Sinners",
+    "team1-id": 13054,
+    "team2-id": 13998,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399423,
+    "url": "https://hltv.org/matches/2399423/eac-vs-ence-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "EAC",
+    "team2": "ENCE",
+    "team1-id": 13838,
+    "team2-id": 4869,
+    "team1score": 5,
+    "team2score": 13
+  },
+  {
+    "match-id": 2399570,
+    "url": "https://hltv.org/matches/2399570/upgrade-vs-lavked-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "UPGRADE",
+    "team2": "Lavked",
+    "team1-id": 13989,
+    "team2-id": 12609,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399410,
+    "url": "https://hltv.org/matches/2399410/parivision-vs-betboom-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "PARIVISION",
+    "team2": "BETBOOM",
+    "team1-id": 12467,
+    "team2-id": 12394,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399082,
+    "url": "https://hltv.org/matches/2399082/unity-vs-walczaki-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "UNiTY",
+    "team2": "Walczaki",
+    "team1-id": 12267,
+    "team2-id": 13808,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399467,
+    "url": "https://hltv.org/matches/2399467/enjoy-vs-ex-6666-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "Enjoy",
+    "team2": "ex-6666",
+    "team1-id": 4246,
+    "team2-id": 14100,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399422,
+    "url": "https://hltv.org/matches/2399422/wbt-vs-bojong-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "WBT",
+    "team2": "BOJONG",
+    "team1-id": 13683,
+    "team2-id": 13795,
+    "team1score": 13,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399305,
+    "url": "https://hltv.org/matches/2399305/gothic-vs-lfo-10-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "Gothic",
+    "team2": "LFO 10",
+    "team1-id": 14014,
+    "team2-id": 14084,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399081,
+    "url": "https://hltv.org/matches/2399081/butterfly-vs-fire-flux-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "Butterfly",
+    "team2": "Fire Flux",
+    "team1-id": 13908,
+    "team2-id": 12960,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399259,
+    "url": "https://hltv.org/matches/2399259/heroic-vs-bcgame-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "HEROIC",
+    "team2": "BC.Game",
+    "team1-id": 7175,
+    "team2-id": 12878,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399304,
+    "url": "https://hltv.org/matches/2399304/the-last-resort-vs-spirit-academy-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "The Last Resort",
+    "team2": "Spirit Academy",
+    "team1-id": 6089,
+    "team2-id": 7900,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399260,
+    "url": "https://hltv.org/matches/2399260/envy-vs-mibr-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "Envy",
+    "team2": "MIBR",
+    "team1-id": 5991,
+    "team2-id": 9215,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399421,
+    "url": "https://hltv.org/matches/2399421/eac-vs-bojong-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "EAC",
+    "team2": "BOJONG",
+    "team1-id": 13838,
+    "team2-id": 13795,
+    "team1score": 13,
+    "team2score": 5
+  },
+  {
+    "match-id": 2399409,
+    "url": "https://hltv.org/matches/2399409/9z-vs-falcons-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "9z",
+    "team2": "Falcons",
+    "team1-id": 9996,
+    "team2-id": 11283,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399080,
+    "url": "https://hltv.org/matches/2399080/ex-zero-tenacity-vs-just-players-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "ex-Zero Tenacity",
+    "team2": "Just Players",
+    "team1-id": 13573,
+    "team2-id": 13776,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399420,
+    "url": "https://hltv.org/matches/2399420/wbt-vs-ence-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "WBT",
+    "team2": "ENCE",
+    "team1-id": 13683,
+    "team2-id": 4869,
+    "team1score": 16,
+    "team2score": 14
+  },
+  {
+    "match-id": 2399136,
+    "url": "https://hltv.org/matches/2399136/mibr-vs-bcgame-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "MIBR",
+    "team2": "BC.Game",
+    "team1-id": 9215,
+    "team2-id": 12878,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399569,
+    "url": "https://hltv.org/matches/2399569/bushido-wildcats-vs-johnny-speeds-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "Bushido Wildcats",
+    "team2": "Johnny Speeds",
+    "team1-id": 13281,
+    "team2-id": 12604,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399137,
+    "url": "https://hltv.org/matches/2399137/heroic-vs-envy-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "HEROIC",
+    "team2": "Envy",
+    "team1-id": 7175,
+    "team2-id": 5991,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399667,
+    "url": "https://hltv.org/matches/2399667/grmio-vs-exodia-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "Grêmio",
+    "team2": "EXODIA",
+    "team1-id": 13912,
+    "team2-id": 14050,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399466,
+    "url": "https://hltv.org/matches/2399466/ryvex-vs-maybe-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "Ryvex",
+    "team2": "MAYBE",
+    "team1-id": 13974,
+    "team2-id": 13945,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399079,
+    "url": "https://hltv.org/matches/2399079/brute-vs-mellren-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "BRUTE",
+    "team2": "mellren",
+    "team1-id": 9139,
+    "team2-id": 13759,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399419,
+    "url": "https://hltv.org/matches/2399419/ence-vs-bojong-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "ENCE",
+    "team2": "BOJONG",
+    "team1-id": 4869,
+    "team2-id": 13795,
+    "team1score": 13,
+    "team2score": 4
+  },
+  {
+    "match-id": 2399303,
+    "url": "https://hltv.org/matches/2399303/walczaki-vs-mellren-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "Walczaki",
+    "team2": "mellren",
+    "team1-id": 13808,
+    "team2-id": 13759,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399537,
+    "url": "https://hltv.org/matches/2399537/mindfreak-vs-rooster-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "Mindfreak",
+    "team2": "Rooster",
+    "team1-id": 11668,
+    "team2-id": 9881,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399465,
+    "url": "https://hltv.org/matches/2399465/b8-academy-vs-banda-chuya-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "B8 Academy",
+    "team2": "Banda Chuya",
+    "team1-id": 13732,
+    "team2-id": 13900,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399408,
+    "url": "https://hltv.org/matches/2399408/aurora-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "Aurora",
+    "team2": "Ninjas in Pyjamas",
+    "team1-id": 11861,
+    "team2-id": 4411,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399764,
+    "url": "https://hltv.org/matches/2399764/fire-flux-vs-johnny-speeds-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "Fire Flux",
+    "team2": "Johnny Speeds",
+    "team1-id": 12960,
+    "team2-id": 12604,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399763,
+    "url": "https://hltv.org/matches/2399763/lph-vs-walczaki-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "LPH",
+    "team2": "Walczaki",
+    "team1-id": 13279,
+    "team2-id": 13808,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399568,
+    "url": "https://hltv.org/matches/2399568/black-phoenix-vs-walczaki-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "Black Phoenix",
+    "team2": "Walczaki",
+    "team1-id": 13924,
+    "team2-id": 13808,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399302,
+    "url": "https://hltv.org/matches/2399302/bushido-wildcats-vs-ex-6666-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "Bushido Wildcats",
+    "team2": "ex-6666",
+    "team1-id": 13281,
+    "team2-id": 14100,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399418,
+    "url": "https://hltv.org/matches/2399418/wbt-vs-eac-elisa-breakout-series-2",
+    "date": null,
+    "event": "Elisa BreakOut Series 2",
+    "team1": "WBT",
+    "team2": "EAC",
+    "team1-id": 13683,
+    "team2-id": 13838,
+    "team1score": 13,
+    "team2score": 5
+  },
+  {
+    "match-id": 2399233,
+    "url": "https://hltv.org/matches/2399233/chicken-coop-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 North America Cup 3",
+    "team1": "Chicken Coop",
+    "team2": "Overtake Sector",
+    "team1-id": 13107,
+    "team2-id": 13855,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399535,
+    "url": "https://hltv.org/matches/2399535/rooster-vs-nexvoid-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "Rooster",
+    "team2": "NEXVOID",
+    "team1-id": 9881,
+    "team2-id": 13667,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399536,
+    "url": "https://hltv.org/matches/2399536/rare-atom-vs-mindfreak-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "Rare Atom",
+    "team2": "Mindfreak",
+    "team1-id": 11514,
+    "team2-id": 11668,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399533,
+    "url": "https://hltv.org/matches/2399533/nexvoid-vs-mindfreak-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "NEXVOID",
+    "team2": "Mindfreak",
+    "team1-id": 13667,
+    "team2-id": 11668,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399205,
+    "url": "https://hltv.org/matches/2399205/lp-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 South America Cup 3",
+    "team1": "LP",
+    "team2": "Galorys",
+    "team1-id": 13304,
+    "team2-id": 12677,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399534,
+    "url": "https://hltv.org/matches/2399534/rare-atom-vs-rooster-dfrag-logitech-g-pro-series-2026",
+    "date": null,
+    "event": "DFRAG Logitech G Pro Series 2026",
+    "team1": "Rare Atom",
+    "team2": "Rooster",
+    "team1-id": 11514,
+    "team2-id": 9881,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399575,
+    "url": "https://hltv.org/matches/2399575/joga-de-terno-vs-a-nata-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "JOGA DE TERNO",
+    "team2": "A NATA",
+    "team1-id": 12907,
+    "team2-id": 14090,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399563,
+    "url": "https://hltv.org/matches/2399563/nuclear-tigeres-vs-fokus-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "Nuclear TigeRES",
+    "team2": "FOKUS",
+    "team1-id": 13027,
+    "team2-id": 13679,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399567,
+    "url": "https://hltv.org/matches/2399567/rune-eaters-vs-pcific-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "Rune Eaters",
+    "team2": "PCIFIC",
+    "team1-id": 12194,
+    "team2-id": 13054,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399387,
+    "url": "https://hltv.org/matches/2399387/furia-vs-betboom-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "FURIA",
+    "team2": "BETBOOM",
+    "team1-id": 8297,
+    "team2-id": 12394,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399574,
+    "url": "https://hltv.org/matches/2399574/damajuana-vs-zetta-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "DAMAJUANA",
+    "team2": "Zetta",
+    "team1-id": 13697,
+    "team2-id": 13833,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399562,
+    "url": "https://hltv.org/matches/2399562/fokus-vs-younglings-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "FOKUS",
+    "team2": "Younglings",
+    "team1-id": 13679,
+    "team2-id": 13707,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399078,
+    "url": "https://hltv.org/matches/2399078/black-phoenix-vs-ex-rustec-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "Black Phoenix",
+    "team2": "ex-RUSTEC",
+    "team1-id": 13924,
+    "team2-id": 13901,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399464,
+    "url": "https://hltv.org/matches/2399464/saint-sinners-vs-maybe-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "Saint Sinners",
+    "team2": "MAYBE",
+    "team1-id": 13998,
+    "team2-id": 13945,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399566,
+    "url": "https://hltv.org/matches/2399566/omega-vs-fire-flux-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "Omega",
+    "team2": "Fire Flux",
+    "team1-id": 11459,
+    "team2-id": 12960,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399561,
+    "url": "https://hltv.org/matches/2399561/butterfly-vs-nuclear-tigeres-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "Butterfly",
+    "team2": "Nuclear TigeRES",
+    "team1-id": 13908,
+    "team2-id": 13027,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399301,
+    "url": "https://hltv.org/matches/2399301/forze-reload-vs-lfo-10-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "FORZE Reload",
+    "team2": "LFO 10",
+    "team1-id": 12857,
+    "team2-id": 14084,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399560,
+    "url": "https://hltv.org/matches/2399560/younglings-vs-nt-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "Younglings",
+    "team2": "NT",
+    "team1-id": 13707,
+    "team2-id": 14007,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399386,
+    "url": "https://hltv.org/matches/2399386/legacy-vs-parivision-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "Legacy",
+    "team2": "PARIVISION",
+    "team1-id": 5704,
+    "team2-id": 12467,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399258,
+    "url": "https://hltv.org/matches/2399258/fnatic-vs-hotu-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "fnatic",
+    "team2": "HOTU",
+    "team1-id": 4623,
+    "team2-id": 11581,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399573,
+    "url": "https://hltv.org/matches/2399573/sementes-do-mal-vs-red-canids-academy-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "Sementes do Mal",
+    "team2": "RED Canids Academy",
+    "team1-id": 13978,
+    "team2-id": 13029,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399077,
+    "url": "https://hltv.org/matches/2399077/bet-m-vs-forze-reload-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "BET-M",
+    "team2": "FORZE Reload",
+    "team1-id": 13619,
+    "team2-id": 12857,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399300,
+    "url": "https://hltv.org/matches/2399300/g2-ares-vs-the-last-resort-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "G2 Ares",
+    "team2": "The Last Resort",
+    "team1-id": 12889,
+    "team2-id": 6089,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399557,
+    "url": "https://hltv.org/matches/2399557/nuclear-tigeres-vs-phantom-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "Nuclear TigeRES",
+    "team2": "Phantom",
+    "team1-id": 13027,
+    "team2-id": 13173,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399559,
+    "url": "https://hltv.org/matches/2399559/just-players-vs-fokus-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "Just Players",
+    "team2": "FOKUS",
+    "team1-id": 13776,
+    "team2-id": 13679,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399565,
+    "url": "https://hltv.org/matches/2399565/6yubojlbl-vs-hyperspirit-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "6yuBoJlbl",
+    "team2": "HYPERSPIRIT",
+    "team1-id": 14079,
+    "team2-id": 13012,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399175,
+    "url": "https://hltv.org/matches/2399175/lynn-vision-vs-alter-ego-esl-challenger-league-season-52-asia-pacific-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+    "team1": "Lynn Vision",
+    "team2": "Alter Ego",
+    "team1-id": 8840,
+    "team2-id": 9958,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399463,
+    "url": "https://hltv.org/matches/2399463/pcific-vs-ryvex-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "PCIFIC",
+    "team2": "Ryvex",
+    "team1-id": 13054,
+    "team2-id": 13974,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399558,
+    "url": "https://hltv.org/matches/2399558/upgrade-vs-butterfly-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "UPGRADE",
+    "team2": "Butterfly",
+    "team1-id": 13989,
+    "team2-id": 13908,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399256,
+    "url": "https://hltv.org/matches/2399256/hotu-vs-astralis-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "HOTU",
+    "team2": "Astralis",
+    "team1-id": 11581,
+    "team2-id": 6665,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399385,
+    "url": "https://hltv.org/matches/2399385/falcons-vs-ninjas-in-pyjamas-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "Falcons",
+    "team2": "Ninjas in Pyjamas",
+    "team1-id": 11283,
+    "team2-id": 4411,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399076,
+    "url": "https://hltv.org/matches/2399076/bushido-wildcats-vs-baks-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "Bushido Wildcats",
+    "team2": "BAKS",
+    "team1-id": 13281,
+    "team2-id": 11699,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399257,
+    "url": "https://hltv.org/matches/2399257/fnatic-vs-sashi-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "fnatic",
+    "team2": "Sashi",
+    "team1-id": 4623,
+    "team2-id": 11712,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399462,
+    "url": "https://hltv.org/matches/2399462/banda-chuya-vs-6666-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "Banda Chuya",
+    "team2": "6666",
+    "team1-id": 13900,
+    "team2-id": 13882,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399299,
+    "url": "https://hltv.org/matches/2399299/ex-rustec-vs-mellren-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "ex-RUSTEC",
+    "team2": "mellren",
+    "team1-id": 13901,
+    "team2-id": 13759,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399572,
+    "url": "https://hltv.org/matches/2399572/exodia-vs-realgotis22-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "EXODIA",
+    "team2": "realgotis22",
+    "team1-id": 14050,
+    "team2-id": null,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399564,
+    "url": "https://hltv.org/matches/2399564/nuclear-tigeres-vs-lph-cis-esports-league-cyberclash-season-2",
+    "date": null,
+    "event": "CIS Esports League CyberClash Season 2",
+    "team1": "Nuclear TigeRES",
+    "team2": "LPH",
+    "team1-id": 13027,
+    "team2-id": 13279,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399134,
+    "url": "https://hltv.org/matches/2399134/astralis-vs-sashi-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "Astralis",
+    "team2": "Sashi",
+    "team1-id": 6665,
+    "team2-id": 11712,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399135,
+    "url": "https://hltv.org/matches/2399135/hotu-vs-fnatic-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "HOTU",
+    "team2": "fnatic",
+    "team1-id": 11581,
+    "team2-id": 4623,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399384,
+    "url": "https://hltv.org/matches/2399384/9z-vs-aurora-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "9z",
+    "team2": "Aurora",
+    "team1-id": 9996,
+    "team2-id": 11861,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399075,
+    "url": "https://hltv.org/matches/2399075/genone-vs-6666-nodwin-clutch-series-13",
+    "date": null,
+    "event": "NODWIN Clutch Series 13",
+    "team1": "GenOne",
+    "team2": "6666",
+    "team1-id": 11609,
+    "team2-id": 13882,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399147,
+    "url": "https://hltv.org/matches/2399147/markandlarry-vs-rooster-esl-challenger-league-season-52-oceania-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 Oceania Cup 3",
+    "team1": "MARKandLARRY",
+    "team2": "Rooster",
+    "team1-id": 9942,
+    "team2-id": 9881,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399461,
+    "url": "https://hltv.org/matches/2399461/enjoy-vs-b8-academy-cct-2026-europe-series-12-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 12 Closed Qualifier",
+    "team1": "Enjoy",
+    "team2": "B8 Academy",
+    "team1-id": 4246,
+    "team2-id": 13732,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399298,
+    "url": "https://hltv.org/matches/2399298/gothic-vs-lavked-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "Gothic",
+    "team2": "Lavked",
+    "team1-id": 14014,
+    "team2-id": 12609,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399232,
+    "url": "https://hltv.org/matches/2399232/zomblers-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 North America Cup 3",
+    "team1": "Zomblers",
+    "team2": "Overtake Sector",
+    "team1-id": 12164,
+    "team2-id": 13855,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399204,
+    "url": "https://hltv.org/matches/2399204/ex-keyd-stars-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 South America Cup 3",
+    "team1": "ex-Keyd Stars",
+    "team2": "Galorys",
+    "team1-id": 13423,
+    "team2-id": 12677,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399459,
+    "url": "https://hltv.org/matches/2399459/grmio-vs-los-ninos-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "Grêmio",
+    "team2": "LOS NINOS",
+    "team1-id": 13912,
+    "team2-id": 14092,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399460,
+    "url": "https://hltv.org/matches/2399460/your-end-vs-sukeban-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "your end",
+    "team2": "SUKEBAN",
+    "team1-id": 14008,
+    "team2-id": 14091,
+    "team1score": 1,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399551,
+    "url": "https://hltv.org/matches/2399551/genone-vs-butterfly-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "GenOne",
+    "team2": "Butterfly",
+    "team1-id": 11609,
+    "team2-id": 13908,
+    "team1score": 11,
+    "team2score": 13
+  },
+  {
+    "match-id": 2399297,
+    "url": "https://hltv.org/matches/2399297/black-phoenix-vs-6666-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "Black Phoenix",
+    "team2": "6666",
+    "team1-id": 13924,
+    "team2-id": 13882,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399556,
+    "url": "https://hltv.org/matches/2399556/nt-vs-rune-eaters-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "NT",
+    "team2": "Rune Eaters",
+    "team1-id": 14007,
+    "team2-id": 12194,
+    "team1score": 13,
+    "team2score": 8
+  },
+  {
+    "match-id": 2399552,
+    "url": "https://hltv.org/matches/2399552/upgrade-vs-omega-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "UPGRADE",
+    "team2": "Omega",
+    "team1-id": 13989,
+    "team2-id": 11459,
+    "team1score": 13,
+    "team2score": 11
+  },
+  {
+    "match-id": 2399550,
+    "url": "https://hltv.org/matches/2399550/phantom-vs-dnk-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "Phantom",
+    "team2": "DNK",
+    "team1-id": 13173,
+    "team2-id": 13803,
+    "team1score": 13,
+    "team2score": 3
+  },
+  {
+    "match-id": 2399255,
+    "url": "https://hltv.org/matches/2399255/liquid-vs-jijiehao-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "Liquid",
+    "team2": "JiJieHao",
+    "team1-id": 5973,
+    "team2-id": 10245,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399555,
+    "url": "https://hltv.org/matches/2399555/metizport-vs-younglings-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "Metizport",
+    "team2": "Younglings",
+    "team1-id": 11641,
+    "team2-id": 13707,
+    "team1score": 6,
+    "team2score": 13
+  },
+  {
+    "match-id": 2399553,
+    "url": "https://hltv.org/matches/2399553/fokus-vs-ex-zero-tenacity-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "FOKUS",
+    "team2": "ex-Zero Tenacity",
+    "team1-id": 13679,
+    "team2-id": 13573,
+    "team1score": 13,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399554,
+    "url": "https://hltv.org/matches/2399554/toobisie-vs-just-players-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "Toobisie",
+    "team2": "Just Players",
+    "team1-id": 13993,
+    "team2-id": 13776,
+    "team1score": 11,
+    "team2score": 13
+  },
+  {
+    "match-id": 2399549,
+    "url": "https://hltv.org/matches/2399549/nuclear-tigeres-vs-og-pgl-bucharest-2027-open-qualifier-2",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 2",
+    "team1": "Nuclear TigeRES",
+    "team2": "OG",
+    "team1-id": 13027,
+    "team2-id": 10411,
+    "team1score": 13,
+    "team2score": 7
+  },
+  {
+    "match-id": 2399458,
+    "url": "https://hltv.org/matches/2399458/procyon-vs-hacha-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "Procyon",
+    "team2": "Hacha",
+    "team1-id": 10997,
+    "team2-id": 13722,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399254,
+    "url": "https://hltv.org/matches/2399254/jijiehao-vs-bbl-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "JiJieHao",
+    "team2": "BBL",
+    "team1-id": 10245,
+    "team2-id": 13996,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399174,
+    "url": "https://hltv.org/matches/2399174/just-swing-vs-alter-ego-esl-challenger-league-season-52-asia-pacific-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+    "team1": "Just Swing",
+    "team2": "Alter Ego",
+    "team1-id": 11349,
+    "team2-id": 9958,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399253,
+    "url": "https://hltv.org/matches/2399253/100-thieves-vs-liquid-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "100 Thieves",
+    "team2": "Liquid",
+    "team1-id": 8474,
+    "team2-id": 5973,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399457,
+    "url": "https://hltv.org/matches/2399457/quintessncia-vs-martians-cct-2026-south-america-series-7",
+    "date": null,
+    "event": "CCT 2026 South America Series 7",
+    "team1": "QUINTESSÊNCIA",
+    "team2": "Martians",
+    "team1-id": 13811,
+    "team2-id": 13230,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399296,
+    "url": "https://hltv.org/matches/2399296/walczaki-vs-saint-sinners-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "Walczaki",
+    "team2": "Saint Sinners",
+    "team1-id": 13808,
+    "team2-id": 13998,
+    "team1score": 0,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399295,
+    "url": "https://hltv.org/matches/2399295/bushido-wildcats-vs-illyrians-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "Bushido Wildcats",
+    "team2": "Illyrians",
+    "team1-id": 13281,
+    "team2-id": 11719,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399132,
+    "url": "https://hltv.org/matches/2399132/liquid-vs-bbl-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "Liquid",
+    "team2": "BBL",
+    "team1-id": 5973,
+    "team2-id": 13996,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399133,
+    "url": "https://hltv.org/matches/2399133/100-thieves-vs-jijiehao-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "100 Thieves",
+    "team2": "JiJieHao",
+    "team1-id": 8474,
+    "team2-id": 10245,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399146,
+    "url": "https://hltv.org/matches/2399146/fruju-vs-rooster-esl-challenger-league-season-52-oceania-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 Oceania Cup 3",
+    "team1": "Fruju",
+    "team2": "Rooster",
+    "team1-id": 14055,
+    "team2-id": 9881,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399294,
+    "url": "https://hltv.org/matches/2399294/baks-vs-spirit-academy-cct-2026-europe-series-11",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11",
+    "team1": "BAKS",
+    "team2": "Spirit Academy",
+    "team1-id": 11699,
+    "team2-id": 7900,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399231,
+    "url": "https://hltv.org/matches/2399231/overtake-sector-vs-iowa-stormboar-esl-challenger-league-season-52-north-america-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 North America Cup 3",
+    "team1": "Overtake Sector",
+    "team2": "Iowa Stormboar",
+    "team1-id": 13855,
+    "team2-id": 13857,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399230,
+    "url": "https://hltv.org/matches/2399230/chicken-coop-vs-zomblers-esl-challenger-league-season-52-north-america-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 North America Cup 3",
+    "team1": "Chicken Coop",
+    "team2": "Zomblers",
+    "team1-id": 13107,
+    "team2-id": 12164,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399455,
+    "url": "https://hltv.org/matches/2399455/nuclear-tigeres-vs-ex-rustec-pgl-bucharest-2027-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 1",
+    "team1": "Nuclear TigeRES",
+    "team2": "ex-RUSTEC",
+    "team1-id": 13027,
+    "team2-id": 13901,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399203,
+    "url": "https://hltv.org/matches/2399203/galorys-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 South America Cup 3",
+    "team1": "Galorys",
+    "team2": "Bounty Hunters",
+    "team1-id": 12677,
+    "team2-id": 6544,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399202,
+    "url": "https://hltv.org/matches/2399202/ex-keyd-stars-vs-lp-esl-challenger-league-season-52-south-america-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 South America Cup 3",
+    "team1": "ex-Keyd Stars",
+    "team2": "LP",
+    "team1-id": 13423,
+    "team2-id": 13304,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399454,
+    "url": "https://hltv.org/matches/2399454/ex-rustec-vs-the-golden-horde-pgl-bucharest-2027-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 1",
+    "team1": "ex-RUSTEC",
+    "team2": "The Golden Horde",
+    "team1-id": 13901,
+    "team2-id": 14023,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399293,
+    "url": "https://hltv.org/matches/2399293/6666-vs-megoshort-cct-2026-europe-series-11-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11 Closed Qualifier",
+    "team1": "6666",
+    "team2": "megoshort",
+    "team1-id": 13882,
+    "team2-id": 11018,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399453,
+    "url": "https://hltv.org/matches/2399453/nuclear-tigeres-vs-johnny-speeds-pgl-bucharest-2027-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 1",
+    "team1": "Nuclear TigeRES",
+    "team2": "Johnny Speeds",
+    "team1-id": 13027,
+    "team2-id": 12604,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399452,
+    "url": "https://hltv.org/matches/2399452/genone-vs-the-golden-horde-pgl-bucharest-2027-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 1",
+    "team1": "GenOne",
+    "team2": "The Golden Horde",
+    "team1-id": 11609,
+    "team2-id": 14023,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399252,
+    "url": "https://hltv.org/matches/2399252/inner-circle-vs-sangal-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "Inner Circle",
+    "team2": "Sangal",
+    "team1-id": 13117,
+    "team2-id": 10333,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399292,
+    "url": "https://hltv.org/matches/2399292/saw-youngsters-vs-illyrians-cct-2026-europe-series-11-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11 Closed Qualifier",
+    "team1": "SAW Youngsters",
+    "team2": "Illyrians",
+    "team1-id": 11248,
+    "team2-id": 11719,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399451,
+    "url": "https://hltv.org/matches/2399451/nordic-partners-vs-ex-rustec-pgl-bucharest-2027-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 1",
+    "team1": "Nordic Partners",
+    "team2": "ex-RUSTEC",
+    "team1-id": 13937,
+    "team2-id": 13901,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399450,
+    "url": "https://hltv.org/matches/2399450/private-vs-johnny-speeds-pgl-bucharest-2027-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 1",
+    "team1": "PRIVATE",
+    "team2": "Johnny Speeds",
+    "team1-id": 14030,
+    "team2-id": 12604,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399449,
+    "url": "https://hltv.org/matches/2399449/nuclear-tigeres-vs-xi-pgl-bucharest-2027-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 1",
+    "team1": "Nuclear TigeRES",
+    "team2": "XI",
+    "team1-id": 13027,
+    "team2-id": 8947,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399456,
+    "url": "https://hltv.org/matches/2399456/inner-circle-academy-vs-the-golden-horde-pgl-bucharest-2027-open-qualifier-1",
+    "date": null,
+    "event": "PGL Bucharest 2027 Open Qualifier 1",
+    "team1": "Inner Circle Academy",
+    "team2": "The Golden Horde",
+    "team1-id": 13681,
+    "team2-id": 14023,
+    "team1score": 13,
+    "team2score": 16
+  },
+  {
+    "match-id": 2399250,
+    "url": "https://hltv.org/matches/2399250/inner-circle-vs-ninjas-in-pyjamas-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "Inner Circle",
+    "team2": "Ninjas in Pyjamas",
+    "team1-id": 13117,
+    "team2-id": 4411,
+    "team1score": 0,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399251,
+    "url": "https://hltv.org/matches/2399251/sangal-vs-betclic-stake-pulse-beat-iii",
+    "date": null,
+    "event": "Stake Pulse Beat III",
+    "team1": "Sangal",
+    "team2": "Betclic",
+    "team1-id": 10333,
+    "team2-id": 12916,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399172,
+    "url": "https://hltv.org/matches/2399172/lynn-vision-vs-just-swing-esl-challenger-league-season-52-asia-pacific-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+    "team1": "Lynn Vision",
+    "team2": "Just Swing",
+    "team1-id": 8840,
+    "team2-id": 11349,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399173,
+    "url": "https://hltv.org/matches/2399173/alter-ego-vs-chinggis-warriors-esl-challenger-league-season-52-asia-pacific-cup-3",
+    "date": null,
+    "event": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+    "team1": "Alter Ego",
+    "team2": "Chinggis Warriors",
+    "team1-id": 9958,
+    "team2-id": 12646,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399291,
+    "url": "https://hltv.org/matches/2399291/fire-flux-vs-mellren-cct-2026-europe-series-11-closed-qualifier",
+    "date": null,
+    "event": "CCT 2026 Europe Series 11 Closed Qualifier",
+    "team1": "Fire Flux",
+    "team2": "mellren",
+    "team1-id": 12960,
+    "team2-id": 13759,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
+    "match-id": 2399413,
+    "url": "https://hltv.org/matches/2399413/betboom-vs-legacy-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "BETBOOM",
+    "team2": "Legacy",
+    "team1-id": 12394,
+    "team2-id": 5704,
+    "team1score": 2,
+    "team2score": 1
+  },
+  {
+    "match-id": 2399412,
+    "url": "https://hltv.org/matches/2399412/aurora-vs-9z-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "Aurora",
+    "team2": "9z",
+    "team1-id": 11861,
+    "team2-id": 9996,
+    "team1score": 2,
+    "team2score": 0
+  },
+  {
+    "match-id": 2399411,
+    "url": "https://hltv.org/matches/2399411/legacy-vs-furia-thunderpick-world-championship-2026",
+    "date": null,
+    "event": "Thunderpick World Championship 2026",
+    "team1": "Legacy",
+    "team2": "FURIA",
+    "team1-id": 5704,
+    "team2-id": 8297,
+    "team1score": 1,
+    "team2score": 2
+  },
+  {
     "match-id": 2399658,
     "url": "https://hltv.org/matches/2399658/eternal-fire-vs-nuclear-tigeres-pgl-bucharest-2027-closed-qualifier",
     "date": null,
